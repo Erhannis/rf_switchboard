@@ -1183,6 +1183,41 @@
         )
       )
     )
+    (symbol "easyeda2kicad:BWU.FL-IPEX1" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "BWU.FL-IPEX1" (at 0 -12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E" (at 0 -15.24 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC Part" "C5137195" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BWU.FL-IPEX1_0_1"
+        (rectangle (start -5.08 5.08) (end 2.54 -5.08)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+        (pin unspecified line (at 5.08 0 180) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at -1.27 7.62 270) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at -1.27 -7.62 90) (length 2.54)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+1V2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1387,6 +1422,12 @@
   (junction (at 82.55 168.275) (diameter 0) (color 0 0 0 0)
     (uuid 071905c2-c67f-4c35-8600-290e1d317f64)
   )
+  (junction (at 190.5 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid 0a8b43e4-1c16-47ce-8256-6e1e5621827f)
+  )
+  (junction (at 227.33 137.16) (diameter 0) (color 0 0 0 0)
+    (uuid 15d51f89-6a0f-4846-b147-7d1c1a67b85d)
+  )
   (junction (at 127 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 1e8505a7-863f-44cf-9565-273bb2903a08)
   )
@@ -1426,11 +1467,17 @@
   (junction (at 116.84 40.64) (diameter 0) (color 0 0 0 0)
     (uuid ab990a6e-1683-48b3-91f2-c6585b9d85a0)
   )
+  (junction (at 190.5 137.16) (diameter 0) (color 0 0 0 0)
+    (uuid b65493c1-a31d-424c-ae75-9596cdc8f4c6)
+  )
   (junction (at 23.495 74.295) (diameter 0) (color 0 0 0 0)
     (uuid bfef0634-5d07-4091-8410-8c2826feeb7d)
   )
   (junction (at 82.55 142.875) (diameter 0) (color 0 0 0 0)
     (uuid d10a7d9c-58c9-4350-a241-9efbc380027a)
+  )
+  (junction (at 227.33 114.3) (diameter 0) (color 0 0 0 0)
+    (uuid e7762e76-4120-4c6d-a2b1-75a7a6617b69)
   )
   (junction (at 55.88 60.96) (diameter 0) (color 0 0 0 0)
     (uuid ee51e698-3cb6-4d4a-a9d5-0920da22b942)
@@ -1457,6 +1504,10 @@
     (stroke (width 0) (type default))
     (uuid 05ce2be6-291f-448f-b2f6-9e037bcb56c4)
   )
+  (wire (pts (xy 234.315 114.3) (xy 234.315 99.06))
+    (stroke (width 0) (type default))
+    (uuid 05dab46f-792e-4daf-a651-fe762baca934)
+  )
   (wire (pts (xy 55.88 60.96) (xy 55.88 72.39))
     (stroke (width 0) (type solid))
     (uuid 0637ca76-5508-4e70-9be2-fba1dccfa631)
@@ -1464,6 +1515,10 @@
   (wire (pts (xy 139.7 173.355) (xy 139.7 175.895))
     (stroke (width 0.1524) (type solid))
     (uuid 0896bc1e-46ef-4bef-9a80-19eae1ec8394)
+  )
+  (wire (pts (xy 220.345 137.16) (xy 227.33 137.16))
+    (stroke (width 0) (type default))
+    (uuid 0b2779c5-5b61-454b-a76f-7818bfce536b)
   )
   (wire (pts (xy 28.575 53.34) (xy 43.18 53.34))
     (stroke (width 0) (type default))
@@ -1485,6 +1540,10 @@
     (stroke (width 0) (type default))
     (uuid 105a7a04-9e28-4d9a-b185-0053d2e07c33)
   )
+  (wire (pts (xy 196.85 110.49) (xy 196.85 114.3))
+    (stroke (width 0) (type default))
+    (uuid 12f78343-e290-4251-ba97-c069d34b22b0)
+  )
   (wire (pts (xy 77.47 40.64) (xy 89.535 40.64))
     (stroke (width 0) (type default))
     (uuid 13f698d5-cce7-4eec-ac11-ab566c791c4d)
@@ -1492,6 +1551,14 @@
   (wire (pts (xy 43.18 53.34) (xy 43.18 64.77))
     (stroke (width 0) (type solid))
     (uuid 146902aa-7a09-46c1-bc79-b6ae86e50b7d)
+  )
+  (wire (pts (xy 201.295 133.35) (xy 196.85 133.35))
+    (stroke (width 0) (type default))
+    (uuid 16c8d085-8987-4454-b677-27f284d9fa49)
+  )
+  (wire (pts (xy 220.345 114.3) (xy 227.33 114.3))
+    (stroke (width 0) (type default))
+    (uuid 17ef7dcc-e36d-4f41-96f0-d375f7d417c9)
   )
   (wire (pts (xy 78.74 73.66) (xy 96.52 73.66))
     (stroke (width 0.1524) (type solid))
@@ -1505,6 +1572,10 @@
     (stroke (width 0) (type default))
     (uuid 1bc87d60-ec93-4e2c-852c-b121485efa1a)
   )
+  (wire (pts (xy 201.295 110.49) (xy 196.85 110.49))
+    (stroke (width 0) (type default))
+    (uuid 1f0ae4e2-a6a0-4437-97a9-36862a6c2f42)
+  )
   (wire (pts (xy 124.46 173.355) (xy 124.46 175.895))
     (stroke (width 0.1524) (type solid))
     (uuid 1f308588-7f67-4e51-bf46-fafc4bd1d609)
@@ -1512,6 +1583,10 @@
   (wire (pts (xy 36.195 132.715) (xy 36.195 135.255))
     (stroke (width 0.1524) (type solid))
     (uuid 1f37d39f-5b69-44bf-9aed-5565681a3954)
+  )
+  (wire (pts (xy 234.315 137.16) (xy 234.315 121.92))
+    (stroke (width 0) (type default))
+    (uuid 2068545a-7e4b-4e70-8168-90444f0a58cd)
   )
   (wire (pts (xy 124.46 183.515) (xy 124.46 186.055))
     (stroke (width 0.1524) (type solid))
@@ -1528,6 +1603,10 @@
   (wire (pts (xy 23.495 23.495) (xy 29.21 23.495))
     (stroke (width 0) (type default))
     (uuid 24e42495-7e2f-4d05-9762-dd7d251ec732)
+  )
+  (wire (pts (xy 184.785 137.16) (xy 184.785 121.92))
+    (stroke (width 0) (type default))
+    (uuid 25d70010-2936-4192-964d-11513c7468c0)
   )
   (wire (pts (xy 84.455 99.06) (xy 84.455 102.87))
     (stroke (width 0) (type solid))
@@ -1601,6 +1680,10 @@
     (stroke (width 0) (type default))
     (uuid 3c08fb1b-6a60-4216-8f84-c19c9848aa57)
   )
+  (wire (pts (xy 184.785 114.3) (xy 184.785 99.06))
+    (stroke (width 0) (type default))
+    (uuid 3d135825-ea4e-49dc-a81c-581941533566)
+  )
   (wire (pts (xy 77.47 38.1) (xy 89.535 38.1))
     (stroke (width 0) (type default))
     (uuid 3df18fde-5405-4260-8208-9dc3319931fc)
@@ -1612,6 +1695,10 @@
   (wire (pts (xy 82.55 168.275) (xy 82.55 170.815))
     (stroke (width 0) (type default))
     (uuid 448499ca-b881-4f61-97a0-b5dae7e6fbe9)
+  )
+  (wire (pts (xy 234.315 121.92) (xy 227.33 121.92))
+    (stroke (width 0) (type default))
+    (uuid 45432f50-634a-4d81-b7dc-61a25c18355f)
   )
   (wire (pts (xy 80.645 96.52) (xy 80.645 93.98))
     (stroke (width 0) (type solid))
@@ -1649,9 +1736,21 @@
     (stroke (width 0) (type solid))
     (uuid 57fcc85e-bc7a-4bad-b179-9ab90f0b3254)
   )
+  (wire (pts (xy 234.315 99.06) (xy 227.33 99.06))
+    (stroke (width 0) (type default))
+    (uuid 5b53beb2-9124-432b-b7c6-20216c4094a1)
+  )
   (wire (pts (xy 78.74 71.12) (xy 96.52 71.12))
     (stroke (width 0.1524) (type solid))
     (uuid 5c392da6-061b-41c7-9132-c26ede02bf07)
+  )
+  (wire (pts (xy 196.85 114.3) (xy 190.5 114.3))
+    (stroke (width 0) (type default))
+    (uuid 5ce86e44-1a5f-43c6-be99-5d0cbfcddbaf)
+  )
+  (wire (pts (xy 184.785 121.92) (xy 190.5 121.92))
+    (stroke (width 0) (type default))
+    (uuid 5d8ce1a1-0053-4433-961c-da1ca71343c1)
   )
   (wire (pts (xy 34.29 23.495) (xy 39.37 23.495))
     (stroke (width 0.1524) (type solid))
@@ -1681,6 +1780,10 @@
     (stroke (width 0) (type default))
     (uuid 67c8b011-1df6-4d75-b06f-60b88ca5b57d)
   )
+  (wire (pts (xy 220.345 110.49) (xy 220.345 114.3))
+    (stroke (width 0) (type default))
+    (uuid 6adde771-38a2-426e-b06f-f9d767000895)
+  )
   (wire (pts (xy 36.195 144.145) (xy 36.195 145.415))
     (stroke (width 0) (type default))
     (uuid 6c35859e-2ebc-4b27-9611-c340166e45d6)
@@ -1705,6 +1808,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid 757ef7d2-7637-4ba1-8ff1-4bfdd1cd8ffd)
   )
+  (wire (pts (xy 216.535 133.35) (xy 220.345 133.35))
+    (stroke (width 0) (type default))
+    (uuid 76609743-07b1-4008-b97e-090475bc4dcd)
+  )
   (wire (pts (xy 70.485 93.98) (xy 80.645 93.98))
     (stroke (width 0) (type default))
     (uuid 76c1d234-aef2-4476-997d-987002d2995a)
@@ -1713,9 +1820,21 @@
     (stroke (width 0.1524) (type solid))
     (uuid 7796bf83-14f5-4ec6-8bee-1d4b3432ec3a)
   )
+  (wire (pts (xy 220.345 133.35) (xy 220.345 137.16))
+    (stroke (width 0) (type default))
+    (uuid 7885ec22-39e2-411d-9efa-27c408fc73e7)
+  )
   (wire (pts (xy 28.575 47.625) (xy 28.575 53.34))
     (stroke (width 0) (type default))
     (uuid 7bc5affb-4ba9-424c-b82c-8c22353b75c3)
+  )
+  (wire (pts (xy 196.85 137.16) (xy 190.5 137.16))
+    (stroke (width 0) (type default))
+    (uuid 7d8350e8-16fa-49e8-80f9-850f112843d3)
+  )
+  (wire (pts (xy 190.5 137.16) (xy 184.785 137.16))
+    (stroke (width 0) (type default))
+    (uuid 7d858c81-9d7e-4a22-90ea-a661a8910170)
   )
   (wire (pts (xy 43.18 85.09) (xy 43.18 88.9))
     (stroke (width 0) (type solid))
@@ -1777,6 +1896,10 @@
     (stroke (width 0) (type default))
     (uuid 9df30f08-19ea-4dfa-a829-bd3703fd6b35)
   )
+  (wire (pts (xy 216.535 106.68) (xy 220.98 106.68))
+    (stroke (width 0) (type default))
+    (uuid a1713e26-edd7-41bf-b58e-7c2da31224b8)
+  )
   (wire (pts (xy 77.47 33.02) (xy 89.535 33.02))
     (stroke (width 0) (type default))
     (uuid a327856c-b5ff-4838-8670-328202bf289f)
@@ -1801,6 +1924,10 @@
     (stroke (width 0) (type solid))
     (uuid aadf3a50-5ef3-405c-9a3f-3af50e893df5)
   )
+  (wire (pts (xy 216.535 110.49) (xy 220.345 110.49))
+    (stroke (width 0) (type default))
+    (uuid acb9a2f4-5672-4ff7-b9ee-8d4abaacb2dc)
+  )
   (wire (pts (xy 121.92 160.655) (xy 121.92 163.195))
     (stroke (width 0.1524) (type solid))
     (uuid ad21a2a0-3fce-4993-9161-0fd717679138)
@@ -1812,6 +1939,10 @@
   (wire (pts (xy 36.195 147.955) (xy 41.275 147.955))
     (stroke (width 0) (type default))
     (uuid b121469e-f87b-4d94-b678-6d1f891f1223)
+  )
+  (wire (pts (xy 190.5 114.3) (xy 184.785 114.3))
+    (stroke (width 0) (type default))
+    (uuid b1de2db0-09d2-4760-91c7-3617ca2ca2ee)
   )
   (wire (pts (xy 34.29 23.495) (xy 34.29 26.035))
     (stroke (width 0.1524) (type solid))
@@ -1845,13 +1976,29 @@
     (stroke (width 0.1524) (type solid))
     (uuid c136da30-ad40-4c0e-80f1-a8f3eaab3809)
   )
+  (wire (pts (xy 196.85 106.68) (xy 201.295 106.68))
+    (stroke (width 0) (type default))
+    (uuid c2b5f5fd-cb32-4d78-882f-d5637a09fc1b)
+  )
+  (wire (pts (xy 227.33 137.16) (xy 234.315 137.16))
+    (stroke (width 0) (type default))
+    (uuid c5d16306-9779-4b23-9182-7f117342c80e)
+  )
   (wire (pts (xy 23.495 68.58) (xy 23.495 74.295))
     (stroke (width 0) (type default))
     (uuid c63b523c-8859-4470-853c-4b884d93bda6)
   )
+  (wire (pts (xy 227.33 114.3) (xy 234.315 114.3))
+    (stroke (width 0) (type default))
+    (uuid ca4afa23-d05f-4f42-b0d4-fe8ebf6ec272)
+  )
   (wire (pts (xy 76.835 102.87) (xy 76.835 99.06))
     (stroke (width 0) (type solid))
     (uuid ca9ef1cb-afba-4356-b6ec-e995a1223bac)
+  )
+  (wire (pts (xy 184.785 99.06) (xy 190.5 99.06))
+    (stroke (width 0) (type default))
+    (uuid cc9cad53-d456-4fec-9245-f027a9b4f45a)
   )
   (wire (pts (xy 132.08 160.655) (xy 132.08 163.195))
     (stroke (width 0.1524) (type solid))
@@ -1885,6 +2032,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid d766bd1d-e504-45e3-a927-4628bebc5d07)
   )
+  (wire (pts (xy 216.535 129.54) (xy 220.98 129.54))
+    (stroke (width 0) (type default))
+    (uuid d95b3174-ed7a-4a39-8e38-f82d63ba7b42)
+  )
   (wire (pts (xy 33.02 77.47) (xy 30.48 77.47))
     (stroke (width 0) (type solid))
     (uuid db8f1054-f85f-4038-bd4f-2742b521d2d1)
@@ -1892,6 +2043,10 @@
   (wire (pts (xy 78.74 81.28) (xy 96.52 81.28))
     (stroke (width 0) (type default))
     (uuid dc0f3928-e780-42a6-bd3d-a1abe6b113f3)
+  )
+  (wire (pts (xy 196.85 129.54) (xy 201.295 129.54))
+    (stroke (width 0) (type default))
+    (uuid df9ad698-1cd0-4f83-b163-cbf968ad04b9)
   )
   (wire (pts (xy 111.76 160.655) (xy 111.76 163.195))
     (stroke (width 0.1524) (type solid))
@@ -1945,6 +2100,10 @@
     (stroke (width 0) (type default))
     (uuid f96b6b20-2be1-423e-8f08-5d398d4a05fe)
   )
+  (wire (pts (xy 196.85 133.35) (xy 196.85 137.16))
+    (stroke (width 0) (type default))
+    (uuid fe9e290d-ad4e-43c7-92fb-60ee45730697)
+  )
 
   (text_box "//RAINY Move power and RP2040 into sheets\n//RAINY Ugh, I guess consider moving all the components off the back"
     (at 140.335 19.685 0) (size 54.61 10.16)
@@ -1962,6 +2121,10 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 43d6c4d6-6b75-418e-a867-5384c75c2960)
   )
+  (text "Straight" (at 238.76 104.775 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 4dd9605c-e84f-416b-9278-a0592acc44c3)
+  )
   (text "RP FLASH" (at 59.69 139.065 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 9d79c414-4aa3-42e7-8b1a-307cde2c7356)
@@ -1969,6 +2132,10 @@
   (text "RP2040" (at 114.3 29.21 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid c0e15df1-2d80-43e7-b9e7-be4ee2c87b78)
+  )
+  (text "Collapsed" (at 238.76 126.365 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid d420d73c-8ca3-4cff-aace-19ff4ff631a4)
   )
   (text "STITCH CAPS" (at 147.955 171.45 0)
     (effects (font (size 3 3)) (justify left bottom))
@@ -2089,7 +2256,7 @@
     )
     (pin "1" (uuid 972135af-9da1-4f9a-a62e-885779ceec51))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR04") (unit 1)
         )
@@ -2119,7 +2286,7 @@
           (reference "#U$17") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$08") (unit 1)
         )
@@ -2144,7 +2311,7 @@
     )
     (pin "1" (uuid 5a0c9332-3086-4f45-a512-c51eb8557776))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR042") (unit 1)
         )
@@ -2169,7 +2336,7 @@
     )
     (pin "1" (uuid 90d0133f-f18b-4a43-a67e-1ac629298871))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR010") (unit 1)
         )
@@ -2204,7 +2371,7 @@
           (reference "#U$9") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$04") (unit 1)
         )
@@ -2241,7 +2408,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C1") (unit 1)
         )
@@ -2283,7 +2450,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R5") (unit 1)
         )
@@ -2320,7 +2487,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C7(P1)1") (unit 1)
         )
@@ -2345,7 +2512,7 @@
     )
     (pin "1" (uuid f50c3285-3903-42b3-a412-945cc20c9885))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR019") (unit 1)
         )
@@ -2375,7 +2542,7 @@
           (reference "#U$6") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$011") (unit 1)
         )
@@ -2405,7 +2572,7 @@
           (reference "#+3V3") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V010") (unit 1)
         )
@@ -2430,7 +2597,7 @@
     )
     (pin "1" (uuid 84dc6dbb-b55b-48c2-a300-fc3f8aca80a9))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "H3") (unit 1)
         )
@@ -2467,9 +2634,48 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C10(P49)1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 191.77 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 391c15bb-a542-4216-bbe4-a1c8a93d2988)
+    (property "Reference" "U9" (at 185.42 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "BWU.FL-IPEX1" (at 185.42 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E" (at 191.77 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 191.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR" "BWU.FL-IPEX1" (at 191.77 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5137195" (at 191.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS" (at 191.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195" (at 191.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c86d886e-470c-4e7d-abb4-35961f032d15))
+    (pin "2" (uuid 3e2900b7-f011-4268-82ed-1759a24ec946))
+    (pin "3" (uuid bed8322a-32dc-4bc9-a386-157a324e0fb2))
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -2504,7 +2710,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R7") (unit 1)
         )
@@ -2529,7 +2735,7 @@
     )
     (pin "1" (uuid 46c9059e-2127-4df5-9fce-b74535795296))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR02") (unit 1)
         )
@@ -2563,7 +2769,7 @@
     (pin "3" (uuid abbf8d53-ae2d-4ceb-a9b9-b84f17b13912))
     (pin "4" (uuid 0f14a23c-656c-4cd0-b07a-545517c62beb))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "Y1") (unit 1)
         )
@@ -2604,7 +2810,7 @@
     (pin "5" (uuid 134e7cba-065a-450e-a9b1-45e5a7addeb1))
     (pin "6" (uuid a58d102c-90c6-4b5e-aa2a-a6c54083c86a))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "U3") (unit 1)
         )
@@ -2651,7 +2857,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R4") (unit 1)
         )
@@ -2688,7 +2894,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C3") (unit 1)
         )
@@ -2725,7 +2931,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C11(P43n44)1") (unit 1)
         )
@@ -2750,7 +2956,7 @@
     )
     (pin "1" (uuid de1e58d3-cef7-4952-9634-9a7d2f2d91d7))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "H1") (unit 1)
         )
@@ -2791,7 +2997,7 @@
     (pin "1" (uuid 941a4527-0721-478f-84d8-879fede57079))
     (pin "2" (uuid f4dfb7eb-ef8d-4fa9-b19d-c90e04d6d2c7))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C7") (unit 1)
         )
@@ -2821,7 +3027,7 @@
     )
     (pin "1" (uuid 240fa645-831d-476f-aa1b-32dcf86ae773))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "H2") (unit 1)
         )
@@ -2862,7 +3068,7 @@
     (pin "1" (uuid c91ef1d3-969f-49c8-9e10-3003a2d8d3c0))
     (pin "2" (uuid ed284de5-6eac-4542-aedd-357e05b1b4b3))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C6") (unit 1)
         )
@@ -2897,7 +3103,7 @@
           (reference "#+3V14") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V08") (unit 1)
         )
@@ -2940,7 +3146,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "U4") (unit 1)
         )
@@ -2970,7 +3176,7 @@
           (reference "#U$6") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$09") (unit 1)
         )
@@ -3000,7 +3206,7 @@
           (reference "#+3V5") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V02") (unit 1)
         )
@@ -3025,7 +3231,7 @@
     )
     (pin "1" (uuid 5ddde7c9-ec21-402b-b908-34789670457f))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR043") (unit 1)
         )
@@ -3050,7 +3256,7 @@
     )
     (pin "1" (uuid 776a5a98-20c5-4423-8210-7437a21266e0))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR035") (unit 1)
         )
@@ -3075,7 +3281,7 @@
     )
     (pin "1" (uuid c3313bf8-f8da-49b0-810b-9bcdddd990a7))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR040") (unit 1)
         )
@@ -3112,7 +3318,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C15(P50)1") (unit 1)
         )
@@ -3149,7 +3355,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C8(P22)1") (unit 1)
         )
@@ -3174,7 +3380,7 @@
     )
     (pin "1" (uuid 8bc90237-388e-436d-bef2-5ea9d4083316))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR048") (unit 1)
         )
@@ -3204,7 +3410,7 @@
           (reference "#+3V12") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V07") (unit 1)
         )
@@ -3234,7 +3440,7 @@
           (reference "#U$26") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$01") (unit 1)
         )
@@ -3264,7 +3470,7 @@
           (reference "#U$14") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$012") (unit 1)
         )
@@ -3301,9 +3507,87 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C13(P23)1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 226.06 129.54 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7dbe0b08-2419-43a9-baba-ea79b1c2be70)
+    (property "Reference" "U10" (at 231.775 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "BWU.FL-IPEX1" (at 231.775 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E" (at 226.06 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR" "BWU.FL-IPEX1" (at 226.06 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5137195" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195" (at 226.06 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48892a3e-a387-4ea9-bdce-e54562bf7e97))
+    (pin "2" (uuid ff91f29d-263a-4ca0-84b2-acb829ebc15d))
+    (pin "3" (uuid 539e9d6c-dda3-4f64-9322-fcf0791d9ee7))
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+          (reference "U10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 226.06 106.68 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 80511359-40c0-44be-82c7-07ec481a404e)
+    (property "Reference" "U8" (at 231.775 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "BWU.FL-IPEX1" (at 231.775 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E" (at 226.06 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR" "BWU.FL-IPEX1" (at 226.06 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5137195" (at 226.06 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS" (at 226.06 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195" (at 226.06 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dafc3f1c-6aa5-43b5-ae6a-37d4c994d4e4))
+    (pin "2" (uuid 322f83f6-cd42-482a-9981-ae54300c26b5))
+    (pin "3" (uuid 9b19a347-66a2-49b6-8f0e-2b932819026e))
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3331,7 +3615,7 @@
           (reference "#+3V7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V03") (unit 1)
         )
@@ -3368,7 +3652,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R2") (unit 1)
         )
@@ -3410,7 +3694,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C4") (unit 1)
         )
@@ -3440,7 +3724,7 @@
           (reference "#+3V8") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V01") (unit 1)
         )
@@ -3465,7 +3749,7 @@
     )
     (pin "1" (uuid 509c207b-f2d4-44f4-8781-f3e2913091e9))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR034") (unit 1)
         )
@@ -3490,7 +3774,7 @@
     )
     (pin "1" (uuid 943a0843-cdb2-4cc5-aae5-515404e89d21))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR045") (unit 1)
         )
@@ -3527,7 +3811,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C2") (unit 1)
         )
@@ -3569,7 +3853,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C5") (unit 1)
         )
@@ -3599,7 +3883,7 @@
           (reference "#U$6") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$014") (unit 1)
         )
@@ -3624,7 +3908,7 @@
     )
     (pin "1" (uuid 86f5bf8f-663e-4167-9c29-2d013dc95485))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR032") (unit 1)
         )
@@ -3649,7 +3933,7 @@
     )
     (pin "1" (uuid 73cfb30d-89e8-4c03-ae73-20071546057c))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR036") (unit 1)
         )
@@ -3683,7 +3967,7 @@
     (pin "3" (uuid ff5292cd-a4d5-49ea-84d4-a2aad40ee9af))
     (pin "4" (uuid 62f3eb89-c74a-4450-ad07-4e28aa4217e1))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "J2") (unit 1)
         )
@@ -3708,7 +3992,7 @@
     )
     (pin "1" (uuid 983c5620-d97e-4bad-8542-b63dfc604363))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR041") (unit 1)
         )
@@ -3738,7 +4022,7 @@
           (reference "#+3V10") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V05") (unit 1)
         )
@@ -3768,7 +4052,7 @@
           (reference "#+3V11") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V011") (unit 1)
         )
@@ -3793,7 +4077,7 @@
     )
     (pin "1" (uuid fd10f376-ba65-4254-a3a1-ab3bd71b03a9))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR046") (unit 1)
         )
@@ -3818,7 +4102,7 @@
     )
     (pin "1" (uuid fbe794cd-46ec-48a9-8eb7-a351128f7b5a))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR011") (unit 1)
         )
@@ -3853,7 +4137,7 @@
           (reference "#U$13") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$07") (unit 1)
         )
@@ -3890,7 +4174,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C6(P10)1") (unit 1)
         )
@@ -3915,7 +4199,7 @@
     )
     (pin "1" (uuid 7fa69d19-848e-4c1e-a394-4b0dced7ee06))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR033") (unit 1)
         )
@@ -3945,7 +4229,7 @@
           (reference "#U$7") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$02") (unit 1)
         )
@@ -3985,7 +4269,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "U5") (unit 1)
         )
@@ -4077,7 +4361,7 @@
     (pin "8" (uuid fd959e9b-9aa4-49ef-9261-6cdfe3fad27c))
     (pin "9" (uuid 7b1b757e-c906-4618-a8cc-a2a28dd4521c))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "U1") (unit 1)
         )
@@ -4102,7 +4386,7 @@
     )
     (pin "1" (uuid 58067675-935f-4019-84e1-93a2caf1735b))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR020") (unit 1)
         )
@@ -4127,7 +4411,7 @@
     )
     (pin "1" (uuid f73ee3e8-663a-49e9-8b8c-0b08fc4a46f2))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR09") (unit 1)
         )
@@ -4164,7 +4448,7 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C12(P33)1") (unit 1)
         )
@@ -4189,7 +4473,7 @@
     )
     (pin "1" (uuid 745b6199-e011-4f6a-9062-19d1aaab6d3c))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR01") (unit 1)
         )
@@ -4214,7 +4498,7 @@
     )
     (pin "1" (uuid 86d362b4-8eb3-433b-83c3-f16c7418bfe2))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "H4") (unit 1)
         )
@@ -4244,7 +4528,7 @@
           (reference "#+3V11") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V012") (unit 1)
         )
@@ -4269,9 +4553,48 @@
     )
     (pin "1" (uuid e58c41a6-3679-4931-8c9c-bcae9c862960))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR047") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 191.77 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d0aa4abc-c86e-4a1d-b9ae-f30dcd1ac617)
+    (property "Reference" "U7" (at 185.42 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "BWU.FL-IPEX1" (at 185.42 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E" (at 191.77 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 191.77 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR" "BWU.FL-IPEX1" (at 191.77 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5137195" (at 191.77 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS" (at 191.77 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195" (at 191.77 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 094024be-a527-46c4-862d-d8c6cd71ed19))
+    (pin "2" (uuid caedf0b0-d24b-40d3-9cf5-ed18eb1ccec4))
+    (pin "3" (uuid 85ed66fc-f930-47d8-adf8-361abf09b8e7))
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -4299,7 +4622,7 @@
           (reference "#+3V11") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V06") (unit 1)
         )
@@ -4336,7 +4659,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R3") (unit 1)
         )
@@ -4366,7 +4689,7 @@
     )
     (pin "1" (uuid da287de7-aea7-4a9d-8ba9-90b31fee75c8))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR03") (unit 1)
         )
@@ -4403,7 +4726,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C9(P42)1") (unit 1)
         )
@@ -4442,7 +4765,7 @@
     (pin "5" (uuid 006175e2-77ca-485a-ab08-1b026ecae967))
     (pin "6" (uuid 6a112008-0256-491a-8c4c-8eb77bd21558))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "RP_USB1") (unit 1)
         )
@@ -4477,7 +4800,7 @@
           (reference "#U$18") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$010") (unit 1)
         )
@@ -4516,7 +4839,7 @@
     (pin "2" (uuid 5895e85d-c111-42a1-bb24-f55c0c7f490c))
     (pin "3" (uuid d41d2683-5517-4d79-92e2-c8b8ade0da6d))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "J1") (unit 1)
         )
@@ -4546,7 +4869,7 @@
           (reference "#+3V2") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V09") (unit 1)
         )
@@ -4583,7 +4906,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R6") (unit 1)
         )
@@ -4620,7 +4943,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "C14(P45)1") (unit 1)
         )
@@ -4650,7 +4973,7 @@
           (reference "#U$10") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$05") (unit 1)
         )
@@ -4675,7 +4998,7 @@
     )
     (pin "1" (uuid 22131345-ebe4-4078-b2c1-c76df7fddaa7))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR07") (unit 1)
         )
@@ -4705,7 +5028,7 @@
           (reference "#+3V9") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#+3V04") (unit 1)
         )
@@ -4730,7 +5053,7 @@
     )
     (pin "1" (uuid 2d68c0aa-fc76-46df-b487-6808e2d5145f))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#PWR08") (unit 1)
         )
@@ -4760,7 +5083,7 @@
           (reference "#U$8") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$03") (unit 1)
         )
@@ -4790,7 +5113,7 @@
           (reference "#U$11") (unit 1)
         )
       )
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "#U$06") (unit 1)
         )
@@ -4828,7 +5151,7 @@
     (pin "1" (uuid 287241d8-be89-4c77-9a62-dddcd57fb0ed))
     (pin "2" (uuid a0b1ee0f-37f2-4b70-9954-02e62438bb3b))
     (instances
-      (project "rp2040_template"
+      (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
           (reference "R1") (unit 1)
         )
@@ -4842,6 +5165,121 @@
         (path "/f57075f4-e997-49a7-b8a3-5e864ac859f3/17f01e2b-8d25-4e80-be06-e920edd93dac"
           (reference "R1") (unit 1)
         )
+      )
+    )
+  )
+
+  (sheet (at 196.215 50.165) (size 22.86 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 43a1e71c-468a-4156-aadb-62cae3be19c1)
+    (property "Sheetname" "filter_net" (at 196.215 49.4534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "filter_net.kicad_sch" (at 196.215 74.8796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VCC" input (at 196.215 53.34 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 973987e3-1043-4ddd-a2d7-3147599459ae)
+    )
+    (pin "GND" input (at 196.215 55.245 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9c69c395-14ee-4eb0-abf9-45806c551c32)
+    )
+    (pin "CS0" input (at 196.215 57.785 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f4a72019-083f-4b58-a778-31e230d29e40)
+    )
+    (pin "CS2" input (at 196.215 61.595 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 48ca1283-0c91-4981-a7e3-69b2144ddf6f)
+    )
+    (pin "CS1" input (at 196.215 59.69 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 45156470-c594-4447-8054-48edbcfcf456)
+    )
+    (pin "SCLK" input (at 196.215 66.675 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1096b11e-d762-448f-a698-82e76b36523b)
+    )
+    (pin "SDAT" input (at 196.215 68.58 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b81ac312-b268-4e29-88a4-b796a081d35f)
+    )
+    (pin "~{CSE}" input (at 196.215 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 439cd245-1bba-4cd3-b4a5-f3f7c490e336)
+    )
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 201.295 126.365) (size 15.24 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 946493b6-379a-4c8b-b3a3-77e3e35d37cf)
+    (property "Sheetname" "1_10_5x_butter1" (at 201.295 125.6534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "1_10_5x_butter.kicad_sch" (at 201.295 137.1096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "IN+" input (at 201.295 129.54 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e13e26c8-a297-44fd-a6eb-94c869e02697)
+    )
+    (pin "IN-" input (at 201.295 133.35 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 920f7696-9e1a-408f-bc1f-6b24bfaa647d)
+    )
+    (pin "OUT+" input (at 216.535 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 71342cc2-ab5a-4a7a-b0de-42c689007e4b)
+    )
+    (pin "OUT-" input (at 216.535 133.35 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 19c61742-ab4a-4aab-8d58-29b1053fe95d)
+    )
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 201.295 103.505) (size 15.24 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ece67ec2-cd03-451a-b298-19f4bd130474)
+    (property "Sheetname" "1_10_5x_butter" (at 201.295 102.7934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "1_10_5x_butter.kicad_sch" (at 201.295 114.2496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "IN+" input (at 201.295 106.68 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ee96bb86-f377-4684-b76c-2bac6ab02321)
+    )
+    (pin "IN-" input (at 201.295 110.49 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7a0cc2be-3aab-4c0a-9317-e23d9f8aaf8c)
+    )
+    (pin "OUT+" input (at 216.535 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a7d052d2-b80b-4f0d-96e2-dc712edc864b)
+    )
+    (pin "OUT-" input (at 216.535 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ce3c5bba-4674-4400-8a85-67d4bf86fb26)
+    )
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e" (page "4"))
       )
     )
   )

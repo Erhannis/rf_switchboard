@@ -176,7 +176,8 @@
         0.2,
         0.25,
         0.4,
-        0.5
+        0.5,
+        0.8
       ],
       "via_dimensions": [
         {
@@ -409,7 +410,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rp2040_template.kicad_pro",
+    "filename": "rf_switchboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -510,6 +511,22 @@
     [
       "cb1328be-544a-4c60-8dcb-9d63db56fc1e",
       ""
+    ],
+    [
+      "43a1e71c-468a-4156-aadb-62cae3be19c1",
+      "filter_net"
+    ],
+    [
+      "69dc05ef-e62a-40ad-950d-12c03698a083",
+      "dvc"
+    ],
+    [
+      "ece67ec2-cd03-451a-b298-19f4bd130474",
+      "1_10_5x_butter"
+    ],
+    [
+      "946493b6-379a-4c8b-b3a3-77e3e35d37cf",
+      "1_10_5x_butter1"
     ]
   ],
   "text_variables": {}
