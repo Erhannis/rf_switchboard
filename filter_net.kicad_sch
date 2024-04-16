@@ -216,7 +216,7 @@
   (symbol (lib_id "74xx:74HC4051") (at 78.105 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da671211-ad97-45bb-a4f2-40e69523c9cb)
-    (property "Reference" "U2" (at 80.0609 54.61 0)
+    (property "Reference" "U1_FN1" (at 80.0609 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC4051" (at 80.0609 57.15 0)
@@ -246,9 +246,6 @@
     (pin "9" (uuid d4169617-5815-494c-8e1c-adada02cf099))
     (instances
       (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U2") (unit 1)
-        )
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1"
           (reference "U1_FN1") (unit 1)
         )
@@ -293,11 +290,6 @@
     (pin "SDAT" input (at 102.87 53.34 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cb87b1df-6576-46c3-a924-469e807e1a8a)
-    )
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1" (page "3"))
-      )
     )
   )
 )

@@ -275,8 +275,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "C1_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "C8") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "C1_1_10_5B1") (unit 1)
         )
       )
     )
@@ -285,7 +285,7 @@
   (symbol (lib_id "Device:C") (at 142.875 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75f3eba1-7fbd-4ef6-8710-f53931959f96)
-    (property "Reference" "C3_1_10_5B1" (at 146.05 100.33 0)
+    (property "Reference" "C3_1_10_5B2" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "707.4pF" (at 146.05 102.87 0)
@@ -314,10 +314,10 @@
     (instances
       (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C3_1_10_5B1") (unit 1)
+          (reference "C3_1_10_5B2") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "C10") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "C3_1_10_5B2") (unit 1)
         )
       )
     )
@@ -357,8 +357,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "L1_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "L1") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "L1_1_10_5B1") (unit 1)
         )
       )
     )
@@ -398,8 +398,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "L3_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "L3") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "L3_1_10_5B1") (unit 1)
         )
       )
     )
@@ -408,7 +408,7 @@
   (symbol (lib_id "Device:L") (at 187.325 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a234032-a691-4439-9b1d-24e02aaa241c)
-    (property "Reference" "L5_1_10_5B1" (at 188.595 100.33 0)
+    (property "Reference" "L5_1_10_5B2" (at 188.595 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11.59uH" (at 188.595 102.87 0)
@@ -437,10 +437,10 @@
     (instances
       (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L5_1_10_5B1") (unit 1)
+          (reference "L5_1_10_5B2") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "L5") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "L5_1_10_5B2") (unit 1)
         )
       )
     )
@@ -480,8 +480,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "C4_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "C11") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "C4_1_10_5B1") (unit 1)
         )
       )
     )
@@ -490,7 +490,7 @@
   (symbol (lib_id "Device:C") (at 124.46 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1c1588a-c3d1-4976-a636-090a9361f5f0)
-    (property "Reference" "C2_1_10_5B1" (at 124.46 90.805 90)
+    (property "Reference" "C2_1_10_5B2" (at 124.46 90.805 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.771nF" (at 124.46 93.345 90)
@@ -519,10 +519,10 @@
     (instances
       (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C2_1_10_5B1") (unit 1)
+          (reference "C2_1_10_5B2") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "C9") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "C2_1_10_5B2") (unit 1)
         )
       )
     )
@@ -531,7 +531,7 @@
   (symbol (lib_id "Device:L") (at 134.62 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8ba1c84-6cc3-40ac-abfd-82909db80c57)
-    (property "Reference" "L2_1_10_5B1" (at 134.62 92.075 90)
+    (property "Reference" "L2_1_10_5B2" (at 134.62 92.075 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.431uH" (at 134.62 94.615 90)
@@ -560,10 +560,10 @@
     (instances
       (project "rf_switchboard"
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L2_1_10_5B1") (unit 1)
+          (reference "L2_1_10_5B2") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "L2") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "L2_1_10_5B2") (unit 1)
         )
       )
     )
@@ -603,8 +603,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "L4_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "L4") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "L4_1_10_5B1") (unit 1)
         )
       )
     )
@@ -644,8 +644,8 @@
         (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
           (reference "C5_1_10_5B1") (unit 1)
         )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/946493b6-379a-4c8b-b3a3-77e3e35d37cf"
-          (reference "C12") (unit 1)
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/1018193d-87f5-4660-abe2-4bf520bdc723"
+          (reference "C5_1_10_5B1") (unit 1)
         )
       )
     )
