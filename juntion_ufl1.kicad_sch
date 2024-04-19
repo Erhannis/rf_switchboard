@@ -136,16 +136,6 @@
     (pin "1" (uuid c2726a80-f06f-4407-9267-4920a508d445))
     (pin "2" (uuid c1cc4f13-4b79-4bba-9e5a-ad77bec7e042))
     (pin "3" (uuid 2d435451-41ff-432f-bb66-bda3ea8acaa1))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U66") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/88219890-01d8-42b0-b8f6-7b94566b599e"
-          (reference "U66") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 132.715 95.25 0) (mirror x) (unit 1)
@@ -178,16 +168,6 @@
     (pin "1" (uuid 18202514-d54d-457e-a53f-30fbfaebbef1))
     (pin "2" (uuid 6754aff9-d7e6-44a9-b715-6f351883874b))
     (pin "3" (uuid 8dc342c4-2939-4ca9-83f7-d6d8f34b3f11))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U64") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/88219890-01d8-42b0-b8f6-7b94566b599e"
-          (reference "U64") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 142.875 80.01 0) (mirror y) (unit 1)
@@ -220,16 +200,6 @@
     (pin "1" (uuid 98ba1761-2314-4263-8825-ec3799431a16))
     (pin "2" (uuid 19812f68-8f5f-4b6a-8a29-621ebe540243))
     (pin "3" (uuid 1b614874-26b3-4f87-ba8e-bd4a481c5877))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U65") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/88219890-01d8-42b0-b8f6-7b94566b599e"
-          (reference "U65") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "easyeda2kicad:BWU.FL-IPEX1") (at 132.715 80.01 0) (mirror x) (unit 1)
@@ -262,15 +232,5 @@
     (pin "1" (uuid cb8824f7-ad66-403d-b14a-9332cd52c8e7))
     (pin "2" (uuid 1c26bbaf-56d4-4a7f-927e-749e9ac15137))
     (pin "3" (uuid 80a8e693-e29c-4fe9-9324-9b08d413683a))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-          (reference "U63") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/88219890-01d8-42b0-b8f6-7b94566b599e"
-          (reference "U63") (unit 1)
-        )
-      )
-    )
   )
 )

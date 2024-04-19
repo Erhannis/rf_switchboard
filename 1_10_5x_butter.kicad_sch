@@ -270,16 +270,6 @@
     )
     (pin "1" (uuid 59bc2bfa-a363-4f8c-918c-6d5f0ad2153d))
     (pin "2" (uuid 1a1a80eb-7e61-465f-b2fb-49e7b8cf6ffa))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C1_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "C1_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 142.875 101.6 0) (unit 1)
@@ -311,16 +301,6 @@
     )
     (pin "1" (uuid 011b9383-7927-4369-ba4f-ac7c21bc3cf6))
     (pin "2" (uuid 4e79dc97-56e9-4075-b267-44de4941cbf0))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C3_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "C3_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 114.3 101.6 0) (unit 1)
@@ -352,16 +332,6 @@
     )
     (pin "1" (uuid cc0398f8-48c1-4099-b765-57f6325f1c32))
     (pin "2" (uuid 88f0b7b1-bbb5-419c-b480-cbf1c4df649f))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L1_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "L1_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 151.13 101.6 0) (unit 1)
@@ -393,22 +363,12 @@
     )
     (pin "1" (uuid 2bf712c5-bc55-425c-ac75-2588d94f172a))
     (pin "2" (uuid fbfd581c-0749-4cc3-be40-293755670b05))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L3_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "L3_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 187.325 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a234032-a691-4439-9b1d-24e02aaa241c)
-    (property "Reference" "L5_1_10_5B1" (at 188.595 100.33 0)
+    (property "Reference" "L5_1_10_5B2" (at 188.595 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11.59uH" (at 188.595 102.87 0)
@@ -434,22 +394,12 @@
     )
     (pin "1" (uuid c3b484c8-bf68-455a-a446-7f62a2d5eda0))
     (pin "2" (uuid d8df9d0a-19cc-4bcb-8c7b-f2f082b71606))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L5_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "L5_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 161.29 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 939fa4a2-8e81-457f-a341-fa85675bf03c)
-    (property "Reference" "C4_1_10_5B1" (at 161.29 90.805 90)
+    (property "Reference" "C4_1_10_5B2" (at 161.29 90.805 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.771nF" (at 161.29 93.345 90)
@@ -475,22 +425,12 @@
     )
     (pin "1" (uuid 9bed13c5-88bc-4639-9c6a-c5ee8b2800c8))
     (pin "2" (uuid 110802b2-9593-4e84-9e20-5e5d0979cb1d))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C4_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "C4_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 124.46 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1c1588a-c3d1-4976-a636-090a9361f5f0)
-    (property "Reference" "C2_1_10_5B1" (at 124.46 90.805 90)
+    (property "Reference" "C2_1_10_5B2" (at 124.46 90.805 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.771nF" (at 124.46 93.345 90)
@@ -516,22 +456,12 @@
     )
     (pin "1" (uuid 235073e6-1408-4cf3-9d3a-3047d798f90b))
     (pin "2" (uuid 4ae5086d-3fb2-42e1-9ac3-f4cfbb62e2c0))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C2_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "C2_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 134.62 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8ba1c84-6cc3-40ac-abfd-82909db80c57)
-    (property "Reference" "L2_1_10_5B1" (at 134.62 92.075 90)
+    (property "Reference" "L2_1_10_5B2" (at 134.62 92.075 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.431uH" (at 134.62 94.615 90)
@@ -557,16 +487,6 @@
     )
     (pin "1" (uuid 8198095e-565c-4065-b443-2351fb8fb7fe))
     (pin "2" (uuid 19fc2243-78a6-442f-88e5-1d899ca65f49))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L2_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "L2_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:L") (at 171.45 97.79 90) (unit 1)
@@ -598,22 +518,12 @@
     )
     (pin "1" (uuid bfdc3987-c6d5-4661-b9e2-1d0e518851a9))
     (pin "2" (uuid 5ad9c265-3beb-4b8d-9e95-50cb129a7885))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "L4_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "L4_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Device:C") (at 179.07 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe52d5df-6404-41dc-a6b7-de5abcb49a06)
-    (property "Reference" "C5_1_10_5B1" (at 182.245 100.33 0)
+    (property "Reference" "C5_1_10_5B2" (at 182.245 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "218.6pF" (at 182.245 102.87 0)
@@ -639,15 +549,5 @@
     )
     (pin "1" (uuid f171454c-022d-41dc-a5ff-9b37e945dd7d))
     (pin "2" (uuid 29a30a0d-1fd0-4e01-ba0e-e5ed297afe44))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ece67ec2-cd03-451a-b298-19f4bd130474"
-          (reference "C5_1_10_5B1") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4"
-          (reference "C5_1_10_5B2") (unit 1)
-        )
-      )
-    )
   )
 )
