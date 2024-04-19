@@ -1,350 +1,985 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e7020662-01d0-4c65-b084-e16f52ebfdab)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "erhannis:PE64102B-Z" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 20.32 10.16 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "PE64102B-Z" (at 20.32 7.62 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "erhannis:QFN12_2X2X0.55_PSM" (at 0 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe64102ds.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "URL" "https://www.digikey.com/en/products/detail/psemi/PE64102B-Z/3728586" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "PE64102B-Z" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "QFN12_2X2X0.55_PSM QFN12_2X2X0.55_PSM-M QFN12_2X2X0.55_PSM-L" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PE64102B-Z_0_1"
-        (polyline
-          (pts
-            (xy 7.62 -20.32)
-            (xy 33.02 -20.32)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 5.08)
-            (xy 7.62 -20.32)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 -20.32)
-            (xy 33.02 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 33.02 5.08)
-            (xy 7.62 5.08)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin input line (at 0 0 0) (length 7.62)
-          (name "SEN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 40.64 -7.62 180) (length 7.62)
-          (name "RF+" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 40.64 -5.08 180) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 40.64 -2.54 180) (length 7.62)
-          (name "SDAT" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 40.64 0 180) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 0 -2.54 0) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -5.08 0) (length 7.62)
-          (name "SCLK" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 0) (length 7.62)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 0 -10.16 0) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 0 -12.7 0) (length 7.62)
-          (name "RF-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 40.64 -15.24 180) (length 7.62)
-          (name "RF-" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 40.64 -12.7 180) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 40.64 -10.16 180) (length 7.62)
-          (name "RF+" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 107.315 55.245) (diameter 0) (color 0 0 0 0)
-    (uuid b625e0e4-5776-4759-9c67-7872950c3b82)
-  )
-  (junction (at 66.675 47.625) (diameter 0) (color 0 0 0 0)
-    (uuid c23604d6-e75a-42ed-be80-e0c77653eb50)
-  )
-  (junction (at 107.315 62.865) (diameter 0) (color 0 0 0 0)
-    (uuid f6ca1eb9-b73c-4e4d-af15-72346bd083f9)
-  )
-
-  (wire (pts (xy 107.315 55.245) (xy 107.315 57.785))
-    (stroke (width 0) (type default))
-    (uuid 212d283b-cd41-4f7a-b5d6-0de03866dfef)
-  )
-  (wire (pts (xy 66.675 71.12) (xy 107.315 71.12))
-    (stroke (width 0) (type default))
-    (uuid 241b212c-06a5-49bb-a31a-22f71c74f132)
-  )
-  (wire (pts (xy 107.315 71.12) (xy 107.315 62.865))
-    (stroke (width 0) (type default))
-    (uuid 7881d714-0a7d-4bfb-8915-eb649df3c675)
-  )
-  (wire (pts (xy 64.77 47.625) (xy 66.675 47.625))
-    (stroke (width 0) (type default))
-    (uuid 8bf6fb35-9860-4cb3-b30a-fd22c2b7223f)
-  )
-  (wire (pts (xy 107.315 55.245) (xy 109.22 55.245))
-    (stroke (width 0) (type default))
-    (uuid 9b2200fa-ce1d-43b5-a371-e8ab6867aac6)
-  )
-  (wire (pts (xy 64.77 52.705) (xy 66.675 52.705))
-    (stroke (width 0) (type default))
-    (uuid 9e43fe68-2dd7-400b-b58b-79abead3c42f)
-  )
-  (wire (pts (xy 107.315 62.865) (xy 109.22 62.865))
-    (stroke (width 0) (type default))
-    (uuid d020b3ef-08f9-438a-926a-3d20fe55651b)
-  )
-  (wire (pts (xy 109.22 50.165) (xy 107.315 50.165))
-    (stroke (width 0) (type default))
-    (uuid d2e35d29-7026-4771-9ea9-c3d850fc1cac)
-  )
-  (wire (pts (xy 66.675 60.325) (xy 66.675 71.12))
-    (stroke (width 0) (type default))
-    (uuid eb51801c-ab33-4aba-ba60-04cf8d04f08e)
-  )
-
-  (text_box "//CHECK There were some DNI resistors on the schematic (and some caps) - I've skipped them for now, but it's possible I should not have."
-    (at 67.945 76.835 0) (size 41.275 13.97)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 008272c7-5e94-4c70-af03-3ec14df1947c)
-  )
-
-  (text "Pulldown resistor" (at 46.99 40.64 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c1c6e431-8054-4f6f-805a-604bb3136ac2)
-  )
-
-  (hierarchical_label "GND" (shape input) (at 107.315 60.325 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 096cad4b-6b99-4d27-b127-087b5a584f0a)
-  )
-  (hierarchical_label "R-" (shape input) (at 109.22 62.865 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1d617234-caff-47d7-a1dc-bebef30e14b8)
-  )
-  (hierarchical_label "SDAT" (shape input) (at 109.22 50.165 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 33c1ff1f-8ecf-4616-b042-db7f6ad0d2a2)
-  )
-  (hierarchical_label "GND" (shape input) (at 66.675 50.165 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 39ae89b1-5a77-4301-be2f-106703527f4b)
-  )
-  (hierarchical_label "GND" (shape input) (at 66.675 40.005 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 53bd45d6-8b6e-40ba-a6e3-f0a824be57f4)
-  )
-  (hierarchical_label "SCLK" (shape input) (at 64.77 52.705 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 5ab9b721-26a3-47f8-b1f6-715c28ef578b)
-  )
-  (hierarchical_label "SEN" (shape input) (at 64.77 47.625 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 70d83aab-1acd-41f1-8a19-a82fc5b3173f)
-  )
-  (hierarchical_label "R+" (shape input) (at 109.22 55.245 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7385ead3-e31c-4eac-b102-a757194b2989)
-  )
-  (hierarchical_label "GND" (shape input) (at 107.315 52.705 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7e1d0b7e-5edc-46fb-bc77-67ae60a6adca)
-  )
-  (hierarchical_label "GND" (shape input) (at 66.675 57.785 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a0aedbcc-f3e9-42ce-a3f8-1d3684a8662a)
-  )
-  (hierarchical_label "VCC" (shape input) (at 66.675 55.245 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c1e3ef26-bf3c-4187-bddc-69ead62403e2)
-  )
-  (hierarchical_label "GND" (shape input) (at 107.315 47.625 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d2710d4b-5128-448a-a646-43bcda6294b4)
-  )
-
-  (symbol (lib_id "Device:R") (at 66.675 43.815 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1b8d6ca9-cc00-4cb5-a8fb-f6c260e3461c)
-    (property "Reference" "R8" (at 64.135 45.085 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4.7k" (at 64.135 42.545 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 68.453 43.815 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 66.675 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "0402WGF4701TCE" (at 66.675 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25900" (at 66.675 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402  Chip Resistor - Surface Mount ROHS" (at 66.675 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "URL" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900" (at 66.675 43.815 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bc601674-39ea-41cd-aef4-961c01c6f264))
-    (pin "2" (uuid 9f597b57-9cfa-4dae-b771-6295400cb0d3))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1"
-          (reference "R8") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083"
-          (reference "R8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "erhannis:PE64102B-Z") (at 66.675 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2fb852e1-09b5-4056-9231-d290a3a5f648)
-    (property "Reference" "U6" (at 86.995 38.1 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "PE64102B-Z" (at 86.995 40.64 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "erhannis:QFN12_2X2X0.55_PSM" (at 66.675 47.625 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe64102ds.pdf" (at 66.675 47.625 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "URL" "https://www.digikey.com/en/products/detail/psemi/PE64102B-Z/3728586" (at 66.675 47.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 597dbde9-2d6b-4658-b056-094ad49ac945))
-    (pin "10" (uuid 6d344459-8ae9-4a16-acf5-55739f61a23a))
-    (pin "11" (uuid 9552a523-0904-46f7-a952-de615c58b088))
-    (pin "12" (uuid 476b0810-3c6d-433a-9613-5239b642fbb9))
-    (pin "13" (uuid a1d2dd0d-00b1-46be-8362-be6950e34b56))
-    (pin "2" (uuid 9c45c128-4bd2-4747-b66f-63c968747413))
-    (pin "3" (uuid 3133b91e-266a-41eb-9a73-215dc27dd745))
-    (pin "4" (uuid 92f4145c-c513-418d-b6fe-94a516988716))
-    (pin "5" (uuid 2e43610b-160f-4d8b-bccc-1d63a47eb9ae))
-    (pin "6" (uuid c367499a-f98c-4966-af62-44404c0621a1))
-    (pin "7" (uuid 3b3cc734-7f5d-4a71-952e-eee284754eb9))
-    (pin "8" (uuid 1b3f18f2-b71b-4a87-a3ff-3927de076a87))
-    (pin "9" (uuid 5341949f-099a-474b-9363-2e705e430aa0))
-    (instances
-      (project "rf_switchboard"
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1"
-          (reference "U6") (unit 1)
-        )
-        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083"
-          (reference "U6") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e7020662-01d0-4c65-b084-e16f52ebfdab")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "erhannis:PE64102B-Z"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PE64102B-Z"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "erhannis:QFN12_2X2X0.55_PSM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe64102ds.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "URL" "https://www.digikey.com/en/products/detail/psemi/PE64102B-Z/3728586"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PE64102B-Z"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN12_2X2X0.55_PSM QFN12_2X2X0.55_PSM-M QFN12_2X2X0.55_PSM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PE64102B-Z_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -20.32) (xy 33.02 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -20.32) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "RF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "SDAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "RF-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "RF-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "RF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 107.315 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b625e0e4-5776-4759-9c67-7872950c3b82")
+	)
+	(junction
+		(at 66.675 47.625)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c23604d6-e75a-42ed-be80-e0c77653eb50")
+	)
+	(junction
+		(at 107.315 62.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6ca1eb9-b73c-4e4d-af15-72346bd083f9")
+	)
+	(wire
+		(pts
+			(xy 107.315 55.245) (xy 107.315 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212d283b-cd41-4f7a-b5d6-0de03866dfef")
+	)
+	(wire
+		(pts
+			(xy 66.675 71.12) (xy 107.315 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241b212c-06a5-49bb-a31a-22f71c74f132")
+	)
+	(wire
+		(pts
+			(xy 107.315 71.12) (xy 107.315 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7881d714-0a7d-4bfb-8915-eb649df3c675")
+	)
+	(wire
+		(pts
+			(xy 64.77 47.625) (xy 66.675 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf6fb35-9860-4cb3-b30a-fd22c2b7223f")
+	)
+	(wire
+		(pts
+			(xy 107.315 55.245) (xy 109.22 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2200fa-ce1d-43b5-a371-e8ab6867aac6")
+	)
+	(wire
+		(pts
+			(xy 64.77 52.705) (xy 66.675 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e43fe68-2dd7-400b-b58b-79abead3c42f")
+	)
+	(wire
+		(pts
+			(xy 107.315 62.865) (xy 109.22 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d020b3ef-08f9-438a-926a-3d20fe55651b")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.165) (xy 107.315 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e35d29-7026-4771-9ea9-c3d850fc1cac")
+	)
+	(wire
+		(pts
+			(xy 66.675 60.325) (xy 66.675 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb51801c-ab33-4aba-ba60-04cf8d04f08e")
+	)
+	(text_box "//CHECK There were some DNI resistors on the schematic (and some caps) - I've skipped them for now, but it's possible I should not have."
+		(exclude_from_sim no)
+		(at 67.945 76.835 0)
+		(size 41.275 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "008272c7-5e94-4c70-af03-3ec14df1947c")
+	)
+	(text "Pulldown resistor"
+		(exclude_from_sim no)
+		(at 46.99 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1c6e431-8054-4f6f-805a-604bb3136ac2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 107.315 60.325 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "096cad4b-6b99-4d27-b127-087b5a584f0a")
+	)
+	(hierarchical_label "R-"
+		(shape input)
+		(at 109.22 62.865 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d617234-caff-47d7-a1dc-bebef30e14b8")
+	)
+	(hierarchical_label "SDAT"
+		(shape input)
+		(at 109.22 50.165 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33c1ff1f-8ecf-4616-b042-db7f6ad0d2a2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 66.675 50.165 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39ae89b1-5a77-4301-be2f-106703527f4b")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 66.675 40.005 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53bd45d6-8b6e-40ba-a6e3-f0a824be57f4")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 64.77 52.705 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab9b721-26a3-47f8-b1f6-715c28ef578b")
+	)
+	(hierarchical_label "SEN"
+		(shape input)
+		(at 64.77 47.625 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70d83aab-1acd-41f1-8a19-a82fc5b3173f")
+	)
+	(hierarchical_label "R+"
+		(shape input)
+		(at 109.22 55.245 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7385ead3-e31c-4eac-b102-a757194b2989")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 107.315 52.705 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e1d0b7e-5edc-46fb-bc77-67ae60a6adca")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 66.675 57.785 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0aedbcc-f3e9-42ce-a3f8-1d3684a8662a")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 66.675 55.245 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1e3ef26-bf3c-4187-bddc-69ead62403e2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 107.315 47.625 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2710d4b-5128-448a-a646-43bcda6294b4")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.675 43.815 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8d6ca9-cc00-4cb5-a8fb-f6c260e3461c")
+		(property "Reference" "R8"
+			(at 64.135 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 64.135 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.453 43.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.675 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 66.675 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF4701TCE"
+			(at 66.675 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 66.675 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26643-0402WGF4701TCE/C25900"
+			(at 66.675 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc601674-39ea-41cd-aef4-961c01c6f264")
+		)
+		(pin "2"
+			(uuid "9f597b57-9cfa-4dae-b771-6295400cb0d3")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "erhannis:PE64102B-Z")
+		(at 66.675 47.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb852e1-09b5-4056-9231-d290a3a5f648")
+		(property "Reference" "U6"
+			(at 86.995 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PE64102B-Z"
+			(at 86.995 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "erhannis:QFN12_2X2X0.55_PSM"
+			(at 66.675 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe64102ds.pdf"
+			(at 66.675 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.675 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/psemi/PE64102B-Z/3728586"
+			(at 66.675 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597dbde9-2d6b-4658-b056-094ad49ac945")
+		)
+		(pin "10"
+			(uuid "6d344459-8ae9-4a16-acf5-55739f61a23a")
+		)
+		(pin "11"
+			(uuid "9552a523-0904-46f7-a952-de615c58b088")
+		)
+		(pin "12"
+			(uuid "476b0810-3c6d-433a-9613-5239b642fbb9")
+		)
+		(pin "13"
+			(uuid "a1d2dd0d-00b1-46be-8362-be6950e34b56")
+		)
+		(pin "2"
+			(uuid "9c45c128-4bd2-4747-b66f-63c968747413")
+		)
+		(pin "3"
+			(uuid "3133b91e-266a-41eb-9a73-215dc27dd745")
+		)
+		(pin "4"
+			(uuid "92f4145c-c513-418d-b6fe-94a516988716")
+		)
+		(pin "5"
+			(uuid "2e43610b-160f-4d8b-bccc-1d63a47eb9ae")
+		)
+		(pin "6"
+			(uuid "c367499a-f98c-4966-af62-44404c0621a1")
+		)
+		(pin "7"
+			(uuid "3b3cc734-7f5d-4a71-952e-eee284754eb9")
+		)
+		(pin "8"
+			(uuid "1b3f18f2-b71b-4a87-a3ff-3927de076a87")
+		)
+		(pin "9"
+			(uuid "5341949f-099a-474b-9363-2e705e430aa0")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
