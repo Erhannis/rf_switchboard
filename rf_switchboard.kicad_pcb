@@ -309,8 +309,8 @@
 	(net 164 "Net-(U55-Pad2)")
 	(net 165 "Net-(U59-Pad1)")
 	(net 166 "Net-(U59-Pad2)")
-	(net 167 "Net-(U63-Pad1)")
-	(net 168 "Net-(U63-Pad2)")
+	(net 167 "Net-(U1_JU1-Pad2)")
+	(net 168 "Net-(U1_JU1-Pad1)")
 	(net 169 "Net-(U67-Pad1)")
 	(net 170 "Net-(U67-Pad2)")
 	(net 171 "unconnected-(X1-PRIMARY-Pad1)")
@@ -357,7 +357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -381,7 +381,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10mA 12uH ±5% 1.2Ω 0603  Inductors (SMD) ROHS"
 			(at 200.927 84.582 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -428,6 +428,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/8a234032-a691-4439-9b1d-24e02aaa241c")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -601,7 +602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -673,6 +674,7 @@
 			)
 		)
 		(path "/b553e01f-59d2-48af-9d91-634a20a54b57")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -874,7 +876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -946,6 +948,7 @@
 			)
 		)
 		(path "/504c72aa-e47a-4907-83f2-6f648214d278")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1147,7 +1150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1219,6 +1222,7 @@
 			)
 		)
 		(path "/2f491e03-d2f9-4102-929c-0c2e22ed0343")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1420,7 +1424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1492,6 +1496,7 @@
 			)
 		)
 		(path "/84e5b5d6-ffd9-40dc-bfa4-bd2d7404cd72")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1693,7 +1698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1765,6 +1770,7 @@
 			)
 		)
 		(path "/e0e35382-50ea-4ec4-a6fc-4b2065111d82")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1966,7 +1972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2038,6 +2044,7 @@
 			)
 		)
 		(path "/579ca850-0435-4395-a3c2-6397099fedd4")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2241,7 +2248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2265,7 +2272,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 26.329389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2312,7 +2319,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ae34db3b-8a48-44b9-a163-58690050030c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2622,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2634,7 +2643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Precision-Potentiometer_BOURNS_3313J-1-500E_50R-10_C124624.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2694,6 +2703,7 @@
 			)
 		)
 		(path "/4d3a3aad-e21d-4551-821f-3f04e59eb222")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2876,7 +2886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2888,7 +2898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2900,7 +2910,7 @@
 				)
 			)
 		)
-		(property "Description" "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2912,6 +2922,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SOIC*5.3x10.2mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
 		(path "/43a1e71c-468a-4156-aadb-62cae3be19c1/da671211-ad97-45bb-a4f2-40e69523c9cb")
 		(sheetname "filter_net")
 		(sheetfile "filter_net.kicad_sch")
@@ -3195,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3207,7 +3218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3219,7 +3230,7 @@
 				)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3255,7 +3266,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23?5*")
 		(path "/b6164c4a-c229-47ee-a555-b832360c38de")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3489,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3513,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3549,7 +3562,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1bd085ab-3257-4eb4-b814-20d1367edfd5")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3719,7 +3734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3791,6 +3806,7 @@
 			)
 		)
 		(path "/c657dce5-7922-4f80-aae1-54177dde5fe3")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3993,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4206,7 +4222,7 @@
 			(at -0.76 0 180)
 			(size 1.05 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 167 "Net-(U63-Pad1)")
+			(net 168 "Net-(U1_JU1-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "beeab4f8-56f8-49f1-94be-db556e7d8649")
@@ -4215,7 +4231,7 @@
 			(at 0.76 1.47 180)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "c8289eee-f233-4523-b66b-69a34c8effca")
@@ -4224,7 +4240,7 @@
 			(at 0.76 -1.47 180)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "e3656541-cd26-47b9-bec4-2e5393992009")
@@ -4270,7 +4286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4294,7 +4310,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 220pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 181.343 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4341,7 +4357,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/0441fe3c-22c4-49ce-aad9-39f4bffb85fa")
+		(property ki_fp_filters "C_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/0441fe3c-22c4-49ce-aad9-39f4bffb85fa")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -4512,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4584,6 +4601,7 @@
 			)
 		)
 		(path "/5566e7d7-c00d-46b3-b434-d79ca8e05d3a")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4787,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4811,7 +4829,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Gold 250V 3A Straight Square Pins 2.54mm 5P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 73.529389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4858,7 +4876,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1e041483-eb20-46e0-a283-257c3593d771")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5117,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5129,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5141,7 +5161,7 @@
 				)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5177,7 +5197,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?666*")
 		(path "/4fbb634a-bbbc-43a0-8c6c-fefeab58414c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5394,7 +5416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5466,6 +5488,7 @@
 			)
 		)
 		(path "/391c15bb-a542-4216-bbe4-a1c8a93d2988")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5667,7 +5690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5739,6 +5762,7 @@
 			)
 		)
 		(path "/2c0e1ef1-ea1f-4e67-b624-e3e5ff791984")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5942,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5966,7 +5990,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Gold 250V 3A Straight Square Pins 2.54mm 5P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 68.879389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6013,7 +6037,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d3e5fce6-41ce-48a0-ae97-22df3d58c1ee")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6272,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6296,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6332,7 +6358,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/28f2d504-8c23-4738-a29b-9994a8d111d9")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6502,7 +6530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6514,7 +6542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Precision-Potentiometer_BOURNS_3313J-1-500E_50R-10_C124624.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6574,6 +6602,7 @@
 			)
 		)
 		(path "/49906c80-3b3d-47ac-a2a5-b4ab68677c59")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6759,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6783,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 220pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 199.403 84.569 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6830,6 +6859,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/fe52d5df-6404-41dc-a6b7-de5abcb49a06")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -7001,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7073,6 +7103,7 @@
 			)
 		)
 		(path "/accd5c0f-335a-4142-a26b-f2a6407ab095")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7274,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7346,6 +7377,7 @@
 			)
 		)
 		(path "/80e55bb4-8922-4567-944b-b53cd9bbff68")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7547,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7619,6 +7651,7 @@
 			)
 		)
 		(path "/ebbb282f-d546-4612-a9e5-96c02672ce83")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7822,7 +7855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7846,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7882,7 +7915,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7bc5df8a-9967-43de-8469-c8d16b40135f")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8055,7 +8090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8079,7 +8114,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 680pF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 187.452 92.951 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8126,7 +8161,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/75f3eba1-7fbd-4ef6-8710-f53931959f96")
+		(property ki_fp_filters "C_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/75f3eba1-7fbd-4ef6-8710-f53931959f96")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -8299,7 +8335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8323,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 59.629389 139.259096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8370,7 +8406,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/49908c53-715e-428c-aabe-592efc03a93b")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8543,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8567,7 +8605,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "50mA 1.5uH ±5% 300mΩ 0603  Inductors (SMD) ROHS"
 			(at 187.973 83.82 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8614,6 +8652,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/a8ba1c84-6cc3-40ac-abfd-82909db80c57")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -8787,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:DFN-6_L1.1-W0.7-P0.40-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8859,6 +8898,7 @@
 			)
 		)
 		(path "/10f9f51d-58b1-48fb-8b0c-4b9d10c91319")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9017,7 +9057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9089,6 +9129,7 @@
 			)
 		)
 		(path "/e819637c-c448-4548-9f66-8cf4205474ba")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9290,7 +9331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9362,6 +9403,7 @@
 			)
 		)
 		(path "/31e90c4d-15e2-4e68-b636-4a2971089be2")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9563,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9635,6 +9677,7 @@
 			)
 		)
 		(path "/f7d19c5b-5ba2-4096-ac29-27288933bbea")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9838,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9862,7 +9905,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 40.729389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9909,7 +9952,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/719a4f5f-d374-451b-802e-ce271759fd32")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10219,7 +10264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10291,6 +10336,7 @@
 			)
 		)
 		(path "/c1da2378-c784-41b0-9d6f-d1f6404c544c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10494,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10518,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 33.529389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10565,7 +10611,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/366b6bfc-8a3a-47c4-ab5b-5b775d1897a2")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10877,7 +10925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_XKB_U254-051T-4BH83-F1S"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10901,7 +10949,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Micro Type B connector"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10949,7 +10997,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*")
 		(path "/e5989ee8-65c1-45a2-9deb-05c5a1b144ef")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11322,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11346,7 +11396,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 47.929389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11393,7 +11443,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c9bd2cb9-4db4-43ac-99b0-b479c0d36b47")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -11705,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11729,7 +11781,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11801,7 +11853,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/54b28649-9acb-4316-ac69-b950140a915d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11971,7 +12025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12020,6 +12074,7 @@
 			)
 		)
 		(path "/3f4da7bc-16ef-4db0-9c6d-0340c3414af0")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12275,7 +12330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12347,6 +12402,7 @@
 			)
 		)
 		(path "/20cd3039-c735-4743-983f-d90bdc7e0972")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12548,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12620,6 +12676,7 @@
 			)
 		)
 		(path "/7a002e32-ac88-415c-ba9b-e41147fe22aa")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12823,7 +12880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12835,7 +12892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12847,7 +12904,7 @@
 				)
 			)
 		)
-		(property "Description" "A microcontroller by Raspberry Pi"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12883,7 +12940,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "QFN*1EP*7x7mm?P0.4mm*")
 		(path "/b841930c-d1c0-42f1-84eb-8a1a2ed590f0")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13694,7 +13753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13718,7 +13777,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 59.629389 133.759096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13765,7 +13824,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/837ef793-6673-4f92-a531-e1cc86768504")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13937,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13961,7 +14022,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13997,7 +14058,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9cae7432-d266-4521-8d12-c83573da8701")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14243,7 +14306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14315,6 +14378,7 @@
 			)
 		)
 		(path "/039e74e3-d1f5-4968-ac33-d22f1ff9dde6")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14518,7 +14582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14542,7 +14606,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14602,7 +14666,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ffc85b2c-69be-47a4-945a-d633f11f2c38")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14772,7 +14838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14844,6 +14910,7 @@
 			)
 		)
 		(path "/4ccfc3ab-5d70-40fb-9185-ed84b659490a")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15045,7 +15112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:DFN-6_L1.1-W0.7-P0.40-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15117,6 +15184,7 @@
 			)
 		)
 		(path "/0f05f947-3178-49aa-9499-fc1097c1a2b0")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15277,7 +15345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15301,7 +15369,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15337,7 +15405,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4c52410a-31e2-49dc-b1db-3d4645ff88fe")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15509,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15533,7 +15603,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 200Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 74.069389 106.659096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15580,7 +15650,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6f306326-4c22-490d-8d61-fd7b332a3c98")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15753,7 +15825,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15777,7 +15849,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10mA 12uH ±5% 1.2Ω 0603  Inductors (SMD) ROHS"
 			(at 182.867 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15824,7 +15896,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/76f40f17-5a15-4074-8ddb-fb565cca5667")
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/76f40f17-5a15-4074-8ddb-fb565cca5667")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -16000,7 +16073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16024,7 +16097,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 1.8nF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 184.925 83.82 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16071,6 +16144,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/a1c1588a-c3d1-4976-a636-090a9361f5f0")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -16244,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16268,7 +16342,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16304,7 +16378,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/eda2d1fd-decd-4676-96a6-fe52036ced44")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16476,7 +16552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16500,7 +16576,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 163.765323 80.86891 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16547,7 +16623,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/eaa0f143-633b-45cc-a358-c59925f32042")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -16785,7 +16863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16809,7 +16887,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 680pF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 190.259 84.569 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16856,6 +16934,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/75f3eba1-7fbd-4ef6-8710-f53931959f96")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -17030,7 +17109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17054,7 +17133,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17090,7 +17169,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3f5dc7a6-99e1-4dc4-bcd9-2a1a018f97d7")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17263,7 +17344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17287,7 +17368,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 1.8nF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 194.056 83.82 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17334,6 +17415,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/939fa4a2-8e81-457f-a341-fa85675bf03c")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -17505,7 +17587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17577,6 +17659,7 @@
 			)
 		)
 		(path "/d01e9d37-7518-4aa8-8520-62f761d12a8d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17778,7 +17861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17850,6 +17933,7 @@
 			)
 		)
 		(path "/aad1829f-155b-4c23-9703-92c3e61f2947")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18054,7 +18138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18078,7 +18162,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10mA 12uH ±5% 1.2Ω 0603  Inductors (SMD) ROHS"
 			(at 195.072 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18125,7 +18209,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/8a234032-a691-4439-9b1d-24e02aaa241c")
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/8a234032-a691-4439-9b1d-24e02aaa241c")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -18298,7 +18383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:DFN-6_L1.1-W0.7-P0.40-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18370,6 +18455,7 @@
 			)
 		)
 		(path "/14f01bd7-ad0c-4f60-91cd-675d32177ed1")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18530,7 +18616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18554,7 +18640,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18590,7 +18676,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8c5f49ed-115c-419e-8d5d-da0140d0f3ad")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18762,7 +18850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18786,7 +18874,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 136.509096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18833,7 +18921,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/d004dc34-89c2-486d-b5ab-bb1805f46f47")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19003,7 +19093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19075,6 +19165,7 @@
 			)
 		)
 		(path "/39ca0f7d-4905-4bd0-ade9-532043791d0d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19276,7 +19367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19348,6 +19439,7 @@
 			)
 		)
 		(path "/f77eaab4-d50c-4cf8-9031-5d683a57dd6f")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19550,7 +19642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19763,7 +19855,7 @@
 			(at -0.76 0)
 			(size 1.05 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 167 "Net-(U63-Pad1)")
+			(net 168 "Net-(U1_JU1-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "70e24a99-6126-425b-92e6-2f8abfa8edf6")
@@ -19772,7 +19864,7 @@
 			(at 0.76 1.47)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "1d09d4e7-b818-4dea-a4de-f1e47da6162a")
@@ -19781,7 +19873,7 @@
 			(at 0.76 -1.47)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "2f813cbd-3953-4942-916e-e0017d0a4fb2")
@@ -19824,7 +19916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19896,6 +19988,7 @@
 			)
 		)
 		(path "/51ad7173-bcf1-4d20-b9b0-f5a2d503f21b")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20099,7 +20192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20123,7 +20216,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 200Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 74.069389 108.649096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20170,7 +20263,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/55f656cb-2228-4b8c-8109-f288705970f0")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20342,7 +20437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20366,7 +20461,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20402,7 +20497,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/eedb49ff-0f18-4110-bc7e-5d1d26eac508")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20572,7 +20669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20644,6 +20741,7 @@
 			)
 		)
 		(path "/a163de08-b596-4623-aa4d-0a375685af69")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20845,7 +20943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20917,6 +21015,7 @@
 			)
 		)
 		(path "/7468f60d-a278-4c90-a43e-d0b8325aa7e1")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21118,7 +21217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21190,6 +21289,7 @@
 			)
 		)
 		(path "/adc0c629-50ef-4449-931e-53ee16489325")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21394,7 +21494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21418,7 +21518,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10mA 12uH ±5% 1.2Ω 0603  Inductors (SMD) ROHS"
 			(at 182.639 84.582 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21465,6 +21565,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/76f40f17-5a15-4074-8ddb-fb565cca5667")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -21640,7 +21741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21664,7 +21765,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 41.2Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 71.159389 102.679096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21711,7 +21812,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/53881100-2d62-4ca7-bfff-cc0a1e4c5899")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21883,7 +21986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21907,7 +22010,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 142.009096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21954,7 +22057,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/979806ba-ba34-449f-8175-52059746d191")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22127,7 +22232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22151,7 +22256,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "50mA 1.5uH ±5% 300mΩ 0603  Inductors (SMD) ROHS"
 			(at 192.024 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22198,7 +22303,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/de142c6d-a55a-46b9-a895-46cb6f983edb")
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/de142c6d-a55a-46b9-a895-46cb6f983edb")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -22373,7 +22479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22397,7 +22503,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22469,7 +22575,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/597555ef-42d3-440a-974e-8650da3be551")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22642,7 +22750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22666,7 +22774,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "50mA 1.5uH ±5% 300mΩ 0603  Inductors (SMD) ROHS"
 			(at 185.928 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22713,7 +22821,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/a8ba1c84-6cc3-40ac-abfd-82909db80c57")
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/a8ba1c84-6cc3-40ac-abfd-82909db80c57")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -22888,7 +22997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22912,7 +23021,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22948,7 +23057,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a8f78d97-f336-430c-bad4-5a72da2b0d52")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23120,7 +23231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23144,7 +23255,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 1Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 71.159389 108.649096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23191,7 +23302,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4ef40c7f-793e-4af7-8ad0-7d9870a4db39")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23362,7 +23475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23434,6 +23547,7 @@
 			)
 		)
 		(path "/d0aa4abc-c86e-4a1d-b9ae-f30dcd1ac617")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23636,7 +23750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23708,6 +23822,7 @@
 			)
 		)
 		(path "/7dbe0b08-2419-43a9-baba-ea79b1c2be70")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23909,7 +24024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23981,6 +24096,7 @@
 			)
 		)
 		(path "/11412516-ae0d-4d07-bdd6-7484ec48f863")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24182,7 +24298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24254,6 +24370,7 @@
 			)
 		)
 		(path "/0bfc362f-4d25-48ec-99a9-4ddf2feb1978")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24455,7 +24572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24527,6 +24644,7 @@
 			)
 		)
 		(path "/c22227cb-0beb-4ed0-9431-35a27c6bacc3")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24730,7 +24848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24754,7 +24872,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 133.759096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24801,7 +24919,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/33d76b14-afb3-4811-a941-5c00198c1226")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24973,7 +25093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24997,7 +25117,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 41.2Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 71.159389 100.689096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25044,7 +25164,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3b3eb571-be46-4d1d-94ef-c797b4591e33")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25215,7 +25337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25287,6 +25409,7 @@
 			)
 		)
 		(path "/80511359-40c0-44be-82c7-07ec481a404e")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25490,7 +25613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25514,7 +25637,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 43Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 74.069389 102.679096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25561,7 +25684,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d2e4f1e3-5b76-479a-ae93-e03a3e3a549b")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25733,7 +25858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25757,7 +25882,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25793,7 +25918,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/dc1f66d2-c803-4225-86e2-695019e086d1")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25965,7 +26092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25989,7 +26116,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 48.7Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 71.159389 106.659096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26036,7 +26163,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/38bb1ae7-c0b7-439a-8c07-14d610c817d2")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26209,7 +26338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26233,7 +26362,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 1.8nF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 184.404 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26280,7 +26409,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/a1c1588a-c3d1-4976-a636-090a9361f5f0")
+		(property ki_fp_filters "C_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/a1c1588a-c3d1-4976-a636-090a9361f5f0")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -26451,7 +26581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26523,6 +26653,7 @@
 			)
 		)
 		(path "/4093087b-78b5-4887-8cf2-b55f4b0ca2f0")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26727,7 +26858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26751,7 +26882,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 220pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 193.548 92.951 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26798,7 +26929,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/fe52d5df-6404-41dc-a6b7-de5abcb49a06")
+		(property ki_fp_filters "C_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/fe52d5df-6404-41dc-a6b7-de5abcb49a06")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -26971,7 +27103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26995,7 +27127,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Gold 250V 3A Straight Square Pins 2.54mm 5P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x5P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 64.229389 131.959096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27042,7 +27174,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e3f85092-eb54-4ba7-8533-6f8cdc0223aa")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -27299,7 +27433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27371,6 +27505,7 @@
 			)
 		)
 		(path "/5d20bbba-239e-46b3-af33-51bb1b2e6176")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27575,7 +27710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "erhannis:QFN12_2X2X0.55_PSM"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27587,7 +27722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe64102ds.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27623,6 +27758,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "QFN12_2X2X0.55_PSM QFN12_2X2X0.55_PSM-M QFN12_2X2X0.55_PSM-L")
 		(path "/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083/2fb852e1-09b5-4056-9231-d290a3a5f648")
 		(sheetname "dvc")
 		(sheetfile "dvc.kicad_sch")
@@ -28694,7 +28830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28718,7 +28854,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "230mA 3.3uH ±5% 2.9Ω 0603  Inductors (SMD) ROHS"
 			(at 188.976 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28765,7 +28901,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/83aeaf1c-a8a2-4a70-b7dd-ee8fdd8f5e6f")
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/83aeaf1c-a8a2-4a70-b7dd-ee8fdd8f5e6f")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -28938,7 +29075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29010,6 +29147,7 @@
 			)
 		)
 		(path "/cf4af95f-9904-4991-aba8-2c3e0fea2e1f")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29213,7 +29351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29237,7 +29375,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29273,7 +29411,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/86577c8c-7357-49c3-b8f4-a1df03532cda")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29445,7 +29585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29469,7 +29609,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402  Chip Resistor - Surface Mount ROHS"
 			(at 133.482778 112.611808 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29516,6 +29656,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/43a1e71c-468a-4156-aadb-62cae3be19c1/69dc05ef-e62a-40ad-950d-12c03698a083/1b8d6ca9-cc00-4cb5-a8fb-f6c260e3461c")
 		(sheetname "dvc")
 		(sheetfile "dvc.kicad_sch")
@@ -29687,7 +29828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29759,6 +29900,7 @@
 			)
 		)
 		(path "/1e3ec028-f6b5-43cb-8f4c-edcde6d6e828")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29963,7 +30105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29987,7 +30129,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "50mA 1.5uH ±5% 300mΩ 0603  Inductors (SMD) ROHS"
 			(at 197.0915 83.82 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30034,6 +30176,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/de142c6d-a55a-46b9-a895-46cb6f983edb")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -30209,7 +30352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30233,7 +30376,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30269,7 +30412,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/749b042f-3881-415d-a10a-cabab22dad3e")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30441,7 +30586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30465,7 +30610,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 41.2Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 74.069389 100.689096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30512,7 +30657,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/538b0c4f-b469-4d10-afde-6fe28be7ca96")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30684,7 +30831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30708,7 +30855,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30744,7 +30891,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ec5de714-9242-4b43-9a75-c4b1b35c90f8")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30916,7 +31065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30940,7 +31089,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 59.629389 131.009096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30987,7 +31136,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/b5be4a75-0bff-4ee9-bf11-3923e0c42cd6")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31157,7 +31308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31229,6 +31380,7 @@
 			)
 		)
 		(path "/01aadaa5-4017-4fcb-b521-cc4597f68a24")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31430,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31479,6 +31631,7 @@
 			)
 		)
 		(path "/815cd85e-115c-4492-a14b-684f4a0760c4")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31738,7 +31891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31810,6 +31963,7 @@
 			)
 		)
 		(path "/cdb7c38c-345a-46ce-b786-c13fe4ae6e3c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32011,7 +32165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32083,6 +32237,7 @@
 			)
 		)
 		(path "/7de948bb-2800-45e8-8a4b-58578be6dd75")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32284,7 +32439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32356,6 +32511,7 @@
 			)
 		)
 		(path "/a733eacf-3298-43b9-8a50-5477bc474644")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32559,7 +32715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32583,7 +32739,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32619,7 +32775,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/90c0dcf6-9c67-4938-821d-0dbd10eaf394")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32789,7 +32947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32861,6 +33019,7 @@
 			)
 		)
 		(path "/61975309-2838-46b2-8540-9872a868e69c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33064,7 +33223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33088,7 +33247,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33100,7 +33259,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/c2235ed5-5c63-43da-9716-044fd70273b8")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -33176,7 +33337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33200,7 +33361,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "250V 3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 40.729389 144.209096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33247,7 +33408,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f6f65c34-9ec2-4dac-ae51-1b89da8b4e3c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -33484,7 +33647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33508,7 +33671,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 131.009096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33555,7 +33718,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/ea429e4e-a2ee-4a25-bb63-e0f35aa25af3")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33725,7 +33890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33797,6 +33962,7 @@
 			)
 		)
 		(path "/7160d5a9-1a5c-4390-b525-e00bc7d5539e")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33998,7 +34164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:DFN-6_L1.1-W0.7-P0.40-BL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34070,6 +34236,7 @@
 			)
 		)
 		(path "/f466c0b6-9658-462b-910c-6aa418c3c8b7")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34230,7 +34397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34254,7 +34421,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34266,7 +34433,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/555e344f-d5af-4112-bd81-9c3f5719f726")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -34342,7 +34511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34366,7 +34535,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 144.759096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34413,7 +34582,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/62b6a02a-0093-4903-b1ba-b2d5931cacc7")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34583,7 +34754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34655,6 +34826,7 @@
 			)
 		)
 		(path "/165b05f4-687d-455f-a1de-4b8704c83645")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34858,7 +35030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34882,7 +35054,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34918,7 +35090,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/83ad62ad-4aa8-4a2e-b220-fdf4940a4f01")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35090,7 +35264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35114,7 +35288,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35126,7 +35300,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/53692121-3666-41ee-ba65-c4528828e58a")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -35200,7 +35376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35272,6 +35448,7 @@
 			)
 		)
 		(path "/69681665-73ad-4e18-85de-325ad8518d0f")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35476,7 +35653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35500,7 +35677,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 1.8nF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 190.5 92.964 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35547,7 +35724,8 @@
 				)
 			)
 		)
-		(path "/ccbdaeab-8cb9-4c0d-b9a8-31f05340a9f4/939fa4a2-8e81-457f-a341-fa85675bf03c")
+		(property ki_fp_filters "C_*")
+		(path "/eb96e2ec-21de-41a5-b8fa-839fd278b7c9/939fa4a2-8e81-457f-a341-fa85675bf03c")
 		(sheetname "1_10_5x_butter1")
 		(sheetfile "1_10_5x_butter.kicad_sch")
 		(attr smd)
@@ -35718,7 +35896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35790,6 +35968,7 @@
 			)
 		)
 		(path "/f4ba174d-af45-435e-a403-8a67178730e5")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35991,7 +36170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36063,6 +36242,7 @@
 			)
 		)
 		(path "/e987e7ae-65d0-47d8-89db-c0da2b3a6b6f")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36266,7 +36446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36278,7 +36458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36290,7 +36470,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36326,7 +36506,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/62bb970a-9512-43a7-88a7-27baeb48c90d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36638,7 +36820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36710,6 +36892,7 @@
 			)
 		)
 		(path "/ba842d4c-8537-444f-8fb6-e28ae82f2019")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36913,7 +37096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36937,7 +37120,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36973,7 +37156,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/4f0ff2c7-00a2-4720-899b-1482ff1c7b32")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37174,7 +37359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37198,7 +37383,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37234,7 +37419,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/50d71f28-00ba-45da-902c-0e130f5f91c3")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37406,7 +37593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37430,7 +37617,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 71.159389 104.669096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37477,7 +37664,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b071d484-ce35-414d-8354-5bfb90270601")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37648,7 +37837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37861,7 +38050,7 @@
 			(at -0.76 0 180)
 			(size 1.05 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 167 "Net-(U63-Pad1)")
+			(net 168 "Net-(U1_JU1-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "a70c5102-16b6-4056-a230-6bf2af1ff5f7")
@@ -37870,7 +38059,7 @@
 			(at 0.76 1.47 180)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "9a77f0fe-2aab-44e2-af87-07f7c165cd56")
@@ -37879,7 +38068,7 @@
 			(at 0.76 -1.47 180)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "0f2e5cc8-786f-4c48-910e-0bd5db6527d0")
@@ -37924,7 +38113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37948,7 +38137,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 59.629389 136.509096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37995,7 +38184,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/058d1194-c56a-46ca-b7f1-b915689b440a")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38167,7 +38358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38191,7 +38382,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38227,7 +38418,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1b8aa75c-7c5c-4360-96f0-470ba6a2ab20")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38400,7 +38593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38424,7 +38617,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 220pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 181.115 84.582 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38471,6 +38664,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/0441fe3c-22c4-49ce-aad9-39f4bffb85fa")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -38642,7 +38836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38714,6 +38908,7 @@
 			)
 		)
 		(path "/a39f4371-6f59-4079-9a4c-f5d19865bb6d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38915,7 +39110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38987,6 +39182,7 @@
 			)
 		)
 		(path "/e611fa72-e4e3-4ece-9519-b238b75595ac")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39191,7 +39387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39215,7 +39411,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "230mA 3.3uH ±5% 2.9Ω 0603  Inductors (SMD) ROHS"
 			(at 191.783 84.563669 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39262,6 +39458,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ece67ec2-cd03-451a-b298-19f4bd130474/83aeaf1c-a8a2-4a70-b7dd-ee8fdd8f5e6f")
 		(sheetname "1_10_5x_butter")
 		(sheetfile "1_10_5x_butter.kicad_sch")
@@ -39437,7 +39634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39461,7 +39658,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "250V 3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
 			(at 36.079389 144.209096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39508,7 +39705,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/92c6be8a-2148-422c-8feb-61ce7ecf2cd4")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -39743,7 +39942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39815,6 +40014,7 @@
 			)
 		)
 		(path "/b9484648-97ce-4c0d-a947-c93f4f4f25e3")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40017,7 +40217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40230,7 +40430,7 @@
 			(at -0.76 0)
 			(size 1.05 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 167 "Net-(U63-Pad1)")
+			(net 168 "Net-(U1_JU1-Pad1)")
 			(pinfunction "1")
 			(pintype "unspecified")
 			(uuid "0671d3eb-d8b3-4117-b96f-cf39e35519c0")
@@ -40239,7 +40439,7 @@
 			(at 0.76 1.47)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "2")
 			(pintype "unspecified")
 			(uuid "4d51fa1f-bc81-44d7-b695-0d34d9bc2712")
@@ -40248,7 +40448,7 @@
 			(at 0.76 -1.47)
 			(size 2.2 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 168 "Net-(U63-Pad2)")
+			(net 167 "Net-(U1_JU1-Pad2)")
 			(pinfunction "3")
 			(pintype "unspecified")
 			(uuid "03576a80-b279-4f7a-add3-fd122a4da40f")
@@ -40291,7 +40491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40363,6 +40563,7 @@
 			)
 		)
 		(path "/7b496117-fbf5-4d66-8a54-7512f9dc02f7")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40564,7 +40765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40636,6 +40837,7 @@
 			)
 		)
 		(path "/2342dc42-731f-40d5-83d8-b71f840f64c8")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40839,7 +41041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40863,7 +41065,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40899,7 +41101,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/50e9a86f-6e07-451f-803f-71282cda3714")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41071,7 +41275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41095,7 +41299,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
 			(at 55.079389 139.259096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41142,7 +41346,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/7abea3cb-8959-44d6-897c-f300f632700c")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41314,7 +41520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41338,7 +41544,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 43Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 74.069389 104.669096 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41385,7 +41591,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ea301445-4bf5-4ecb-be2c-3b7d38c07351")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41555,7 +41763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41627,6 +41835,7 @@
 			)
 		)
 		(path "/83e52fbd-845a-4cd1-b86f-c7a848b96384")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41830,7 +42039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41854,7 +42063,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41866,7 +42075,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/35ffe1ff-16ce-45ff-9316-32bf450e29db")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -41940,7 +42151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42012,6 +42223,7 @@
 			)
 		)
 		(path "/47efb452-b5f0-4948-acee-a98bdc36e714")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42213,7 +42425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42285,6 +42497,7 @@
 			)
 		)
 		(path "/3497c099-2146-4c3c-970f-a875afb32d5d")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42486,7 +42699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42558,6 +42771,7 @@
 			)
 		)
 		(path "/2b844d0b-ca08-494d-98e8-0044e8078176")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42759,7 +42973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42831,6 +43045,7 @@
 			)
 		)
 		(path "/d570ef1f-1ff9-4dd9-adf8-e34151e536d8")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43036,7 +43251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43060,7 +43275,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43098,7 +43313,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/74fec5d7-b52d-4650-aef5-7b68f711bce4")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43273,7 +43490,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43297,7 +43514,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43335,7 +43552,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bf5bf3a7-8b56-4e8e-a8f2-81fd39d04f0b")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43510,7 +43729,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43534,7 +43753,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43572,7 +43791,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1d9c3592-ea42-4ef3-8c3a-0b77b2075314")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43747,7 +43968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43771,7 +43992,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43809,7 +44030,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/e3f07fe8-9a68-45af-9163-cb15c1464372")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43984,7 +44207,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44008,7 +44231,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44046,7 +44269,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b1657223-b627-4c25-9150-1df917b42cd9")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44221,7 +44446,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44245,7 +44470,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44283,7 +44508,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/37260307-e565-4769-9923-921828479fca")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44458,7 +44685,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44482,7 +44709,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44520,7 +44747,9 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/510a53b4-09d0-4d1d-8818-b2685259c9e9")
+		(sheetname "Root")
 		(sheetfile "rf_switchboard.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -48129,51 +48358,11 @@
 		(uuid "b54dbec3-3cbd-418a-90b3-069f70bda342")
 	)
 	(segment
-		(start 185.42 107.75)
-		(end 186.44 107.75)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 167)
-		(uuid "1cc0a639-818b-45b8-96f7-2f70f8698f07")
-	)
-	(segment
-		(start 184.4 107.75)
-		(end 185.42 107.75)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 167)
-		(uuid "555f5fd7-ab93-467c-bc32-d8d30e02f9a7")
-	)
-	(segment
-		(start 185.42 107.75)
-		(end 185.42 102.67)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 167)
-		(uuid "7f8f50c9-4a37-4f61-9df4-134849913f25")
-	)
-	(segment
-		(start 184.4 102.67)
-		(end 185.42 102.67)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 167)
-		(uuid "7ffc1ddd-cee8-42a8-b838-e3c2c2bb5243")
-	)
-	(segment
-		(start 185.42 102.67)
-		(end 186.44 102.67)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 167)
-		(uuid "bf4fbd5a-e876-4077-bce6-58614a878b28")
-	)
-	(segment
 		(start 182.88 109.22)
 		(end 187.96 109.22)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 168)
+		(net 167)
 		(uuid "67741d64-ac3c-4f76-86bb-97ea70a2c6ed")
 	)
 	(segment
@@ -48181,7 +48370,7 @@
 		(end 187.96 101.2)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 168)
+		(net 167)
 		(uuid "a3d26751-dd01-4910-864c-6da923513582")
 	)
 	(segment
@@ -48189,7 +48378,7 @@
 		(end 187.96 109.22)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 168)
+		(net 167)
 		(uuid "a3e6d4a1-e2f8-40ef-8ada-c40ae2cce202")
 	)
 	(segment
@@ -48197,8 +48386,48 @@
 		(end 182.88 109.22)
 		(width 0.8)
 		(layer "F.Cu")
-		(net 168)
+		(net 167)
 		(uuid "db77aae1-eae1-43e7-967c-3fa9b7f695c9")
+	)
+	(segment
+		(start 185.42 107.75)
+		(end 186.44 107.75)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "1cc0a639-818b-45b8-96f7-2f70f8698f07")
+	)
+	(segment
+		(start 184.4 107.75)
+		(end 185.42 107.75)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "555f5fd7-ab93-467c-bc32-d8d30e02f9a7")
+	)
+	(segment
+		(start 185.42 107.75)
+		(end 185.42 102.67)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "7f8f50c9-4a37-4f61-9df4-134849913f25")
+	)
+	(segment
+		(start 184.4 102.67)
+		(end 185.42 102.67)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "7ffc1ddd-cee8-42a8-b838-e3c2c2bb5243")
+	)
+	(segment
+		(start 185.42 102.67)
+		(end 186.44 102.67)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 168)
+		(uuid "bf4fbd5a-e876-4077-bce6-58614a878b28")
 	)
 	(segment
 		(start 182.8545 92.189)
@@ -48489,8 +48718,8 @@
 		(uuid "799d8b90-0bcd-429d-9560-cda9dce44895")
 	)
 	(zone
-		(net 168)
-		(net_name "Net-(U63-Pad2)")
+		(net 167)
+		(net_name "Net-(U1_JU1-Pad2)")
 		(layer "In1.Cu")
 		(uuid "57940f44-cce1-4272-8040-0b9f11cd159d")
 		(hatch edge 0.5)
