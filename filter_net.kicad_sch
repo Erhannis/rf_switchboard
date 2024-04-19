@@ -244,6 +244,13 @@
     (pin "7" (uuid ecd12aa5-0424-43a5-8d49-88db9a71638f))
     (pin "8" (uuid 6f24cd9a-eadf-4f95-abdb-effccdf0d06e))
     (pin "9" (uuid d4169617-5815-494c-8e1c-adada02cf099))
+    (instances
+      (project "rf_switchboard"
+        (path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/43a1e71c-468a-4156-aadb-62cae3be19c1"
+          (reference "U1_FN1") (unit 1)
+        )
+      )
+    )
   )
 
   (sheet (at 102.87 41.275) (size 21.59 13.97) (fields_autoplaced)
