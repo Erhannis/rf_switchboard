@@ -1110,7 +1110,7 @@
     (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195")
     (path "/88219890-01d8-42b0-b8f6-7b94566b599e/3773a2df-53e2-4cd9-96e1-0cad6b073dc8")
     (attr smd)
-    (fp_text reference "U64" (at 0 -5.47) (layer "F.SilkS") hide
+    (fp_text reference "U4_JU1" (at 0 -5.47) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b55494f1-2a63-43b3-8cc9-d596b6c2ecb2)
     )
@@ -4649,7 +4649,7 @@
     (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195")
     (path "/88219890-01d8-42b0-b8f6-7b94566b599e/ca073c82-02c9-4220-99ed-0ad27cebd8b4")
     (attr smd)
-    (fp_text reference "U63" (at 0 -5.47) (layer "F.SilkS") hide
+    (fp_text reference "U3_JU1" (at 0 -5.47) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f41b6b62-77c6-44a3-ae9f-218a17464f38)
     )
@@ -8797,7 +8797,7 @@
     (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195")
     (path "/88219890-01d8-42b0-b8f6-7b94566b599e/5d630dd4-0364-4a82-8e4e-7238c7a6d745")
     (attr smd)
-    (fp_text reference "U65" (at 0 -5.47) (layer "F.SilkS") hide
+    (fp_text reference "U2_JU1" (at 0 -5.47) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2eb7c6d5-2f02-47b3-886e-40f24704731b)
     )
@@ -9337,7 +9337,7 @@
     (property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195")
     (path "/88219890-01d8-42b0-b8f6-7b94566b599e/2495a452-1760-41b0-86e8-e08cfb600e7c")
     (attr smd)
-    (fp_text reference "U66" (at 0 -5.47) (layer "F.SilkS") hide
+    (fp_text reference "U1_JU1" (at 0 -5.47) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0450f99-6252-453c-a6fb-e72f8ff8e12f)
     )
