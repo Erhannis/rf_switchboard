@@ -5613,7 +5613,7 @@
 		(uuid "07c68a70-e9af-47c0-9c5b-a819e9d5dfb2")
 	)
 	(junction
-		(at 584.835 168.275)
+		(at 584.835 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07d28287-a424-4af1-b811-2ef565060836")
@@ -5697,7 +5697,7 @@
 		(uuid "183c10d5-e7a8-4cd9-97d0-404b3b7393ea")
 	)
 	(junction
-		(at 543.56 173.355)
+		(at 543.56 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a1fe751-5351-4a54-82a1-918fff7cb900")
@@ -5721,16 +5721,22 @@
 		(uuid "1e8505a7-863f-44cf-9565-273bb2903a08")
 	)
 	(junction
-		(at 555.625 142.24)
+		(at 555.625 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "221a2eb0-7143-4531-a4a4-54149772e861")
 	)
 	(junction
-		(at 542.925 139.7)
+		(at 542.925 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24232ea3-2462-41b4-81ab-ab27a1154864")
+	)
+	(junction
+		(at 502.92 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271f81c2-e27e-4014-bba1-21709b3a6206")
 	)
 	(junction
 		(at 55.88 72.39)
@@ -5749,6 +5755,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ea358f1-096a-43b4-8414-83c30a9b5ae3")
+	)
+	(junction
+		(at 502.92 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30a178fa-c1c8-44d9-86a5-e2c627f75493")
 	)
 	(junction
 		(at 62.23 23.495)
@@ -5793,7 +5805,7 @@
 		(uuid "38172143-be04-4aca-8950-21aa53cf4a10")
 	)
 	(junction
-		(at 584.835 141.605)
+		(at 584.835 188.595)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38878651-386e-46be-95f7-5b8c05edbbe4")
@@ -5805,7 +5817,13 @@
 		(uuid "3b9e37fc-b1d9-4301-acc7-7928dcf95aba")
 	)
 	(junction
-		(at 543.56 168.275)
+		(at 518.16 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f035f97-9d0c-4644-9335-e33112effdd0")
+	)
+	(junction
+		(at 543.56 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4068da84-4968-4671-8c1b-e37661ee08c1")
@@ -5829,7 +5847,7 @@
 		(uuid "4753efe4-27c5-40d2-9920-6646e68a2984")
 	)
 	(junction
-		(at 597.535 168.275)
+		(at 597.535 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e4df3f-2bd0-40d3-81c7-ebd621e650f4")
@@ -5853,7 +5871,7 @@
 		(uuid "4c472560-e54e-4407-b352-68cb20df8715")
 	)
 	(junction
-		(at 543.56 170.815)
+		(at 543.56 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d5506ce-aba5-42a3-8463-718c5d84f7a2")
@@ -5865,7 +5883,7 @@
 		(uuid "4f393a57-55e8-437d-92e7-844934398ce2")
 	)
 	(junction
-		(at 597.535 141.605)
+		(at 597.535 188.595)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50f91538-6635-4101-9c49-ee420c4a250d")
@@ -5883,7 +5901,7 @@
 		(uuid "52a87c13-d28e-4330-9c38-6f25d3c1bed0")
 	)
 	(junction
-		(at 556.26 170.815)
+		(at 556.26 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "539a5ea7-5b4c-4ef0-9383-63498ac53446")
@@ -5925,6 +5943,12 @@
 		(uuid "57572a41-fc4b-4dd4-929d-18d21028a4b8")
 	)
 	(junction
+		(at 502.92 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5900efa9-90a5-40b6-8679-12c84ed62c22")
+	)
+	(junction
 		(at 327.66 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5937,7 +5961,7 @@
 		(uuid "5a9f0ce5-4afc-43c6-944a-4fae78abfc24")
 	)
 	(junction
-		(at 556.26 173.355)
+		(at 556.26 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c9ead32-f0b4-40c3-9073-195f1fea5570")
@@ -5955,6 +5979,18 @@
 		(uuid "5ef4e00c-0a82-413b-904c-018dda661117")
 	)
 	(junction
+		(at 502.92 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b7291a-d62d-44d8-947b-caeea51a6958")
+	)
+	(junction
+		(at 487.68 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61d98ed3-5bc5-4ed0-abb3-03f2d11e3db2")
+	)
+	(junction
 		(at 389.255 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5967,7 +6003,7 @@
 		(uuid "626eb608-3ca7-4b1f-88c0-f72fafc0fa15")
 	)
 	(junction
-		(at 597.535 170.815)
+		(at 597.535 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6505f7b7-c947-4bff-888d-1ddd60856075")
@@ -5985,7 +6021,7 @@
 		(uuid "665d1919-e415-43e0-be43-fc0b4528cf3a")
 	)
 	(junction
-		(at 542.925 142.24)
+		(at 542.925 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67924acc-1bbc-42e0-99aa-cfffa0f0d7c7")
@@ -6015,7 +6051,7 @@
 		(uuid "6ffd114c-2379-40d5-880a-0369f891fad7")
 	)
 	(junction
-		(at 542.925 137.16)
+		(at 542.925 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "702441ab-5ea1-44f2-af0f-19b3682a29ef")
@@ -6033,7 +6069,7 @@
 		(uuid "782c47e3-a3e1-424d-8b9c-bb4b71e8f5e9")
 	)
 	(junction
-		(at 555.625 137.16)
+		(at 555.625 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "783485b9-6fbf-4389-95ad-018b1090b271")
@@ -6043,6 +6079,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78803b1b-5cc3-4f33-b15e-7e8878f81ef4")
+	)
+	(junction
+		(at 518.16 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ed708ac-8a63-4c00-a0dd-cb678caa5ba0")
 	)
 	(junction
 		(at 132.08 40.64)
@@ -6087,7 +6129,7 @@
 		(uuid "85f6690e-2d5c-48c1-9c3a-6a23f8dfb07d")
 	)
 	(junction
-		(at 555.625 139.7)
+		(at 555.625 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ef7446-2440-4d1b-ad31-137429e19ed1")
@@ -6111,7 +6153,7 @@
 		(uuid "8ee4c2bb-6f4e-4458-9141-4b8a95d71668")
 	)
 	(junction
-		(at 597.535 173.355)
+		(at 597.535 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "951827a2-b149-4d76-ab20-b916b5be983d")
@@ -6123,13 +6165,19 @@
 		(uuid "95388f20-ccc6-4d9b-a3bc-91e9d67cdc62")
 	)
 	(junction
+		(at 468.63 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96847b56-6f58-4f81-a333-d0eab6455c4f")
+	)
+	(junction
 		(at 362.585 57.785)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98aa8da1-c13f-43fe-a6a8-37fab157abf5")
 	)
 	(junction
-		(at 584.835 173.355)
+		(at 584.835 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d49b9e1-1634-4d8c-9982-136b16ca7965")
@@ -6171,7 +6219,7 @@
 		(uuid "a9d60105-926c-4657-8e43-7b3e70d7ceff")
 	)
 	(junction
-		(at 584.835 170.815)
+		(at 584.835 217.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab81a5ab-34b2-444f-8067-589dcd9e2af4")
@@ -6195,7 +6243,7 @@
 		(uuid "afd63c1c-8e24-4cf3-8a20-c7e7ff917f73")
 	)
 	(junction
-		(at 584.835 139.065)
+		(at 584.835 186.055)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4536a65-4a83-44f0-b965-03ff2a5af636")
@@ -6205,6 +6253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4898373-f36a-4120-9874-7c89ffe68238")
+	)
+	(junction
+		(at 468.63 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5677312-1c82-4596-92dc-843c044c8899")
 	)
 	(junction
 		(at 190.5 144.145)
@@ -6219,7 +6273,7 @@
 		(uuid "b8c63a06-8380-4f29-986b-23d4343718a5")
 	)
 	(junction
-		(at 556.26 168.275)
+		(at 556.26 215.265)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b97ba508-6d31-4f25-9d4f-6e38b25cd503")
@@ -6243,7 +6297,7 @@
 		(uuid "bda5493e-becc-4d65-ad87-6bdbdff1730a")
 	)
 	(junction
-		(at 597.535 136.525)
+		(at 597.535 183.515)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee35bd1-58f8-404d-ace8-995c4a70a2e8")
@@ -6321,7 +6375,7 @@
 		(uuid "d5999efb-ddaf-4024-a5f3-c49dad4a7f2d")
 	)
 	(junction
-		(at 584.835 136.525)
+		(at 584.835 183.515)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b07089-21e1-45bf-bf98-82f3d02d0b1a")
@@ -6337,6 +6391,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d90f8daf-437b-4b72-a660-15ad7182e73e")
+	)
+	(junction
+		(at 518.16 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9149dbc-61e1-44e2-a338-d40dd58e3b4e")
 	)
 	(junction
 		(at 487.68 58.42)
@@ -6357,7 +6417,7 @@
 		(uuid "e154783c-41d6-42e0-9847-1429f985a56f")
 	)
 	(junction
-		(at 597.535 139.065)
+		(at 597.535 186.055)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e182ce08-5484-40ac-bd27-0e4fc0c18acb")
@@ -6381,6 +6441,12 @@
 		(uuid "e7762e76-4120-4c6d-a2b1-75a7a6617b69")
 	)
 	(junction
+		(at 487.68 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d07b1e-274b-4e88-a995-ab40412aa912")
+	)
+	(junction
 		(at 55.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6393,6 +6459,12 @@
 		(uuid "ef9e0e99-ce24-4889-8ebd-5f9d6cc507d0")
 	)
 	(junction
+		(at 487.68 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f3a804-9c77-4c23-a96a-b9f53d621587")
+	)
+	(junction
 		(at 342.265 74.295)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6403,6 +6475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3de093c-8cc2-4bcb-afd8-974cc0a7b169")
+	)
+	(junction
+		(at 487.68 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4e8f870-e915-4af3-83ca-dd85ef773435")
 	)
 	(junction
 		(at 129.54 40.64)
@@ -6434,6 +6512,12 @@
 		(color 0 0 0 0)
 		(uuid "fb3b3e83-650a-4c7f-b289-b1ef324fd4d3")
 	)
+	(junction
+		(at 518.16 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fce38862-6812-44f0-9786-fd2aa7c0e432")
+	)
 	(no_connect
 		(at 275.59 26.67)
 		(uuid "0a660879-f670-4225-90aa-4c8c1d0c6ae5")
@@ -6464,7 +6548,7 @@
 	)
 	(wire
 		(pts
-			(xy 555.625 146.685) (xy 555.625 142.24)
+			(xy 555.625 193.675) (xy 555.625 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6494,6 +6578,26 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 152.4) (xy 487.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d9cd95-0a17-4282-bb42-07b333a81273")
+	)
+	(wire
+		(pts
+			(xy 487.68 161.29) (xy 502.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e64280-66df-4132-bee6-f432fbbbb712")
+	)
+	(wire
+		(pts
 			(xy 332.74 12.7) (xy 330.2 12.7)
 		)
 		(stroke
@@ -6504,7 +6608,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.925 139.7) (xy 542.925 142.24)
+			(xy 542.925 186.69) (xy 542.925 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6514,7 +6618,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 168.275) (xy 597.535 165.735)
+			(xy 597.535 215.265) (xy 597.535 212.725)
 		)
 		(stroke
 			(width 0)
@@ -6541,6 +6645,16 @@
 			(type default)
 		)
 		(uuid "042146e0-a341-4ad4-b2fd-c9c38b87aa63")
+	)
+	(wire
+		(pts
+			(xy 533.4 152.4) (xy 533.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04436cad-4575-4a00-a632-cf432f00b1b5")
 	)
 	(wire
 		(pts
@@ -6614,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.925 142.24) (xy 542.925 146.685)
+			(xy 542.925 189.23) (xy 542.925 193.675)
 		)
 		(stroke
 			(width 0)
@@ -6784,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 146.05) (xy 495.3 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d86ad63-9ac9-47a1-a6c4-e701a0f753df")
+	)
+	(wire
+		(pts
 			(xy 368.3 57.785) (xy 368.3 73.025)
 		)
 		(stroke
@@ -6854,7 +6978,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 170.815) (xy 556.26 168.275)
+			(xy 556.26 217.805) (xy 556.26 215.265)
 		)
 		(stroke
 			(width 0)
@@ -6884,7 +7008,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 168.275) (xy 584.835 170.815)
+			(xy 584.835 215.265) (xy 584.835 217.805)
 		)
 		(stroke
 			(width 0)
@@ -6934,13 +7058,23 @@
 	)
 	(wire
 		(pts
-			(xy 542.925 134.62) (xy 542.925 137.16)
+			(xy 542.925 181.61) (xy 542.925 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "159d1651-12e8-48d4-9b02-27d1d1b370a1")
+	)
+	(wire
+		(pts
+			(xy 468.63 161.29) (xy 487.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e7ec7d-ee46-4c16-bcf0-f28575ceab6d")
 	)
 	(wire
 		(pts
@@ -6974,7 +7108,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.925 137.16) (xy 542.925 139.7)
+			(xy 542.925 184.15) (xy 542.925 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7174,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 542.925 146.685) (xy 555.625 146.685)
+			(xy 542.925 193.675) (xy 555.625 193.675)
 		)
 		(stroke
 			(width 0)
@@ -7204,7 +7338,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 173.355) (xy 597.535 170.815)
+			(xy 597.535 220.345) (xy 597.535 217.805)
 		)
 		(stroke
 			(width 0)
@@ -7214,7 +7348,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 173.355) (xy 584.835 177.8)
+			(xy 584.835 220.345) (xy 584.835 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7234,7 +7368,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 170.815) (xy 597.535 168.275)
+			(xy 597.535 217.805) (xy 597.535 215.265)
 		)
 		(stroke
 			(width 0)
@@ -7374,7 +7508,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 136.525) (xy 597.535 133.985)
+			(xy 597.535 183.515) (xy 597.535 180.975)
 		)
 		(stroke
 			(width 0)
@@ -7391,6 +7525,16 @@
 			(type default)
 		)
 		(uuid "29df6ae2-145c-4aa4-9b22-425983fcdfaf")
+	)
+	(wire
+		(pts
+			(xy 510.54 146.05) (xy 510.54 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3f31d4-1bd8-4fcd-afbe-d1a605a161e4")
 	)
 	(wire
 		(pts
@@ -7444,13 +7588,23 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 146.05) (xy 597.535 146.05)
+			(xy 584.835 193.04) (xy 597.535 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d7538b1-dd70-4f45-b9b9-d66760d6b158")
+	)
+	(wire
+		(pts
+			(xy 533.4 114.3) (xy 518.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2d878a-385b-4368-8f0f-2860f1e538f6")
 	)
 	(wire
 		(pts
@@ -7474,7 +7628,7 @@
 	)
 	(wire
 		(pts
-			(xy 555.625 142.24) (xy 555.625 139.7)
+			(xy 555.625 189.23) (xy 555.625 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7834,6 +7988,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 123.19) (xy 502.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c76fe92-b7db-4a13-bc20-fbab07e84ac4")
+	)
+	(wire
+		(pts
 			(xy 389.255 66.04) (xy 389.255 50.8)
 		)
 		(stroke
@@ -7904,6 +8068,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 161.29) (xy 518.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404ec206-2934-4fb2-a3bb-6548db9d4596")
+	)
+	(wire
+		(pts
 			(xy 324.485 220.98) (xy 321.945 220.98)
 		)
 		(stroke
@@ -7911,6 +8085,16 @@
 			(type default)
 		)
 		(uuid "404ed09e-fcad-4174-9503-b8e82f27930e")
+	)
+	(wire
+		(pts
+			(xy 468.63 123.19) (xy 468.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4080fada-7a22-411b-b8f6-fa655db9f066")
 	)
 	(wire
 		(pts
@@ -8014,7 +8198,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 170.815) (xy 543.56 173.355)
+			(xy 543.56 217.805) (xy 543.56 220.345)
 		)
 		(stroke
 			(width 0)
@@ -8114,6 +8298,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 129.54) (xy 495.3 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4c6d09-5ae3-4811-8a64-64353f8e8975")
+	)
+	(wire
+		(pts
 			(xy 391.16 171.45) (xy 402.59 171.45)
 		)
 		(stroke
@@ -8144,7 +8338,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 170.815) (xy 584.835 173.355)
+			(xy 584.835 217.805) (xy 584.835 220.345)
 		)
 		(stroke
 			(width 0)
@@ -8324,6 +8518,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 123.19) (xy 533.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5805d741-fbb8-49f9-939e-25fa79589641")
+	)
+	(wire
+		(pts
 			(xy 318.135 0.635) (xy 323.85 0.635)
 		)
 		(stroke
@@ -8384,13 +8588,23 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 146.05) (xy 597.535 141.605)
+			(xy 597.535 193.04) (xy 597.535 188.595)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d40192a-3301-4744-84a1-a0d5e0afe026")
+	)
+	(wire
+		(pts
+			(xy 525.78 129.54) (xy 525.78 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d88e117-a338-433f-ac9d-b19b8818fd4a")
 	)
 	(wire
 		(pts
@@ -8524,6 +8738,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 123.19) (xy 487.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64449970-07e6-4978-ad39-732ef825e2bd")
+	)
+	(wire
+		(pts
 			(xy 328.93 67.945) (xy 331.47 67.945)
 		)
 		(stroke
@@ -8554,7 +8778,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 141.605) (xy 597.535 139.065)
+			(xy 597.535 188.595) (xy 597.535 186.055)
 		)
 		(stroke
 			(width 0)
@@ -8624,7 +8848,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 139.065) (xy 584.835 141.605)
+			(xy 584.835 186.055) (xy 584.835 188.595)
 		)
 		(stroke
 			(width 0)
@@ -8744,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 165.735) (xy 584.835 168.275)
+			(xy 584.835 212.725) (xy 584.835 215.265)
 		)
 		(stroke
 			(width 0)
@@ -9124,6 +9348,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 146.05) (xy 525.78 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc99c98-0601-42c1-ae88-1356a366249a")
+	)
+	(wire
+		(pts
 			(xy 394.97 83.82) (xy 399.415 83.82)
 		)
 		(stroke
@@ -9324,7 +9558,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 165.735) (xy 543.56 168.275)
+			(xy 543.56 212.725) (xy 543.56 215.265)
 		)
 		(stroke
 			(width 0)
@@ -9384,7 +9618,7 @@
 	)
 	(wire
 		(pts
-			(xy 555.625 137.16) (xy 555.625 134.62)
+			(xy 555.625 184.15) (xy 555.625 181.61)
 		)
 		(stroke
 			(width 0)
@@ -9471,6 +9705,16 @@
 			(type default)
 		)
 		(uuid "932e7c78-127b-458a-b2dc-1cb8645247c9")
+	)
+	(wire
+		(pts
+			(xy 510.54 129.54) (xy 510.54 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e1e8ee-0015-4fb3-84c8-ceb296518cb7")
 	)
 	(wire
 		(pts
@@ -9724,7 +9968,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 177.8) (xy 597.535 177.8)
+			(xy 584.835 224.79) (xy 597.535 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9874,6 +10118,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 114.3) (xy 468.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77fe886-a1a7-4bbd-a5f7-232cc5a798d2")
+	)
+	(wire
+		(pts
 			(xy 390.525 0.635) (xy 396.24 0.635)
 		)
 		(stroke
@@ -9881,6 +10135,16 @@
 			(type default)
 		)
 		(uuid "a9015e87-2fab-4862-b7c0-ff3fa5cfd073")
+	)
+	(wire
+		(pts
+			(xy 518.16 152.4) (xy 518.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95fc618-b96a-4be6-bd5b-9e0d86aefdec")
 	)
 	(wire
 		(pts
@@ -9931,6 +10195,16 @@
 			(type default)
 		)
 		(uuid "aa927e90-bc20-4a60-9275-271bba00898d")
+	)
+	(wire
+		(pts
+			(xy 518.16 123.19) (xy 518.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9effca-c19d-471b-8d89-69cf7c8abf17")
 	)
 	(wire
 		(pts
@@ -10011,6 +10285,26 @@
 			(type solid)
 		)
 		(uuid "ae9ca202-5a55-46d0-99a7-9ea7c57aaddc")
+	)
+	(wire
+		(pts
+			(xy 468.63 123.19) (xy 472.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea8ad31-895f-472b-869f-6bf5784db71e")
+	)
+	(wire
+		(pts
+			(xy 487.68 114.3) (xy 502.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08cb3a8-6959-4c68-a6a8-8f82a5504dcf")
 	)
 	(wire
 		(pts
@@ -10244,6 +10538,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 146.05) (xy 480.06 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea97607-701f-4974-8432-ec6cce120d38")
+	)
+	(wire
+		(pts
 			(xy 132.08 150.495) (xy 132.08 153.035)
 		)
 		(stroke
@@ -10251,6 +10555,16 @@
 			(type solid)
 		)
 		(uuid "bf1ba665-0e9a-4553-8574-cc957a979beb")
+	)
+	(wire
+		(pts
+			(xy 502.92 114.3) (xy 518.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6bf0e8-d656-4d40-b96b-8ada5ba61dff")
 	)
 	(wire
 		(pts
@@ -10324,13 +10638,23 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 136.525) (xy 584.835 139.065)
+			(xy 584.835 183.515) (xy 584.835 186.055)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c38df987-d3fc-4a74-837f-da85fd3ce746")
+	)
+	(wire
+		(pts
+			(xy 480.06 129.54) (xy 480.06 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c403009c-b39f-4c9d-b5d9-f4c2ff8eb520")
 	)
 	(wire
 		(pts
@@ -10364,7 +10688,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 177.8) (xy 556.26 173.355)
+			(xy 556.26 224.79) (xy 556.26 220.345)
 		)
 		(stroke
 			(width 0)
@@ -10404,7 +10728,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 168.275) (xy 543.56 170.815)
+			(xy 543.56 215.265) (xy 543.56 217.805)
 		)
 		(stroke
 			(width 0)
@@ -10431,6 +10755,16 @@
 			(type default)
 		)
 		(uuid "c8a3e08a-8872-41d6-9464-7630add3ea65")
+	)
+	(wire
+		(pts
+			(xy 468.63 161.29) (xy 468.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94b86ba-1002-487c-8a52-500ce126cb1f")
 	)
 	(wire
 		(pts
@@ -10564,7 +10898,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 177.8) (xy 556.26 177.8)
+			(xy 543.56 224.79) (xy 556.26 224.79)
 		)
 		(stroke
 			(width 0)
@@ -10734,7 +11068,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 141.605) (xy 584.835 146.05)
+			(xy 584.835 188.595) (xy 584.835 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10744,7 +11078,7 @@
 	)
 	(wire
 		(pts
-			(xy 555.625 139.7) (xy 555.625 137.16)
+			(xy 555.625 186.69) (xy 555.625 184.15)
 		)
 		(stroke
 			(width 0)
@@ -10984,7 +11318,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 168.275) (xy 556.26 165.735)
+			(xy 556.26 215.265) (xy 556.26 212.725)
 		)
 		(stroke
 			(width 0)
@@ -10994,7 +11328,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 173.355) (xy 556.26 170.815)
+			(xy 556.26 220.345) (xy 556.26 217.805)
 		)
 		(stroke
 			(width 0)
@@ -11031,6 +11365,16 @@
 			(type default)
 		)
 		(uuid "ec3eb5a8-8e45-42c6-9261-d03188876e63")
+	)
+	(wire
+		(pts
+			(xy 502.92 152.4) (xy 502.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed88f4dc-1444-47a8-9d4c-00a2bd02df19")
 	)
 	(wire
 		(pts
@@ -11074,7 +11418,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 173.355) (xy 543.56 177.8)
+			(xy 543.56 220.345) (xy 543.56 224.79)
 		)
 		(stroke
 			(width 0)
@@ -11084,7 +11428,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 177.8) (xy 597.535 173.355)
+			(xy 597.535 224.79) (xy 597.535 220.345)
 		)
 		(stroke
 			(width 0)
@@ -11104,7 +11448,7 @@
 	)
 	(wire
 		(pts
-			(xy 597.535 139.065) (xy 597.535 136.525)
+			(xy 597.535 186.055) (xy 597.535 183.515)
 		)
 		(stroke
 			(width 0)
@@ -11154,7 +11498,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.835 133.985) (xy 584.835 136.525)
+			(xy 584.835 180.975) (xy 584.835 183.515)
 		)
 		(stroke
 			(width 0)
@@ -11234,6 +11578,16 @@
 	)
 	(wire
 		(pts
+			(xy 468.63 152.4) (xy 472.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80e915c-a762-4c83-9632-97f2a1bd0e1a")
+	)
+	(wire
+		(pts
 			(xy 41.275 155.575) (xy 59.055 155.575)
 		)
 		(stroke
@@ -11281,6 +11635,26 @@
 			(type default)
 		)
 		(uuid "fbb64133-14d3-4bbb-9cbe-73e01917555a")
+	)
+	(wire
+		(pts
+			(xy 502.92 161.29) (xy 518.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca506b3-5dac-4b65-a5ac-858b65d51143")
+	)
+	(wire
+		(pts
+			(xy 468.63 114.3) (xy 487.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd400745-e2a1-4e62-83a0-610bbcda38d8")
 	)
 	(wire
 		(pts
@@ -11399,7 +11773,7 @@
 	)
 	(text "Junction (pins)"
 		(exclude_from_sim no)
-		(at 535.305 127 0)
+		(at 535.305 173.99 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11432,7 +11806,7 @@
 	)
 	(text "Junctions (U.FL)"
 		(exclude_from_sim no)
-		(at 482.854 131.572 0)
+		(at 482.854 178.562 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11498,7 +11872,7 @@
 	)
 	(text "Junction (pins)"
 		(exclude_from_sim no)
-		(at 535.94 158.115 0)
+		(at 535.94 205.105 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11553,7 +11927,7 @@
 	)
 	(text "Junction (pins)"
 		(exclude_from_sim no)
-		(at 577.215 158.115 0)
+		(at 577.215 205.105 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11575,7 +11949,7 @@
 	)
 	(text "Junction (pins)"
 		(exclude_from_sim no)
-		(at 577.215 126.365 0)
+		(at 577.215 173.355 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11594,6 +11968,17 @@
 			(justify left bottom)
 		)
 		(uuid "e3729d8e-7923-41bf-b4f0-eb1f4808d9d8")
+	)
+	(text "Ferrite (u.fl, no gnd)"
+		(exclude_from_sim no)
+		(at 478.79 109.855 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb4ec68d-1196-4ed6-a014-e33edb28c392")
 	)
 	(text "ESD"
 		(exclude_from_sim no)
@@ -13323,6 +13708,104 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 480.06 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dec3e44-d7ad-40ce-93fc-a845f6f2b93d")
+		(property "Reference" "U59"
+			(at 480.06 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 480.06 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 464.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 480.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 462.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 480.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 480.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97724ee9-1eb0-4ada-8cf1-8e5c2ec9dfad")
+		)
+		(pin "2"
+			(uuid "ab41863d-c469-4484-870a-cbeb9af15d89")
+		)
+		(pin "3"
+			(uuid "7c76aeab-aba7-4f7c-87c6-73d13e2d2270")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 565.785 85.09 90)
 		(unit 1)
@@ -14485,7 +14968,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 589.915 136.525 0)
+		(at 589.915 183.515 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14494,7 +14977,7 @@
 		(fields_autoplaced yes)
 		(uuid "366b6bfc-8a3a-47c4-ab5b-5b775d1897a2")
 		(property "Reference" "J7"
-			(at 591.185 127.635 0)
+			(at 591.185 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,7 +14985,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 591.185 130.175 0)
+			(at 591.185 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +14993,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +15002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +15011,7 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14537,7 +15020,7 @@
 			)
 		)
 		(property "MFR" "MTP125-1204S1"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14546,7 +15029,7 @@
 			)
 		)
 		(property "LCSC" "C358693"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14555,7 +15038,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251204S1/C358693"
-			(at 589.915 136.525 0)
+			(at 589.915 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14982,6 +15465,105 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 495.3 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a28ba06-8979-41b2-bdff-40cf90a67e86")
+		(property "Reference" "U62"
+			(at 495.3 159.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 495.3 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 480.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 495.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 477.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 495.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 495.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad9cff4-657b-42c5-b25c-7f1f318c3ee3")
+		)
+		(pin "2"
+			(uuid "e22b10ed-d0e5-4239-ad11-1edea4ce02f3")
+		)
+		(pin "3"
+			(uuid "a099df55-01dc-4d6a-b2cb-b2f64c106bc3")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 327.66 138.43 90)
 		(unit 1)
@@ -15071,6 +15653,104 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 525.78 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5e4401-3d32-4484-a8a3-a2ded40af2b1")
+		(property "Reference" "U65"
+			(at 525.78 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 525.78 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 510.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 525.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 508 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 525.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 525.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9276ea07-c5cb-412a-b962-52845a80cf86")
+		)
+		(pin "2"
+			(uuid "dcdd9ec5-71a3-4634-b944-02bd64715430")
+		)
+		(pin "3"
+			(uuid "9cc0b7c9-31ee-4790-b7ed-30272c11f46b")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U65")
 					(unit 1)
 				)
 			)
@@ -15422,6 +16102,105 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 510.54 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d87eb4-7e74-4cff-9470-b130b760857b")
+		(property "Reference" "U64"
+			(at 510.54 159.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 510.54 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 495.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 510.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 492.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 510.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 510.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e86de5-95b9-4866-8b3b-a0587819e3be")
+		)
+		(pin "2"
+			(uuid "24b7b286-4797-43ab-8396-5632ca1a8eb4")
+		)
+		(pin "3"
+			(uuid "6b66deef-cfe2-4f35-ba09-78b42385aad0")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U64")
 					(unit 1)
 				)
 			)
@@ -18596,7 +19375,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 548.64 168.275 0)
+		(at 548.64 215.265 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18605,7 +19384,7 @@
 		(fields_autoplaced yes)
 		(uuid "719a4f5f-d374-451b-802e-ce271759fd32")
 		(property "Reference" "J8"
-			(at 549.91 159.385 0)
+			(at 549.91 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +19392,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 549.91 161.925 0)
+			(at 549.91 208.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,7 +19400,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18630,7 +19409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18639,7 +19418,7 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18648,7 +19427,7 @@
 			)
 		)
 		(property "MFR" "MTP125-1204S1"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18657,7 +19436,7 @@
 			)
 		)
 		(property "LCSC" "C358693"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18666,7 +19445,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251204S1/C358693"
-			(at 548.64 168.275 0)
+			(at 548.64 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19755,6 +20534,105 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 525.78 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efca250-d587-4b6b-aa1e-a7e6b1c27805")
+		(property "Reference" "U66"
+			(at 525.78 159.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 525.78 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 510.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 525.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 525.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 508 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 525.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 525.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d204fd5-49de-4d25-836f-9fb804bf3048")
+		)
+		(pin "2"
+			(uuid "782bdf29-7f48-4927-aaaf-9e3b276d3cd6")
+		)
+		(pin "3"
+			(uuid "65a7a17d-7056-487d-a213-e97f4a4e75c8")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U66")
 					(unit 1)
 				)
 			)
@@ -21456,6 +22334,105 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 480.06 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c37b9a-4c36-40a9-8880-22fcedc57449")
+		(property "Reference" "U60"
+			(at 480.06 159.385 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 480.06 158.115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 464.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 480.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 462.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 480.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 480.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96868294-7617-4949-9cb4-b20937f59cc1")
+		)
+		(pin "2"
+			(uuid "78edb0f1-da4f-40b9-939b-6ae8e6b55524")
+		)
+		(pin "3"
+			(uuid "3fe89517-85a0-47b8-b2cf-96775bb1b2d5")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 23.495 23.495 90)
 		(unit 1)
@@ -22125,6 +23102,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 495.3 137.795 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a896f1f3-2048-4561-9323-70629d410b52")
+		(property "Reference" "FB13"
+			(at 499.11 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 499.11 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 493.522 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 495.3 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
+			(at 495.3 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BLM21PG221SN1D"
+			(at 495.3 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 495.3 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"
+			(at 495.3 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95ca5a6-8610-4764-81e0-7367acc6a281")
+		)
+		(pin "2"
+			(uuid "441e3490-bfb1-47f1-89ef-c3d69585d9c0")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "FB13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 342.265 78.105 180)
 		(unit 1)
@@ -22511,7 +23585,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 548.005 137.16 0)
+		(at 548.005 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22520,7 +23594,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae34db3b-8a48-44b9-a163-58690050030c")
 		(property "Reference" "J6"
-			(at 549.275 128.27 0)
+			(at 549.275 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22528,7 +23602,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 549.275 130.81 0)
+			(at 549.275 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22536,7 +23610,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22545,7 +23619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +23628,7 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22563,7 +23637,7 @@
 			)
 		)
 		(property "MFR" "MTP125-1204S1"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22572,7 +23646,7 @@
 			)
 		)
 		(property "LCSC" "C358693"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22581,7 +23655,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251204S1/C358693"
-			(at 548.005 137.16 0)
+			(at 548.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,6 +23762,103 @@
 			(project "jtag-programmer"
 				(path "/e06305fb-998f-48af-a66f-06af1aebcaf0"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 510.54 137.795 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af133a74-ca28-448a-9ab8-8f64095a2e50")
+		(property "Reference" "FB14"
+			(at 514.35 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 514.35 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 508.762 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
+			(at 510.54 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BLM21PG221SN1D"
+			(at 510.54 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 510.54 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"
+			(at 510.54 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08af61b9-c726-4004-bc74-159bfe83f580")
+		)
+		(pin "2"
+			(uuid "6fb61689-5e68-4831-8e13-017e8a9707d3")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "FB14")
 					(unit 1)
 				)
 			)
@@ -23086,6 +24257,200 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#U$02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 525.78 137.795 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b51a05be-4bff-4de0-80f7-dcde403e5a6d")
+		(property "Reference" "FB15"
+			(at 529.59 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 529.59 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 524.002 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 525.78 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
+			(at 525.78 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BLM21PG221SN1D"
+			(at 525.78 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 525.78 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"
+			(at 525.78 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "427d29c4-b6cc-4881-9729-d1ca83594daa")
+		)
+		(pin "2"
+			(uuid "6903d0b5-3f80-4289-a102-5957e6527a62")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "FB15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 480.06 137.795 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5498b4e-5197-4646-b577-6340e0cee75b")
+		(property "Reference" "FB12"
+			(at 483.87 136.4742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 483.87 139.0142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 478.282 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 480.06 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "45mΩ ±25% 220Ω@100MHz 0805  Ferrite Beads ROHS"
+			(at 480.06 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BLM21PG221SN1D"
+			(at 480.06 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 480.06 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"
+			(at 480.06 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3e844d-b565-4a44-a815-2eb46e003be0")
+		)
+		(pin "2"
+			(uuid "c6d515a4-a398-436a-b644-ebe488237fbb")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "FB12")
 					(unit 1)
 				)
 			)
@@ -24576,7 +25941,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 589.915 168.275 0)
+		(at 589.915 215.265 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24585,7 +25950,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9bd2cb9-4db4-43ac-99b0-b479c0d36b47")
 		(property "Reference" "J9"
-			(at 591.185 159.385 0)
+			(at 591.185 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24593,7 +25958,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 591.185 161.925 0)
+			(at 591.185 208.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24601,7 +25966,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24610,7 +25975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24619,7 +25984,7 @@
 			)
 		)
 		(property "Description" "Straight Square Pins 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm 双排 Black Brass 2x4P 2.54mm Plugin,P=2.54mm  Pin Headers ROHS"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24628,7 +25993,7 @@
 			)
 		)
 		(property "MFR" "MTP125-1204S1"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24637,7 +26002,7 @@
 			)
 		)
 		(property "LCSC" "C358693"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24646,7 +26011,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251204S1/C358693"
-			(at 589.915 168.275 0)
+			(at 589.915 215.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27777,6 +29142,104 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 510.54 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4da1aec-bcc9-45c0-b5d1-5768fc4a4dc1")
+		(property "Reference" "U63"
+			(at 510.54 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 510.54 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 495.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 510.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 510.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 492.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 510.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 510.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b2bcdc4-21dd-4dcf-ae8b-c20a30c31828")
+		)
+		(pin "2"
+			(uuid "182dd6b9-9289-441c-82f7-5867c63bbe23")
+		)
+		(pin "3"
+			(uuid "02becf82-0ae8-452e-9836-d0f8e13f6b03")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 111.76 150.495 0)
 		(mirror y)
@@ -27844,6 +29307,104 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#+3V04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 495.3 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a5d7b6-ea27-41c0-8a86-788c523512b1")
+		(property "Reference" "U61"
+			(at 495.3 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 495.3 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 480.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 495.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 477.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 495.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 495.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3429c769-3347-43a6-ae38-f806d481f3f3")
+		)
+		(pin "2"
+			(uuid "cf90d012-287d-403d-986d-fb4b7e098bf1")
+		)
+		(pin "3"
+			(uuid "e4061bf6-3217-4c4e-9bba-aabb3e33122e")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U61")
 					(unit 1)
 				)
 			)
@@ -28614,7 +30175,7 @@
 		)
 	)
 	(sheet
-		(at 506.73 143.51)
+		(at 506.73 190.5)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -28626,7 +30187,7 @@
 		)
 		(uuid "8403f59f-40b4-401e-a46b-e66c01a4b43a")
 		(property "Sheetname" "junction_ufl2"
-			(at 506.73 142.7984 0)
+			(at 506.73 189.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28635,7 +30196,7 @@
 			)
 		)
 		(property "Sheetfile" "juntion_ufl1.kicad_sch"
-			(at 506.73 147.9046 0)
+			(at 506.73 194.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28652,7 +30213,7 @@
 		)
 	)
 	(sheet
-		(at 473.075 142.875)
+		(at 473.075 189.865)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -28664,7 +30225,7 @@
 		)
 		(uuid "88219890-01d8-42b0-b8f6-7b94566b599e")
 		(property "Sheetname" "junction_ufl1"
-			(at 473.075 142.1634 0)
+			(at 473.075 189.1534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28673,7 +30234,7 @@
 			)
 		)
 		(property "Sheetfile" "juntion_ufl1.kicad_sch"
-			(at 473.075 147.2696 0)
+			(at 473.075 194.2596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28690,7 +30251,7 @@
 		)
 	)
 	(sheet
-		(at 473.71 160.02)
+		(at 473.71 207.01)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -28702,7 +30263,7 @@
 		)
 		(uuid "8ce432a8-19ed-464e-a263-9d611ccb9068")
 		(property "Sheetname" "junction_ufl3"
-			(at 473.71 159.3084 0)
+			(at 473.71 206.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28711,7 +30272,7 @@
 			)
 		)
 		(property "Sheetfile" "juntion_ufl1.kicad_sch"
-			(at 473.71 164.4146 0)
+			(at 473.71 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28728,7 +30289,7 @@
 		)
 	)
 	(sheet
-		(at 508 161.29)
+		(at 508 208.28)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -28740,7 +30301,7 @@
 		)
 		(uuid "a63125b3-a7b7-4a11-ad8d-e86fd3120c4b")
 		(property "Sheetname" "junction_ufl4"
-			(at 508 160.5784 0)
+			(at 508 207.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28749,7 +30310,7 @@
 			)
 		)
 		(property "Sheetfile" "juntion_ufl1.kicad_sch"
-			(at 508 165.6846 0)
+			(at 508 212.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
