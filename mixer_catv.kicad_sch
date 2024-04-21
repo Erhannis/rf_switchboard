@@ -1,0 +1,2452 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "af41b1b4-a9c4-4d76-89ae-d3ee0fb33898")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:BWU.FL-IPEX1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BWU.FL-IPEX1"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5137195"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BWU.FL-IPEX1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:ETC4-1-2TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ETC4-1-2TR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:FILTER-SMD_ETC4-1-2TR"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_MA-COM-ETC4-1-2TR_C314697.html"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C314697"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ETC4-1-2TR_0_1"
+				(circle
+					(center -3.81 3.81)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5356 -2.54)
+					(mid -1.27 -1.27)
+					(end -2.5356 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5356 0)
+					(mid -1.27 1.27)
+					(end -2.5356 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5356 2.54)
+					(mid -1.27 3.81)
+					(end -2.5356 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0844 0)
+					(mid 3.8184 -1.27)
+					(end 5.0844 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0844 2.54)
+					(mid 3.8184 1.27)
+					(end 5.0844 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0844 5.08)
+					(mid 3.8184 3.81)
+					(end 5.0844 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 3.81)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -7.62 90)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 10.16 270)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 90)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:PE4140B-Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PE4140B-Z"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5336176"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PE4140B-Z_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "IF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "LO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "LO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "IF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 190.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "753195b7-99bc-466f-b3f3-49e14037034b")
+	)
+	(junction
+		(at 190.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9487bf89-8ea7-43ff-b649-a5d78bb3b553")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2148db-c668-426f-b84a-402bc04a8649")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b49ba6-825c-425c-9dc2-5bf2f33c5f4b")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173da0ed-60e8-4693-81e5-69ce958ea205")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6732fb-17f4-43b6-8be5-4dfe2564f9fc")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.33) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b827e92-6d8c-469c-b512-e755358478d9")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26434fa7-2f5a-47c2-b12f-4f4fee52d1ba")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272ed039-4a13-4f55-a94b-fedaaca04547")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef51796-1756-4256-917c-256620945747")
+	)
+	(wire
+		(pts
+			(xy 119.38 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35de8593-77a9-4022-8679-805ae074abab")
+	)
+	(wire
+		(pts
+			(xy 163.83 119.38) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f95f6d0-0696-48a7-b477-cbe79ce06b72")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549bca77-aac6-43eb-ac30-fa5c9a7a8dab")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605749f1-fa01-4bee-ab89-a432ee51d769")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645d815e-40cd-4a52-ab8d-133e12a5e7d9")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.33) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc5df5a-879c-45a3-944d-380887de6232")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6b6329-f2a4-491a-b5db-28708bc6669c")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980eed8b-68ed-4a13-a265-45a15521010f")
+	)
+	(wire
+		(pts
+			(xy 231.14 100.33) (xy 227.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9906ecd8-0150-43a0-9de7-56ed045572c5")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a719490-a6c5-48d4-8a86-5f0c3a8fdd9d")
+	)
+	(wire
+		(pts
+			(xy 227.33 91.44) (xy 222.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b898da-3711-4cc1-8c67-88c42c49d5ee")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6753a12-4bbd-49de-82de-4ba6178b2646")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb76af2-e350-4659-b566-49489e03bfe4")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96139e5-cc08-4adb-996b-c34d907ac6e8")
+	)
+	(wire
+		(pts
+			(xy 227.33 100.33) (xy 227.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cb744a-d57b-4098-bee3-ca8f4ee82d18")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44d9402-40dd-4581-9a8b-7e8c743a7c26")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1dd6f81-af3e-44f5-a18a-3b97a16d183e")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec61cea5-02bf-45c7-9dff-cca7cd412cd8")
+	)
+	(wire
+		(pts
+			(xy 181.61 132.08) (xy 181.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94dc3a2-eff7-4efe-a9fd-b368ada76d36")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f3624-2bd1-4994-b0fa-78a4ae86490d")
+	)
+	(text "Mixer (CATV)"
+		(exclude_from_sim no)
+		(at 161.036 79.248 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ec44723-0399-4f03-9611-26befa2f2ef8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 189.23 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "028db344-ed12-42bf-9b22-73248df49ae8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 237.49 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05ea4da1-9dab-43c2-bc3b-f95318d90e7c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 73.66 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a4b2f47-4e62-4205-a955-d6ff076917e5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 121.92 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f1478d5-7964-4961-bb22-4a9a9d1eeed0")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 207.01 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51865354-f5e1-44ef-8e8b-5ba113b69406")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 222.25 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "632520c9-63ed-4072-8d09-513aa95b4baa")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 99.06 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7574b541-c0f9-46dd-9bfd-69f6d14400d6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 237.49 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81a1c5af-c84e-4b1f-8802-db9d5944fadf")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 173.99 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "892496d1-5ab6-4a43-868b-52f7639c50ea")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 73.66 104.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c25ad45-4ace-462a-b2cb-e9848e15e9f6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 163.83 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0cd79fa-6914-41fe-926c-a981c6171bc1")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 190.5 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcba2dd5-35b6-431c-82e4-24de1fd200b5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 190.5 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3dabcdd-7345-4b68-b13a-fb869c08a73d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 171.45 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7bb9316-df21-44e7-8a6f-bac473ba58e0")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ETC4-1-2TR")
+		(at 217.17 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01f11fa3-3ad5-4d70-a34d-ef9459e4ca17")
+		(property "Reference" "U75"
+			(at 223.52 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ETC1.6-4-2-3TR"
+			(at 223.52 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FILTER-SMD_ETC4-1-2TR"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_MA-COM-ETC4-1-2TR_C314697.html"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500MHz~3GHz 3dB 4:1 SMD  Balun ROHS"
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ETC1.6-4-2-3TR"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3304930"
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/macom-ETC1_6_4_23TR/C3304930"
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "196846d0-49f3-45b7-94d6-19985a378ac9")
+		)
+		(pin "2"
+			(uuid "d49a364d-57c9-463c-8991-2c2d5c66d464")
+		)
+		(pin "1"
+			(uuid "9723cac3-7dfc-4b4b-b694-a12814e53913")
+		)
+		(pin "4"
+			(uuid "bc165cea-a1d2-4ecf-bb18-d3dba52a4a83")
+		)
+		(pin "3"
+			(uuid "e598b661-3a99-4714-93ed-4eb6a53a3492")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0957d944-4cd0-468a-8e47-29558fc6bae5")
+		(property "Reference" "L1"
+			(at 191.77 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nH"
+			(at 191.77 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400mA 4.7nH 300mΩ 0603  Inductors (SMD) ROHS"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "VHF160808H4N7ST"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1030"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1382-VHF160808H4N7ST/C1030"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e4bdf3-0bee-4653-9aa3-7078a211e0fb")
+		)
+		(pin "2"
+			(uuid "d0935064-312d-41a0-ad12-d3af934f58eb")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 190.5 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24703eca-e715-46e1-8bea-203ea84aecc6")
+		(property "Reference" "L2"
+			(at 189.23 97.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nH"
+			(at 189.23 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400mA 4.7nH 300mΩ 0603  Inductors (SMD) ROHS"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "VHF160808H4N7ST"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1030"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1382-VHF160808H4N7ST/C1030"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b64f9d6-aedd-41c7-a0be-865aee9bb64b")
+		)
+		(pin "2"
+			(uuid "917d62a5-4919-40d9-9829-3a5ca37ba12e")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 181.61 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf84e81-3ec4-4aed-85a4-a5e4b9f2543a")
+		(property "Reference" "U72"
+			(at 181.61 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 181.61 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac2b74f4-0b7e-4a8e-a9c4-37fdb2ca5941")
+		)
+		(pin "2"
+			(uuid "7e9de009-98d4-4e85-9794-ec5a0875e846")
+		)
+		(pin "3"
+			(uuid "d79d3714-d6fa-48d2-bbaa-4ffd1a72155e")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PE4140B-Z")
+		(at 175.26 104.14 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6187fec1-df1c-4205-a6fd-329584e5481f")
+		(property "Reference" "U73"
+			(at 175.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PE4140B-Z"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Mixer High-Linearity MOSFET Quad"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "PE4140B-Z"
+			(at 175.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5336176"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Psemi-PE4140BZ/C5336176"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd85624-b42a-4287-a98f-b000d6a6fc1d")
+		)
+		(pin "2"
+			(uuid "57fd9663-89e8-4591-8ef0-203d86315ef0")
+		)
+		(pin "3"
+			(uuid "3ff0e715-2077-446b-975f-147d85e53260")
+		)
+		(pin "4"
+			(uuid "fc300af0-2374-4f44-82da-07d93e2d3d49")
+		)
+		(pin "5"
+			(uuid "c8ff54c3-a877-4459-92dc-1f15e7d8c47e")
+		)
+		(pin "6"
+			(uuid "719d330a-d2c9-44d7-b3cb-6b58ae40c9d1")
+		)
+		(pin "7"
+			(uuid "2f561cf7-aba4-4360-8199-baf3710dbfd6")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 74.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee84635-286b-468f-8e76-347074927544")
+		(property "Reference" "U70"
+			(at 68.58 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 68.58 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d40258a-835b-4e7c-bde7-df435355301e")
+		)
+		(pin "2"
+			(uuid "80f70b76-2b31-4d6b-8008-d1e264ed8c5b")
+		)
+		(pin "3"
+			(uuid "6364b903-2100-4fd7-86f5-dca9211b96c7")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ETC4-1-2TR")
+		(at 171.45 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "720ec2ad-20f8-4cb8-a0c0-3ca59faca954")
+		(property "Reference" "U76"
+			(at 172.7201 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ETC1.6-4-2-3TR"
+			(at 170.1801 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FILTER-SMD_ETC4-1-2TR"
+			(at 156.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_MA-COM-ETC4-1-2TR_C314697.html"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500MHz~3GHz 3dB 4:1 SMD  Balun ROHS"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ETC1.6-4-2-3TR"
+			(at 151.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3304930"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/macom-ETC1_6_4_23TR/C3304930"
+			(at 171.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6245b0ad-d70f-48e3-8c13-ccebb373303e")
+		)
+		(pin "2"
+			(uuid "d4b951ca-1db9-446d-ab64-4d1df57c791e")
+		)
+		(pin "1"
+			(uuid "c4671705-7733-4790-9fa4-4b41cedf2708")
+		)
+		(pin "4"
+			(uuid "48e68d8c-ad3d-4710-9040-05da5186f137")
+		)
+		(pin "3"
+			(uuid "b491e698-d3d9-4247-b893-2ba394595b2d")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ETC4-1-2TR")
+		(at 111.76 96.52 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72255846-1065-46d3-ad5c-a4bf805c61c1")
+		(property "Reference" "U71"
+			(at 105.41 97.7901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ETC1.6-4-2-3TR"
+			(at 105.41 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:FILTER-SMD_ETC4-1-2TR"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_MA-COM-ETC4-1-2TR_C314697.html"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ETC1.6-4-2-3TR"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3304930"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500MHz~3GHz 3dB 4:1 SMD  Balun ROHS"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/macom-ETC1_6_4_23TR/C3304930"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5c5ce4f7-e831-48f4-87b5-becb125b0aae")
+		)
+		(pin "2"
+			(uuid "ebc78190-dbc0-4a1a-890c-abd9947278b7")
+		)
+		(pin "1"
+			(uuid "f820b7d6-11ed-452b-b289-389614623ce8")
+		)
+		(pin "4"
+			(uuid "6671035a-a792-4faa-9c90-306704ca2ad6")
+		)
+		(pin "3"
+			(uuid "4e4e0d19-7829-4bf5-b94a-a4d6a1604783")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9141fd60-84ee-4b2f-8242-2537c2b34984")
+		(property "Reference" "C12"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3pF"
+			(at 88.9 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 92.71 95.5548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603CG3R0C500NT"
+			(at 88.9 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46219"
+			(at 88.9 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3pF C0G 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 88.9 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/47222-0603CG3R0C500NT/C46219"
+			(at 88.9 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d198e7-3e24-469a-bf7b-d5c02cb1db78")
+		)
+		(pin "2"
+			(uuid "93ce59c8-cda8-474f-9abd-c2c4a5fd3369")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 236.22 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39b4ea6-aeea-421b-9b01-7edce3e082e4")
+		(property "Reference" "U74"
+			(at 242.57 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 242.57 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 236.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dafa1571-63af-431f-a40c-f46e54242f63")
+		)
+		(pin "2"
+			(uuid "de21aac7-9349-4522-b079-9de9c47ca86c")
+		)
+		(pin "3"
+			(uuid "0fb8be29-badf-4d9d-b2d2-286aa5112bc7")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/2f3cc62d-1507-4d4b-a86e-0bbad95b2c1d"
+					(reference "U74")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
