@@ -1,0 +1,1703 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fc8a6313-6272-4b18-a9b4-376cdf9752cd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "easyeda2kicad:ADT1-1+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADT1-1+"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2683432"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADT1-1+_0_1"
+				(rectangle
+					(start -20.32 5.08)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -19.05 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 2.54 0)
+					(length 2.54)
+					(name "PRIMARY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 0 0)
+					(length 2.54)
+					(name "NOTUSED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -2.54 0)
+					(length 2.54)
+					(name "PRIMARYDOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "SECONDARYDOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "NOTUSED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 2.54 180)
+					(length 2.54)
+					(name "SECONDARY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:BWU.FL-IPEX1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BWU.FL-IPEX1"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5137195"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BWU.FL-IPEX1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -7.62 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda2kicad:PE4140B-Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PE4140B-Z"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5336176"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PE4140B-Z_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "IF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "RF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "LO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "LO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "IF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 168.91 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f6062cd-578c-475a-9066-b9e33b384161")
+	)
+	(junction
+		(at 54.61 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940da211-5b5d-4eff-a8e4-b2ec40b00aa6")
+	)
+	(junction
+		(at 265.43 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a93c77-6d07-44fe-b676-a722eeb17bad")
+	)
+	(no_connect
+		(at 173.99 163.83)
+		(uuid "5f8f76f4-8924-4248-a9ef-2829bfde359c")
+	)
+	(no_connect
+		(at 173.99 118.11)
+		(uuid "978d2a0d-1bd8-4ca9-9128-9cac554ed33d")
+	)
+	(no_connect
+		(at 111.76 99.06)
+		(uuid "a1b21224-61eb-4561-8b30-51a9e012f52e")
+	)
+	(no_connect
+		(at 207.01 99.06)
+		(uuid "a95fca94-89b8-4c16-bbb0-4f5e97156345")
+	)
+	(no_connect
+		(at 66.04 99.06)
+		(uuid "cf32c430-7ba6-4785-86a5-2a5968f64bbd")
+	)
+	(no_connect
+		(at 252.73 99.06)
+		(uuid "eefe844c-da2e-4ce3-9178-a6781a1b9f64")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ce9640-1370-4b98-a970-620806a2f624")
+	)
+	(wire
+		(pts
+			(xy 176.53 116.84) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e3ed02-53b2-40e6-8d22-26adeaff75fa")
+	)
+	(wire
+		(pts
+			(xy 46.99 88.9) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fff6f83-ec6d-4f15-847e-c710b2e558ad")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ecd00d-3867-4cef-b803-c6b39c537024")
+	)
+	(wire
+		(pts
+			(xy 46.99 104.14) (xy 54.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e3e89d-518a-44d0-abe6-58a9ba253c11")
+	)
+	(wire
+		(pts
+			(xy 257.81 96.52) (xy 252.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a735fca-c84e-4e7d-9fc1-bcf4f538472c")
+	)
+	(wire
+		(pts
+			(xy 193.04 96.52) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad28a06-0aa8-4b93-9b97-e73548e4eb20")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fce739b-48d5-43ad-a99d-53bde5a42557")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33086998-df6e-4a8e-9952-7ea4a95cb7b7")
+	)
+	(wire
+		(pts
+			(xy 184.15 116.84) (xy 184.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d46316a-0542-4091-8985-fc7de26684f6")
+	)
+	(wire
+		(pts
+			(xy 54.61 104.14) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432ac2de-13b5-4ed7-a82d-5b41d5a1f19b")
+	)
+	(wire
+		(pts
+			(xy 184.15 177.8) (xy 168.91 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d731f7-f5a8-4dad-9e21-cdd428ac5820")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e0f286-86f4-4364-ba7d-16f04ee661e4")
+	)
+	(wire
+		(pts
+			(xy 193.04 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6ba732-b89a-4e5b-8da9-073bcb411628")
+	)
+	(wire
+		(pts
+			(xy 257.81 97.79) (xy 257.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719093e4-b0ce-4f4d-a292-36593902b736")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9f2f65-37d0-4060-9477-3dfd68fdc406")
+	)
+	(wire
+		(pts
+			(xy 257.81 97.79) (xy 259.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822329c0-fec5-4a36-9b47-408daf5fbcbf")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 171.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83508739-6054-4f14-ba7d-aa05686a8b37")
+	)
+	(wire
+		(pts
+			(xy 265.43 90.17) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8368560f-9fb4-4a51-95ef-efee18663473")
+	)
+	(wire
+		(pts
+			(xy 176.53 163.83) (xy 176.53 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87639a25-59db-411f-b42e-743b56a79f8d")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c3fb51-8789-475c-95c7-a136bb26006c")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b42b1df-4193-4eb3-9cb6-2e2e09e957a5")
+	)
+	(wire
+		(pts
+			(xy 252.73 105.41) (xy 265.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913bec0e-6ca1-4c19-8ac1-375c35ee7b18")
+	)
+	(wire
+		(pts
+			(xy 184.15 97.79) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9580d7de-fee3-49dc-83f5-f1dc80e74481")
+	)
+	(wire
+		(pts
+			(xy 168.91 163.83) (xy 171.45 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ef510-726d-4576-9b4d-2bd3aeb9b03b")
+	)
+	(wire
+		(pts
+			(xy 271.78 90.17) (xy 271.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a465a-26eb-4dc5-9196-660a8525e1c0")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23d5005-a1bd-4922-aa34-9f42731d9823")
+	)
+	(wire
+		(pts
+			(xy 168.91 177.8) (xy 168.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65669d2-8212-4842-b91e-f610288d1491")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6a2e81-6082-45c0-9737-c59429e9379f")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b2c4e1-9937-40e4-9b31-a7cd3bc3b9ee")
+	)
+	(wire
+		(pts
+			(xy 176.53 116.84) (xy 176.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0ec58a-6353-4051-a106-58809ba4c3e4")
+	)
+	(wire
+		(pts
+			(xy 184.15 171.45) (xy 184.15 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce227cc6-7147-4e81-ab35-4631d7cea655")
+	)
+	(wire
+		(pts
+			(xy 168.91 171.45) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d588fe96-9ec4-43dd-af6d-f2b6fcdfd0d6")
+	)
+	(wire
+		(pts
+			(xy 171.45 116.84) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96ac6a5-bc05-40cc-a373-2be19ec0b6f3")
+	)
+	(wire
+		(pts
+			(xy 271.78 105.41) (xy 265.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fb3eb5-dade-456b-b4f4-270eedf7cb27")
+	)
+	(wire
+		(pts
+			(xy 252.73 101.6) (xy 252.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece4fcc1-bde0-48ce-bba9-5648bf70eb67")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 163.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4f37ab-37a2-4807-97ff-fb333abc56a3")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8e6267-7e11-46c2-a1ff-32ce83f713d0")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f761f8c2-acef-4d6d-8588-3c66e877a303")
+	)
+	(text "Mixer (ADT)"
+		(exclude_from_sim no)
+		(at 159.766 76.708 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "03499f08-d635-4de1-99a6-86d6d1d75bda")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ADT1-1+")
+		(at 229.87 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d9c50a7-f2fe-49bf-89cb-92856bdf125e")
+		(property "Reference" "X3"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADT1-1+"
+			(at 229.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.71dB 5° 150kHz~400MHz 3dB 50Ω:50Ω SMD-6P  Balun ROHS"
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ADT1-1+"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2683432"
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/minicircuits-ADT1_1/C2683432"
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e84ab62-1d92-43b9-9804-919c60a9de08")
+		)
+		(pin "2"
+			(uuid "b3f1841a-7560-483d-b464-120936dba53d")
+		)
+		(pin "3"
+			(uuid "56e02b72-9bd5-4201-97f6-13676ab93cff")
+		)
+		(pin "4"
+			(uuid "f987838e-8f2f-46ec-91ad-6694429339d5")
+		)
+		(pin "5"
+			(uuid "23aad268-3951-4376-b4cd-3e8ae91ae1d6")
+		)
+		(pin "6"
+			(uuid "c65db58f-0c1a-40b4-80d7-15553db53fd8")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ADT1-1+")
+		(at 88.9 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17068b4c-a5cf-4920-9e26-504de7ca6a02")
+		(property "Reference" "X1"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADT1-1+"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.71dB 5° 150kHz~400MHz 3dB 50Ω:50Ω SMD-6P  Balun ROHS"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ADT1-1+"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2683432"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/minicircuits-ADT1_1/C2683432"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15932f96-84cc-467c-a9ec-f132dd875d73")
+		)
+		(pin "2"
+			(uuid "04d0293d-08dc-4f56-a649-0c25fb8c8109")
+		)
+		(pin "3"
+			(uuid "7c6f84b8-90bb-4268-a5d6-abb5790e48d3")
+		)
+		(pin "4"
+			(uuid "20195b01-8628-43fa-97f5-50ea5c1d0ffd")
+		)
+		(pin "5"
+			(uuid "7a058b80-ecac-4a2d-b032-65976a72b4d5")
+		)
+		(pin "6"
+			(uuid "80c4362f-70df-44b4-bda9-52d5c203462b")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 264.16 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8815d9a4-58d2-45f3-8390-3a22e731465e")
+		(property "Reference" "U83"
+			(at 270.51 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 270.51 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 264.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 264.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9dbbc74-5e7f-4586-b404-1d5126a5230c")
+		)
+		(pin "2"
+			(uuid "1ec91b32-5018-48f0-a4f9-9ac3adf65439")
+		)
+		(pin "3"
+			(uuid "c339c69d-b8c5-4535-a818-322db017c3da")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "U83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PE4140B-Z")
+		(at 173.99 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88dadbcf-e307-4c4b-b5b8-8a4c7b027466")
+		(property "Reference" "U80"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PE4140B-Z"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Mixer High-Linearity MOSFET Quad"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "PE4140B-Z"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5336176"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Psemi-PE4140BZ/C5336176"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6185063f-22c6-4636-8a86-58270d0912b6")
+		)
+		(pin "2"
+			(uuid "f0e6c06c-bed0-4ec2-a639-a81c58cabce2")
+		)
+		(pin "3"
+			(uuid "51e8b91e-23f6-4fbe-b195-4d758ef80d9c")
+		)
+		(pin "4"
+			(uuid "3ba2899e-46a6-4939-85b8-7984c6c3bacf")
+		)
+		(pin "5"
+			(uuid "f5036677-ab0f-43f5-9cff-aad0eabf8164")
+		)
+		(pin "6"
+			(uuid "2e49a39b-ada3-4a58-af7e-363ddd27a2fb")
+		)
+		(pin "7"
+			(uuid "4393fd08-322e-405d-b1d9-4ba8d2a2a9e4")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "U80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:ADT1-1+")
+		(at 173.99 140.97 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b344fe53-3a64-4559-880e-b66376b44886")
+		(property "Reference" "X2"
+			(at 167.64 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADT1-1+"
+			(at 167.64 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.71dB 5° 150kHz~400MHz 3dB 50Ω:50Ω SMD-6P  Balun ROHS"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ADT1-1+"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2683432"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/minicircuits-ADT1_1/C2683432"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f13375-dcef-45d7-86b5-5fcac2979e43")
+		)
+		(pin "2"
+			(uuid "7cdb5520-75e5-402e-bb8c-1264d10dee44")
+		)
+		(pin "3"
+			(uuid "62089b99-f7b6-4709-9cdf-6494f857dace")
+		)
+		(pin "4"
+			(uuid "c4279ad5-e98b-4795-bc10-f0d2108f31a0")
+		)
+		(pin "5"
+			(uuid "b37d1318-8985-43c5-bb9b-9b7971cd963a")
+		)
+		(pin "6"
+			(uuid "9620c198-0b52-4c13-a8af-62b5457cca76")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 176.53 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8552d36-4947-4d17-a1f9-1f001e139ad1")
+		(property "Reference" "U81"
+			(at 176.53 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 176.53 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 191.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 176.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 194.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 176.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 176.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07abb00-5902-4083-bd6f-8e79bba89df5")
+		)
+		(pin "2"
+			(uuid "f0528164-622b-41be-9dd7-63957840cacb")
+		)
+		(pin "3"
+			(uuid "b5eae6ec-cc2d-4e50-99ec-2931b9221066")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "U81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 55.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da9b89ca-e46e-482a-8301-ed6c437b71dd")
+		(property "Reference" "U77"
+			(at 49.53 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 49.53 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 55.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2658524b-e5c2-4397-9a15-8ae8779ccc28")
+		)
+		(pin "2"
+			(uuid "c0d1397d-4a84-4d67-8802-c1556be4b978")
+		)
+		(pin "3"
+			(uuid "2e71ba54-123e-4faf-af98-1d545fd4a2a1")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/fa751133-65f3-4836-af82-4e96c5097784"
+					(reference "U77")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

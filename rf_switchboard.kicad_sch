@@ -4410,195 +4410,6 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:ADT1-1+"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ADT1-1+"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C2683432"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADT1-1+_0_1"
-				(rectangle
-					(start -20.32 5.08)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -19.05 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 2.54 0)
-					(length 2.54)
-					(name "PRIMARY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 0 0)
-					(length 2.54)
-					(name "NOTUSED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -2.54 0)
-					(length 2.54)
-					(name "PRIMARYDOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 -2.54 180)
-					(length 2.54)
-					(name "SECONDARYDOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 0 180)
-					(length 2.54)
-					(name "NOTUSED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 22.86 2.54 180)
-					(length 2.54)
-					(name "SECONDARY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:BWU.FL-IPEX1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6563,10 +6374,6 @@
 	(no_connect
 		(at 14.605 191.77)
 		(uuid "f06b2856-6fe1-445b-8e63-53347196ad87")
-	)
-	(no_connect
-		(at 254 33.02)
-		(uuid "f8cac994-9b30-4e40-bfd0-0acd04e27e47")
 	)
 	(no_connect
 		(at 337.82 199.39)
@@ -13186,7 +12993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402WGF510JTCE"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 51Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 402.59 167.64 90)
 			(effects
 				(font
@@ -13196,15 +13003,6 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 402.59 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 51Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 402.59 167.64 90)
 			(effects
 				(font
@@ -16265,7 +16063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Mixer High-Linearity MOSFET Quad"
 			(at 412.75 219.71 0)
 			(effects
 				(font
@@ -16284,15 +16082,6 @@
 			)
 		)
 		(property "LCSC" "C5336176"
-			(at 412.75 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Mixer High-Linearity MOSFET Quad"
 			(at 412.75 219.71 0)
 			(effects
 				(font
@@ -19244,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402WGF2491TCE"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.49kΩ 0402  Chip Resistor - Surface Mount ROHS"
 			(at 397.51 163.83 90)
 			(effects
 				(font
@@ -19254,15 +19043,6 @@
 			)
 		)
 		(property "LCSC" "C25884"
-			(at 397.51 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.49kΩ 0402  Chip Resistor - Surface Mount ROHS"
 			(at 397.51 163.83 90)
 			(effects
 				(font
@@ -21323,95 +21103,6 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:ADT1-1+")
-		(at 245.11 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "815cd85e-115c-4492-a14b-684f4a0760c4")
-		(property "Reference" "X1"
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADT1-1+"
-			(at 245.11 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:XFMR-SMD_6P-L7.9-W5.6-P2.54-LS7.0-BL"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2683432"
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11db9b19-1480-487c-9768-860b1bea29df")
-		)
-		(pin "2"
-			(uuid "bdb3ee84-0c87-4512-bc7a-1282d9d29282")
-		)
-		(pin "3"
-			(uuid "893b5c08-7ccd-42ac-8e42-9983da9c2273")
-		)
-		(pin "4"
-			(uuid "52f00a3f-059b-4127-b6c3-1c097db04653")
-		)
-		(pin "5"
-			(uuid "ef4a1eb9-e548-4178-a271-2c3102fd32c8")
-		)
-		(pin "6"
-			(uuid "2b4a9e83-daa6-4193-a5ff-2fc2aac9ed7c")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -23926,7 +23617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0402FR-0762RL"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 62Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 388.62 142.24 90)
 			(effects
 				(font
@@ -23936,15 +23627,6 @@
 			)
 		)
 		(property "LCSC" "C274896"
-			(at 388.62 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 62Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 388.62 142.24 90)
 			(effects
 				(font
@@ -25652,7 +25334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0402WGF510JTCE"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 51Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 391.16 167.64 90)
 			(effects
 				(font
@@ -25662,15 +25344,6 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 391.16 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 51Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 391.16 167.64 90)
 			(effects
 				(font
@@ -27076,7 +26749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMS04FT2490"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 249Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 394.97 138.43 90)
 			(effects
 				(font
@@ -27086,15 +26759,6 @@
 			)
 		)
 		(property "LCSC" "C208840"
-			(at 394.97 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 249Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 394.97 138.43 90)
 			(effects
 				(font
@@ -28956,7 +28620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0402FR-0762RL"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 62Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 400.05 142.24 90)
 			(effects
 				(font
@@ -28966,15 +28630,6 @@
 			)
 		)
 		(property "LCSC" "C274896"
-			(at 400.05 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 62Ω 0402  Chip Resistor - Surface Mount ROHS"
 			(at 400.05 142.24 90)
 			(effects
 				(font
@@ -31108,6 +30763,44 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 395.605 281.94)
+		(size 40.64 24.765)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa751133-65f3-4836-af82-4e96c5097784")
+		(property "Sheetname" "mixer_adt"
+			(at 395.605 281.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer_adt.kicad_sch"
+			(at 395.605 307.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(page "11")
 				)
 			)
 		)

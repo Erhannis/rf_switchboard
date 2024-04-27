@@ -1,4 +1,4 @@
-24035081748260027
+24036795407379938
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98034,6 +98034,13 @@ DFN-6_L3.0-W3.0-P0.95-BL-EP-PE4140B-Z
 0
 9
 7
+easyeda2kicad
+FILTER-SMD_ETC4-1-2TR
+
+
+0
+5
+5
 easyeda2kicad
 FILTER-TH_4P-L17.0-W12.0-P7.00-D0.6-S8.00
 
