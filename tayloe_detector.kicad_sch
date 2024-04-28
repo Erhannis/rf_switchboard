@@ -1855,6 +1855,17 @@
 		)
 		(uuid "4ce52125-ca8a-48e5-b1b2-f77f12fd470f")
 	)
+	(text "These caps probably don't need to\nbe 5%, but I was being cautious."
+		(exclude_from_sim no)
+		(at 145.288 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73b62c3f-64e3-4493-8777-aa1e425002af")
+	)
 	(text "//CHECK Vary gain?"
 		(exclude_from_sim no)
 		(at 210.566 89.408 0)
@@ -1864,6 +1875,16 @@
 			)
 		)
 		(uuid "8f997e26-9ab7-4892-8690-df31d436cec2")
+	)
+	(text "//THINK We might want smaller caps,\nif these restrict bandwidth too much"
+		(exclude_from_sim no)
+		(at 158.496 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a86d76b0-7561-469b-bb1d-572e3fbda217")
 	)
 	(text "//THINK I made this cap 1000x bigger.\nDidn't want it blocking many low freq.\nCould be wrong."
 		(exclude_from_sim no)
@@ -2465,7 +2486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -2492,7 +2513,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "CC0805JKX7R9BB224"
+		(property "MFR" "0402X224J100CT"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -2501,7 +2522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C520076"
+		(property "LCSC" "C295939"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -2510,7 +2531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 220nF X7R ±5% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -2519,7 +2540,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0805JKX7R9BB224/C520076"
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
 			(at 158.75 81.28 0)
 			(effects
 				(font
@@ -3087,7 +3108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -3114,7 +3135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "CC0805JKX7R9BB224"
+		(property "MFR" "0402X224J100CT"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -3123,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C520076"
+		(property "LCSC" "C295939"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -3132,7 +3153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 220nF X7R ±5% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -3141,7 +3162,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0805JKX7R9BB224/C520076"
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
 			(at 154.94 73.66 0)
 			(effects
 				(font
@@ -3739,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3766,7 +3787,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "CC0805JKX7R9BB224"
+		(property "MFR" "0402X224J100CT"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3775,7 +3796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C520076"
+		(property "LCSC" "C295939"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3784,7 +3805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 220nF X7R ±5% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3793,7 +3814,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0805JKX7R9BB224/C520076"
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -3960,7 +3981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -3987,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "CC0805JKX7R9BB224"
+		(property "MFR" "0402X224J100CT"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -3996,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C520076"
+		(property "LCSC" "C295939"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -4005,7 +4026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 220nF X7R ±5% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -4014,7 +4035,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0805JKX7R9BB224/C520076"
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
 			(at 162.56 88.9 0)
 			(effects
 				(font
