@@ -1054,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 66.04) (xy 195.58 66.04)
+			(xy 195.58 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 81.28) (xy 201.93 81.28)
+			(xy 195.58 81.28) (xy 209.55 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1414,16 +1414,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 81.28) (xy 207.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78fd9171-ef30-4c2a-bc0b-e85f3fd7a6ec")
-	)
-	(wire
-		(pts
 			(xy 195.58 43.18) (xy 195.58 52.07)
 		)
 		(stroke
@@ -1624,16 +1614,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 207.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac81cae-f761-4e57-a00d-6e592f50ebd8")
-	)
-	(wire
-		(pts
 			(xy 106.68 57.15) (xy 106.68 58.42)
 		)
 		(stroke
@@ -1810,6 +1790,44 @@
 			(justify left top)
 		)
 		(uuid "209ba9f5-414d-4ae9-9444-3c64925fb8cc")
+	)
+	(text_box "//THINK I removed some 1uF caps, here - wanted to permit 0Hz signals, if any made it through the detector. Not sure if good idea.  It wasn't in the ORIGINAL schematic, anyway."
+		(exclude_from_sim no)
+		(at 194.945 68.58 0)
+		(size 50.165 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "84f86ec5-684a-4baa-a6e8-ae277fec96a0")
+	)
+	(text_box "Adapted from\nhttps://github.com/michalin/easysdr (GPL)\nand the original paper\nhttps://www.norcalqrp.org/files/Tayloe_mixer_x3a.pdf"
+		(exclude_from_sim no)
+		(at 17.145 151.13 0)
+		(size 153.67 42.545)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left top)
+		)
+		(uuid "db5f14f6-414e-499f-84d7-6e0ae246c36c")
 	)
 	(text "00=0°"
 		(exclude_from_sim no)
@@ -2074,101 +2092,6 @@
 			(justify right)
 		)
 		(uuid "f8b26368-79e3-49da-ba44-67b0273fff38")
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 204.47 81.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04db156c-fb01-4a2c-a840-c265e1f21213")
-		(property "Reference" "C6_TD1"
-			(at 204.4637 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 204.4637 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1uF X7R ±10% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL21B105KBFNNNE"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28323"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323"
-			(at 204.47 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6201eb91-8821-407c-9708-c56fee5a61f5")
-		)
-		(pin "1"
-			(uuid "55deeb1a-3b8b-4dce-8cfe-269d2dc3145c")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/4b385337-beca-48d0-b060-34b9c529bbe6"
-					(reference "C6_TD1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -3623,110 +3546,6 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/4b385337-beca-48d0-b060-34b9c529bbe6"
 					(reference "C7_TD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 204.47 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3956c44-58d3-4af4-8407-83e41dae8ea2")
-		(property "Reference" "C5_TD1"
-			(at 204.4763 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 204.4763 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL21B105KBFNNNE"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28323"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1uF X7R ±10% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/29074-CL21B105KBFNNNE/C28323"
-			(at 204.47 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8b89676-94bb-44d9-9aeb-7c25683b914f")
-		)
-		(pin "1"
-			(uuid "17f212cd-165a-478f-a69b-299abaadb902")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/4b385337-beca-48d0-b060-34b9c529bbe6"
-					(reference "C5_TD1")
 					(unit 1)
 				)
 			)
