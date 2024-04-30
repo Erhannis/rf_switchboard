@@ -662,6 +662,10 @@
       "tayloe_detector"
     ],
     [
+      "bceb76ee-21a3-4383-883c-86cf95540958",
+      "tayloe_detector_var"
+    ],
+    [
       "69dc05ef-e62a-40ad-950d-12c03698a083",
       "dvc"
     ]
