@@ -3084,7 +3084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±20% ±100ppm/℃ 125mW 2MΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -3103,15 +3103,6 @@
 			)
 		)
 		(property "LCSC" "C124623"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±20% ±100ppm/℃ 125mW 2MΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
 			(at 187.96 50.8 0)
 			(effects
 				(font
