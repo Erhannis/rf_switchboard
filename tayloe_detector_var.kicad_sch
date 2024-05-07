@@ -2239,7 +2239,7 @@
 		)
 		(uuid "636c561d-8e3c-404e-9e11-ca2c49221af8")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "BIASx2"
 		(shape input)
 		(at 106.68 55.88 90)
 		(fields_autoplaced yes)
