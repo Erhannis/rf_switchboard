@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -132,7 +132,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -186,6 +186,7 @@
         0.3,
         0.4,
         0.5,
+        0.6,
         0.8
       ],
       "tuning_pattern_settings": {
@@ -664,6 +665,18 @@
     [
       "bceb76ee-21a3-4383-883c-86cf95540958",
       "tayloe_detector_var"
+    ],
+    [
+      "2f98bece-9dfc-4b27-aa8d-4e02c9b536ae",
+      "si5351ab1"
+    ],
+    [
+      "bcfcedc4-d6d8-47fa-9b1c-02c314f95bf8",
+      "hi_amp1"
+    ],
+    [
+      "3ec07d0f-007e-4f63-85c6-4d6995410455",
+      "lo_amp1"
     ],
     [
       "69dc05ef-e62a-40ad-950d-12c03698a083",

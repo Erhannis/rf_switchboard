@@ -2191,42 +2191,6 @@
 		)
 		(uuid "e94ee1fd-4afd-46f6-beb8-c7e2680a2925")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 207.01 105.41 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ff58c6c-e28f-4a2e-b2a5-579d5a8214f9")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 111.76 57.15 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "452c5e01-c09e-4415-bf72-9816d96fe0b7")
-	)
-	(hierarchical_label "Q"
-		(shape output)
-		(at 209.55 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46e34aa7-cf1a-4e5a-beb2-653003456043")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 106.68 71.12 270)
@@ -2237,7 +2201,7 @@
 			)
 			(justify right)
 		)
-		(uuid "636c561d-8e3c-404e-9e11-ca2c49221af8")
+		(uuid "001bd69f-7cb8-4b24-9fb4-87f9e45ce71d")
 	)
 	(hierarchical_label "BIASx2"
 		(shape input)
@@ -2249,23 +2213,11 @@
 			)
 			(justify left)
 		)
-		(uuid "67f8dc4d-1651-4546-941e-bcd0c5b65dfd")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 157.48 99.06 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75c8f2e7-a4ba-4dff-8f00-24c40fe663c1")
+		(uuid "1f430026-f3cc-4618-ad4f-035482714a23")
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 124.46 48.26 90)
+		(at 207.01 105.41 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2273,19 +2225,19 @@
 			)
 			(justify left)
 		)
-		(uuid "aab12163-b50f-4535-9e8a-919fdf843d51")
+		(uuid "34a01691-8939-403d-bc94-5a853ef3a21c")
 	)
-	(hierarchical_label "S0"
-		(shape input)
-		(at 114.3 73.66 180)
+	(hierarchical_label "Q"
+		(shape output)
+		(at 209.55 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "bb160005-accc-4b21-ab72-f337a7dafcaa")
+		(uuid "3a384adc-9b6c-4691-b965-a583ae67e73a")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2297,11 +2249,11 @@
 			)
 			(justify right)
 		)
-		(uuid "c349239a-227b-40ba-8fe4-4724d8ec7b72")
+		(uuid "3c7c5f97-a139-4489-91d0-05747c6aa691")
 	)
-	(hierarchical_label "I"
-		(shape output)
-		(at 209.55 66.04 0)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 111.76 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2309,11 +2261,11 @@
 			)
 			(justify left)
 		)
-		(uuid "cfdf45e6-107a-4359-b982-2b5ff6de1cdd")
+		(uuid "3ce3018f-b5db-4751-9a9e-793408d9a569")
 	)
-	(hierarchical_label "S1"
+	(hierarchical_label "S0"
 		(shape input)
-		(at 114.3 76.2 180)
+		(at 114.3 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2321,19 +2273,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d191aab0-d71e-4c87-981d-a5851b606a08")
-	)
-	(hierarchical_label "RFIN"
-		(shape input)
-		(at 97.79 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e16015c2-759c-47a3-85fd-3d2ac31b32ac")
+		(uuid "4dd88659-0d90-40ae-b9c9-44c71e330904")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2345,7 +2285,67 @@
 			)
 			(justify right)
 		)
-		(uuid "f8b26368-79e3-49da-ba44-67b0273fff38")
+		(uuid "6f946310-5695-4514-bbe5-b67eca8aa681")
+	)
+	(hierarchical_label "S1"
+		(shape input)
+		(at 114.3 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75378aac-94ed-46ae-bbbb-6688d4c967d2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 157.48 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a767d244-1781-4df2-abb3-1798c154834e")
+	)
+	(hierarchical_label "I"
+		(shape output)
+		(at 209.55 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc7d5e21-b115-42b6-8757-11a895c36b72")
+	)
+	(hierarchical_label "RFIN"
+		(shape input)
+		(at 97.79 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2397675-5bd7-43a9-b841-1209e1bf078f")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 124.46 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e85f4a1e-3deb-4cb5-b969-cdc5ba582c70")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2356,7 +2356,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "081f0069-9e1e-4eb6-9abc-93b48b0f708e")
+		(uuid "2a5cc101-e974-493a-99d3-d9cc7aa06bf2")
 		(property "Reference" "R2_TDV1"
 			(at 109.22 67.3099 0)
 			(effects
@@ -2445,6 +2445,317 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:3313J-1-500E")
+		(at 187.96 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "301dd19a-0f43-4a45-ab9a-a6c6a5c34731")
+		(property "Reference" "R4_TDV1"
+			(at 187.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500k"
+			(at 187.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "3313J-1-504E"
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C124628"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20% ±100ppm/℃ 125mW 500kΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3313J_1504E/C124628"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "065b88b3-aa33-4a2e-a45d-b51ecbd3430a")
+		)
+		(pin "2"
+			(uuid "28eb7efe-668c-48c0-ab8c-b5faf40f587d")
+		)
+		(pin "3"
+			(uuid "9dbed41f-dd81-42f2-ad45-5c94901e77d0")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "R4_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:3313J-1-500E")
+		(at 187.96 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "361f2eb3-0f25-42bc-a76b-c5974cf065a9")
+		(property "Reference" "R3_TDV1"
+			(at 187.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500k"
+			(at 187.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "3313J-1-504E"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C124628"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20% ±100ppm/℃ 125mW 500kΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3313J_1504E/C124628"
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc154e60-f1ec-44c9-9eb5-d07885cc29f8")
+		)
+		(pin "2"
+			(uuid "f34ca833-21a1-40ce-9dad-98f520bdefbc")
+		)
+		(pin "3"
+			(uuid "e91541b8-3365-4868-a7b8-1afc66dbc4aa")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "R3_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 106.68 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db71113-18d0-4fdc-a0b4-6cca71e01c5f")
+		(property "Reference" "R1_TDV1"
+			(at 109.22 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "RC0402FR-0710KL"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0710KL/C60490"
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e61908bc-ad3d-402d-8092-b85ddfadbd76")
+		)
+		(pin "2"
+			(uuid "20bbaf51-50d6-4e77-9b31-53108a53621a")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "R1_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 43.18 90)
 		(unit 1)
@@ -2453,7 +2764,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0cbbc546-1981-46b3-8ab5-0de1fdb32637")
+		(uuid "6847034c-ef93-4a9f-8519-933373ee5b1e")
 		(property "Reference" "C10_TDV1"
 			(at 187.9663 36.83 90)
 			(effects
@@ -2541,6 +2852,103 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 162.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68836dbd-086a-45ef-8485-681277d8ecee")
+		(property "Reference" "C4_TDV1"
+			(at 165.1 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 165.1 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402X224J100CT"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C295939"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63376f4a-1cfe-435c-9f7b-900edcf3d054")
+		)
+		(pin "1"
+			(uuid "7d877ab2-bf2f-4511-a053-e476977fbf87")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "C4_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 187.96 101.6 90)
 		(mirror x)
 		(unit 1)
@@ -2549,7 +2957,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "101e841a-7b45-465e-9585-80dfe3f6ab69")
+		(uuid "6bbcc323-a90b-4a99-9a1c-441d9c20b953")
 		(property "Reference" "C11_TDV1"
 			(at 187.9663 107.95 90)
 			(effects
@@ -2637,6 +3045,295 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 151.13 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853b2f43-ef95-4787-9e2d-6e2cad1c81a0")
+		(property "Reference" "C1_TDV1"
+			(at 153.67 64.7762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 153.67 67.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402X224J100CT"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C295939"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef42f068-ae64-46e8-ac40-ad7c785d0e01")
+		)
+		(pin "1"
+			(uuid "0372e9e9-9e23-4656-9ecb-9d27929ff6b1")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "C1_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9762ace4-b643-473f-a1ae-873c762a574f")
+		(property "Reference" "C12_TDV1"
+			(at 204.47 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 204.47 114.3062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05A105KP5NNNC"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
+			(at 201.93 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b78a119a-ef0f-40e7-b6b5-10f72b02aca1")
+		)
+		(pin "1"
+			(uuid "62a5451c-d587-4bdd-a24f-5bd97b6da16b")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "C12_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c0cdff-cdfc-4d56-9f79-c0c015ba0d72")
+		(property "Reference" "C7_TDV1"
+			(at 101.6063 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 101.6063 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05A105KP5NNNC"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
+			(at 101.6 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "136435a5-2375-402c-9014-5b64b4392177")
+		)
+		(pin "1"
+			(uuid "3f3c4930-163d-4c55-b749-c4770a73d1f4")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "C7_TDV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 158.75 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2644,7 +3341,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b100acb-4b8a-497a-9e48-2051e223d02f")
+		(uuid "b5b46009-4ddf-423f-bf43-b0492a44f3f0")
 		(property "Reference" "C3_TDV1"
 			(at 161.29 80.0162 0)
 			(effects
@@ -2734,34 +3431,32 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 201.93 113.03 0)
+		(at 121.92 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1df587b0-34ef-40c0-b567-9ce71b3e840d")
-		(property "Reference" "C12_TDV1"
-			(at 204.47 111.7662 0)
+		(uuid "bd9c357f-7f30-4afd-968c-1e8514664f6f")
+		(property "Reference" "C8_TDV1"
+			(at 121.9263 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 204.47 114.3062 0)
+			(at 121.9263 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 201.93 113.03 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +3465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 113.03 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +3474,7 @@
 			)
 		)
 		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 201.93 113.03 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +3483,7 @@
 			)
 		)
 		(property "MFR" "CL05A105KP5NNNC"
-			(at 201.93 113.03 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +3492,7 @@
 			)
 		)
 		(property "LCSC" "C14445"
-			(at 201.93 113.03 0)
+			(at 121.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +3501,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
-			(at 201.93 113.03 90)
+			(at 121.92 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,15 +3510,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b78a119a-ef0f-40e7-b6b5-10f72b02aca1")
+			(uuid "d911be3e-2a2f-4377-8bc3-f45466f6a971")
 		)
 		(pin "1"
-			(uuid "62a5451c-d587-4bdd-a24f-5bd97b6da16b")
+			(uuid "b8622659-1dcc-48c4-9dd7-99e3ee43f802")
 		)
 		(instances
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C12_TDV1")
+					(reference "C8_TDV1")
 					(unit 1)
 				)
 			)
@@ -2838,7 +3533,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21bb079a-6377-407c-ba99-6c041ad8855c")
+		(uuid "c66d91bd-a695-4fff-9624-49c872c577aa")
 		(property "Reference" "U2_TDV1"
 			(at 187.96 55.88 0)
 			(effects
@@ -2943,310 +3638,17 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:3313J-1-500E")
-		(at 187.96 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "301dd19a-0f43-4a45-ab9a-a6c6a5c34731")
-		(property "Reference" "R4_TDV1"
-			(at 187.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2M"
-			(at 187.71 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
-			(at 187.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±20% ±100ppm/℃ 125mW 2MΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
-			(at 187.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "3313J-1-205E"
-			(at 187.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C124623"
-			(at 187.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3313J_1205E/C124623"
-			(at 187.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "065b88b3-aa33-4a2e-a45d-b51ecbd3430a")
-		)
-		(pin "2"
-			(uuid "28eb7efe-668c-48c0-ab8c-b5faf40f587d")
-		)
-		(pin "3"
-			(uuid "9dbed41f-dd81-42f2-ad45-5c94901e77d0")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "R4_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:3313J-1-500E")
-		(at 187.96 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "361f2eb3-0f25-42bc-a76b-c5974cf065a9")
-		(property "Reference" "R3_TDV1"
-			(at 187.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2M"
-			(at 187.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:RES-ADJ-SMD_3313J-1"
-			(at 187.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±20% ±100ppm/℃ 125mW 2MΩ SMD,3.2x3.5mm  Variable Resistors/Potentiometers ROHS"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "3313J-1-205E"
-			(at 187.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C124623"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Bourns-3313J_1205E/C124623"
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc154e60-f1ec-44c9-9eb5-d07885cc29f8")
-		)
-		(pin "2"
-			(uuid "f34ca833-21a1-40ce-9dad-98f520bdefbc")
-		)
-		(pin "3"
-			(uuid "e91541b8-3365-4868-a7b8-1afc66dbc4aa")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "R3_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 106.68 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "418adc64-bbb1-4335-8ec6-40622200cfd0")
-		(property "Reference" "R1_TDV1"
-			(at 109.22 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 109.22 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402  Chip Resistor - Surface Mount ROHS"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "RC0402FR-0710KL"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Yageo-RC0402FR0710KL/C60490"
-			(at 106.68 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e61908bc-ad3d-402d-8092-b85ddfadbd76")
-		)
-		(pin "2"
-			(uuid "20bbaf51-50d6-4e77-9b31-53108a53621a")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "R1_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 55.88 90)
+		(at 109.22 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "660744dc-4801-4814-89b1-4ab229f118fb")
-		(property "Reference" "C8_TDV1"
-			(at 121.9263 49.53 90)
+		(uuid "d6abf420-e402-41c1-b5a5-9d1336988697")
+		(property "Reference" "C9_TDV1"
+			(at 109.2263 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3656,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 121.9263 52.07 90)
+			(at 109.2263 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.92 55.88 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 55.88 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3682,7 @@
 			)
 		)
 		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 121.92 55.88 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3691,7 @@
 			)
 		)
 		(property "MFR" "CL05A105KP5NNNC"
-			(at 121.92 55.88 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3700,7 @@
 			)
 		)
 		(property "LCSC" "C14445"
-			(at 121.92 55.88 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3709,7 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
-			(at 121.92 55.88 90)
+			(at 109.22 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,16 +3718,244 @@
 			)
 		)
 		(pin "2"
-			(uuid "d911be3e-2a2f-4377-8bc3-f45466f6a971")
+			(uuid "dc8bcf9c-0748-4309-9972-c7d9f6a74a29")
 		)
 		(pin "1"
-			(uuid "b8622659-1dcc-48c4-9dd7-99e3ee43f802")
+			(uuid "082baa1c-88c9-4973-824f-59e3041ffc4b")
 		)
 		(instances
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C8_TDV1")
+					(reference "C9_TDV1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM4562")
+		(at 209.55 113.03 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eceb3eb2-6da5-416d-a7db-19ccb18bffb0")
+		(property "Reference" "U2_TDV1"
+			(at 208.28 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM4562"
+			(at 208.28 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4562.pdf"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "双声道 SOIC-8  Audio Power OpAmps ROHS"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "LM4562MAX/NOPB"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57367"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM4562MAXNOPB/C57367"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d6bae5-1e72-467e-968f-97ab1f5422f7")
+		)
+		(pin "2"
+			(uuid "f5c7cfd1-89fe-4a52-aff9-9aab0dd36221")
+		)
+		(pin "6"
+			(uuid "af8ecb77-5416-4d01-a6c6-b8d8563f5448")
+		)
+		(pin "5"
+			(uuid "59b1aab7-67fb-48c3-859a-0ed7b8731921")
+		)
+		(pin "3"
+			(uuid "6cb8561c-5183-41fd-ab88-0a3631efbc4a")
+		)
+		(pin "8"
+			(uuid "3271fc61-925e-4ead-83e6-eb054d6fa37c")
+		)
+		(pin "7"
+			(uuid "9dc9831c-396e-4125-9f0f-e48856320f07")
+		)
+		(pin "4"
+			(uuid "a2ba8223-442e-499a-8c18-7a11893c2280")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "U2_TDV1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM4562")
+		(at 187.96 81.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f613880a-630d-4199-aa3a-8daca8b22217")
+		(property "Reference" "U2_TDV1"
+			(at 187.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM4562"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4562.pdf"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "双声道 SOIC-8  Audio Power OpAmps ROHS"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "LM4562MAX/NOPB"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57367"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM4562MAXNOPB/C57367"
+			(at 187.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d6bae5-1e72-467e-968f-97ab1f5422f8")
+		)
+		(pin "2"
+			(uuid "f5c7cfd1-89fe-4a52-aff9-9aab0dd36222")
+		)
+		(pin "6"
+			(uuid "af8ecb77-5416-4d01-a6c6-b8d8563f5449")
+		)
+		(pin "5"
+			(uuid "59b1aab7-67fb-48c3-859a-0ed7b8731922")
+		)
+		(pin "3"
+			(uuid "6cb8561c-5183-41fd-ab88-0a3631efbc4b")
+		)
+		(pin "8"
+			(uuid "3271fc61-925e-4ead-83e6-eb054d6fa37d")
+		)
+		(pin "7"
+			(uuid "9dc9831c-396e-4125-9f0f-e48856320f08")
+		)
+		(pin "4"
+			(uuid "a2ba8223-442e-499a-8c18-7a11893c2281")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
+					(reference "U2_TDV1")
+					(unit 2)
 				)
 			)
 		)
@@ -3339,7 +3969,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a1fc4ce-fb2f-48e6-999c-43211e9a3d0a")
+		(uuid "fc5e4b7a-833c-4ba4-92c4-33c8ad6d4e32")
 		(property "Reference" "C2_TDV1"
 			(at 157.48 72.3962 0)
 			(effects
@@ -3428,101 +4058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 109.22 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93e098df-6b60-4654-b785-bbb909a980ba")
-		(property "Reference" "C9_TDV1"
-			(at 109.2263 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 109.2263 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL05A105KP5NNNC"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14445"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
-			(at 109.22 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc8bcf9c-0748-4309-9972-c7d9f6a74a29")
-		)
-		(pin "1"
-			(uuid "082baa1c-88c9-4973-824f-59e3041ffc4b")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C9_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:SN74CBT3253")
 		(at 124.46 73.66 0)
 		(unit 1)
@@ -3531,7 +4066,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "96981c72-7b43-4be0-b339-42d56826f9c1")
+		(uuid "ffa719ae-084c-4403-ad56-57cdb06002e2")
 		(property "Reference" "U1_TDV1"
 			(at 126.6541 55.88 0)
 			(effects
@@ -3657,523 +4192,6 @@
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
 					(reference "U1_TDV1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3aad0f2-d34d-4f2a-b09b-6df6c3f88186")
-		(property "Reference" "C7_TDV1"
-			(at 101.6063 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 101.6063 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 1uF X5R ±10% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "CL05A105KP5NNNC"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14445"
-			(at 101.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/15107-CL05A105KP5NNNC/C14445"
-			(at 101.6 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "136435a5-2375-402c-9014-5b64b4392177")
-		)
-		(pin "1"
-			(uuid "3f3c4930-163d-4c55-b749-c4770a73d1f4")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C7_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 151.13 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dede40e9-eee9-4954-87cc-215460927867")
-		(property "Reference" "C1_TDV1"
-			(at 153.67 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 153.67 67.3162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402X224J100CT"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C295939"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
-			(at 151.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef42f068-ae64-46e8-ac40-ad7c785d0e01")
-		)
-		(pin "1"
-			(uuid "0372e9e9-9e23-4656-9ecb-9d27929ff6b1")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C1_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM4562")
-		(at 209.55 113.03 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6271001-b86c-4eb9-a0ea-5b377ae09914")
-		(property "Reference" "U2_TDV1"
-			(at 208.28 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM4562"
-			(at 208.28 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4562.pdf"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "双声道 SOIC-8  Audio Power OpAmps ROHS"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "LM4562MAX/NOPB"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C57367"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM4562MAXNOPB/C57367"
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d6bae5-1e72-467e-968f-97ab1f5422f7")
-		)
-		(pin "2"
-			(uuid "f5c7cfd1-89fe-4a52-aff9-9aab0dd36221")
-		)
-		(pin "6"
-			(uuid "af8ecb77-5416-4d01-a6c6-b8d8563f5448")
-		)
-		(pin "5"
-			(uuid "59b1aab7-67fb-48c3-859a-0ed7b8731921")
-		)
-		(pin "3"
-			(uuid "6cb8561c-5183-41fd-ab88-0a3631efbc4a")
-		)
-		(pin "8"
-			(uuid "3271fc61-925e-4ead-83e6-eb054d6fa37c")
-		)
-		(pin "7"
-			(uuid "9dc9831c-396e-4125-9f0f-e48856320f07")
-		)
-		(pin "4"
-			(uuid "a2ba8223-442e-499a-8c18-7a11893c2280")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "U2_TDV1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 162.56 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6499b12-7ebe-4645-abf9-38a24dccd32a")
-		(property "Reference" "C4_TDV1"
-			(at 165.1 87.6362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 165.1 90.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 220nF X5R ±5% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "0402X224J100CT"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C295939"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/Walsin_TechCorp-0402X224J100CT/C295939"
-			(at 162.56 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63376f4a-1cfe-435c-9f7b-900edcf3d054")
-		)
-		(pin "1"
-			(uuid "7d877ab2-bf2f-4511-a053-e476977fbf87")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "C4_TDV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM4562")
-		(at 187.96 81.28 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee037833-535d-456a-b4f1-0669f2ffebed")
-		(property "Reference" "U2_TDV1"
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM4562"
-			(at 187.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4562.pdf"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "双声道 SOIC-8  Audio Power OpAmps ROHS"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "LM4562MAX/NOPB"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C57367"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/TexasInstruments-LM4562MAXNOPB/C57367"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d6bae5-1e72-467e-968f-97ab1f5422f8")
-		)
-		(pin "2"
-			(uuid "f5c7cfd1-89fe-4a52-aff9-9aab0dd36222")
-		)
-		(pin "6"
-			(uuid "af8ecb77-5416-4d01-a6c6-b8d8563f5449")
-		)
-		(pin "5"
-			(uuid "59b1aab7-67fb-48c3-859a-0ed7b8731922")
-		)
-		(pin "3"
-			(uuid "6cb8561c-5183-41fd-ab88-0a3631efbc4b")
-		)
-		(pin "8"
-			(uuid "3271fc61-925e-4ead-83e6-eb054d6fa37d")
-		)
-		(pin "7"
-			(uuid "9dc9831c-396e-4125-9f0f-e48856320f08")
-		)
-		(pin "4"
-			(uuid "a2ba8223-442e-499a-8c18-7a11893c2281")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e/bceb76ee-21a3-4383-883c-86cf95540958"
-					(reference "U2_TDV1")
-					(unit 2)
 				)
 			)
 		)
