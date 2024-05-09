@@ -8115,6 +8115,159 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:ZTS6117H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZTS6117H"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:MIC-SMD_4P-L2.8-W1.9-P1.84-TL_ZTS6117"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2999748"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZTS6117H_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V2"
 			(power)
 			(pin_names
@@ -8811,6 +8964,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e8505a7-863f-44cf-9565-273bb2903a08")
+	)
+	(junction
+		(at 637.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3c0c13-c08b-4aa4-8b4b-1bcdafab09da")
+	)
+	(junction
+		(at 623.57 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2010df13-5541-470f-859d-031f9e93e96a")
 	)
 	(junction
 		(at 588.01 261.62)
@@ -9653,6 +9818,12 @@
 		(uuid "98aa8da1-c13f-43fe-a6a8-37fab157abf5")
 	)
 	(junction
+		(at 655.32 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e5658d-35b6-4c1e-a475-71610d6b56e2")
+	)
+	(junction
 		(at 584.835 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9663,6 +9834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec8288c-5309-4c68-8d50-6aa6dde127f5")
+	)
+	(junction
+		(at 655.32 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee6a96e-600f-4674-bc66-5f243bce9f5f")
 	)
 	(junction
 		(at 411.48 146.05)
@@ -9857,6 +10034,12 @@
 		(uuid "bfef0634-5d07-4091-8410-8c2826feeb7d")
 	)
 	(junction
+		(at 623.57 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03d276c-c4c2-4bf3-b265-ea54b5b3aaf0")
+	)
+	(junction
 		(at 588.01 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10023,6 +10206,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da5b7d24-73d2-477a-8390-93ff187d2aa1")
+	)
+	(junction
+		(at 637.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db056d81-ff20-4856-97e7-30862211b323")
 	)
 	(junction
 		(at 349.25 146.05)
@@ -11754,6 +11943,16 @@
 	)
 	(wire
 		(pts
+			(xy 637.54 34.29) (xy 655.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee03bf1-9e4e-4c3c-af92-fed49323b88a")
+	)
+	(wire
+		(pts
 			(xy 216.535 241.935) (xy 212.09 241.935)
 		)
 		(stroke
@@ -12844,6 +13043,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 48.26) (xy 657.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35441389-8e73-43b8-a454-80de5ecab0ae")
+	)
+	(wire
+		(pts
 			(xy 468.63 96.52) (xy 487.68 96.52)
 		)
 		(stroke
@@ -13041,6 +13250,16 @@
 			(type default)
 		)
 		(uuid "39536a21-cf97-4d9c-a289-62ccf1f4b265")
+	)
+	(wire
+		(pts
+			(xy 618.49 40.64) (xy 618.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397b1d11-21ae-491e-9231-dc2d23544273")
 	)
 	(wire
 		(pts
@@ -13684,6 +13903,16 @@
 	)
 	(wire
 		(pts
+			(xy 623.57 40.64) (xy 618.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d4b478-577a-4e10-b40a-908346993dbd")
+	)
+	(wire
+		(pts
 			(xy 362.585 50.8) (xy 362.585 57.785)
 		)
 		(stroke
@@ -13731,6 +13960,16 @@
 			(type default)
 		)
 		(uuid "48e68250-aba4-4278-bd61-d74ba181d0cf")
+	)
+	(wire
+		(pts
+			(xy 655.32 50.8) (xy 657.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e7d31a-d50c-4082-a2a6-6886e632728f")
 	)
 	(wire
 		(pts
@@ -13811,6 +14050,16 @@
 			(type default)
 		)
 		(uuid "4a63b9f0-38e4-4953-8c70-c84af5c978cb")
+	)
+	(wire
+		(pts
+			(xy 655.32 55.88) (xy 655.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1de938-1510-47ac-a72f-79d6f28fd58e")
 	)
 	(wire
 		(pts
@@ -15044,6 +15293,16 @@
 	)
 	(wire
 		(pts
+			(xy 623.57 34.29) (xy 637.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650996d2-71c6-4ddf-930c-26024a547b4c")
+	)
+	(wire
+		(pts
 			(xy 591.82 67.31) (xy 591.82 74.295)
 		)
 		(stroke
@@ -15061,6 +15320,16 @@
 			(type solid)
 		)
 		(uuid "651b0e43-76be-4295-93d6-cce0994ee286")
+	)
+	(wire
+		(pts
+			(xy 618.49 55.88) (xy 623.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652fe91e-f625-468f-a9f0-0665806a40e1")
 	)
 	(wire
 		(pts
@@ -15301,6 +15570,16 @@
 			(type default)
 		)
 		(uuid "6ae11e41-5901-4b53-8a80-64c7b22eda86")
+	)
+	(wire
+		(pts
+			(xy 618.49 19.05) (xy 618.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b04b398-bf38-4013-ba35-548aa3ff8aaf")
 	)
 	(wire
 		(pts
@@ -16914,6 +17193,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 26.67) (xy 657.86 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edac8ff-43ad-43cb-bdd8-fab8559b996e")
+	)
+	(wire
+		(pts
 			(xy 422.91 189.23) (xy 422.91 200.66)
 		)
 		(stroke
@@ -17344,6 +17633,16 @@
 	)
 	(wire
 		(pts
+			(xy 623.57 19.05) (xy 618.49 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f7915c-5a6c-49c3-a3e1-2f9cb9af26e8")
+	)
+	(wire
+		(pts
 			(xy 167.64 315.595) (xy 171.45 315.595)
 		)
 		(stroke
@@ -17544,6 +17843,16 @@
 	)
 	(wire
 		(pts
+			(xy 637.54 34.29) (xy 637.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aba1bce-4e30-454b-8cb7-d18b8364eb48")
+	)
+	(wire
+		(pts
 			(xy 369.57 7.62) (xy 369.57 22.86)
 		)
 		(stroke
@@ -17551,6 +17860,16 @@
 			(type default)
 		)
 		(uuid "9ae7aee3-6f1f-4508-baf3-4c539eb7b637")
+	)
+	(wire
+		(pts
+			(xy 655.32 34.29) (xy 655.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b64c1d2-9f08-452e-9af5-810a7c14cf3e")
 	)
 	(wire
 		(pts
@@ -19144,6 +19463,16 @@
 	)
 	(wire
 		(pts
+			(xy 618.49 34.29) (xy 623.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf6d7a-83de-4dc2-b2f5-48fa30c35b48")
+	)
+	(wire
+		(pts
 			(xy 504.19 314.96) (xy 504.19 299.72)
 		)
 		(stroke
@@ -19201,6 +19530,16 @@
 			(type default)
 		)
 		(uuid "bce4be5c-a9d2-440b-8e86-dcece82a98b1")
+	)
+	(wire
+		(pts
+			(xy 623.57 55.88) (xy 637.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcedf040-54ee-4b04-8526-353341458177")
 	)
 	(wire
 		(pts
@@ -19461,6 +19800,16 @@
 			(type default)
 		)
 		(uuid "c23d4cdc-bca4-49e0-9a26-f5f917cb9135")
+	)
+	(wire
+		(pts
+			(xy 637.54 55.88) (xy 637.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2461430-9a3f-403e-9b3c-76677ab72b22")
 	)
 	(wire
 		(pts
@@ -20174,6 +20523,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 29.21) (xy 657.86 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37da711-c8e1-4183-a2d8-d51d70b397f1")
+	)
+	(wire
+		(pts
 			(xy 534.67 297.18) (xy 542.29 297.18)
 		)
 		(stroke
@@ -20281,6 +20640,16 @@
 			(type default)
 		)
 		(uuid "d56c1f90-d3c4-4943-baa2-5d42be2b4aaa")
+	)
+	(wire
+		(pts
+			(xy 637.54 55.88) (xy 655.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5aa2e0a-d452-4b96-bf98-19aecf292c98")
 	)
 	(wire
 		(pts
@@ -22211,6 +22580,17 @@
 			(justify left bottom)
 		)
 		(uuid "48855b26-c779-4700-865b-6ce021bc2619")
+	)
+	(text "Mic"
+		(exclude_from_sim no)
+		(at 630.682 15.24 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c2394c-1441-4e85-b6ec-80c4598b8eea")
 	)
 	(text "1MHz-10MHz 5o Butterworth (Straight)"
 		(exclude_from_sim no)
@@ -24273,6 +24653,116 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:ZTS6117H")
+		(at 646.43 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09b2cc82-182d-4e9a-ab58-f709967522c5")
+		(property "Reference" "U1_MIC1"
+			(at 646.43 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZTS6117H"
+			(at 646.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MIC-SMD_4P-L2.8-W1.9-P1.84-TL_ZTS6117"
+			(at 646.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 646.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 646.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ZTS6117H"
+			(at 646.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2999748"
+			(at 646.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omnidirectional -38dB 400Ω 59dB SMD-4P,1.9x2.8mm  MEMS Microphones ROHS"
+			(at 646.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Zilltek-ZTS6117H/C2999748"
+			(at 646.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed059ccb-160f-44d0-b66f-cfbd53faafe6")
+		)
+		(pin "3"
+			(uuid "623f5f14-d9db-45a8-8178-2dea5a300cf1")
+		)
+		(pin "2"
+			(uuid "ec022c4b-5a8e-412c-a0b1-8c0b735917e9")
+		)
+		(pin "1"
+			(uuid "04b563e4-1de7-4718-aeea-b17b278ddb03")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U1_MIC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 132.08 0)
 		(unit 1)
@@ -24505,6 +24995,101 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#U$08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 633.73 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b31d174-f504-44d9-9b7a-f4ef22734867")
+		(property "Reference" "C1_MIC2"
+			(at 633.73 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 633.73 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 637.54 47.2948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 633.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 633.73 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05A106MP5NUNC"
+			(at 633.73 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C315248"
+			(at 633.73 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/297154-CL05A106MP5NUNC/C315248"
+			(at 633.73 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c6652d7-c04a-447b-ab37-732d8b33e5d0")
+		)
+		(pin "1"
+			(uuid "4f6cd3bb-8297-4423-ad07-ffda5c6a20dc")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C1_MIC2")
 					(unit 1)
 				)
 			)
@@ -27173,6 +27758,102 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J1_LEDS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 662.94 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d8a84a3-a152-465a-b1b9-a0af1a9b94ce")
+		(property "Reference" "J1_MIC1"
+			(at 663.5751 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 661.0351 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
+			(at 662.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1d6e5c7-e3d0-4be0-ab00-74690df52bc5")
+		)
+		(pin "2"
+			(uuid "237d8c59-f834-4103-8a24-6b8a37f57028")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_MIC1")
 					(unit 1)
 				)
 			)
@@ -34463,6 +35144,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J2_LAS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 624.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535bf3ff-3d2c-4364-a1a0-b5a05ce86ab6")
+		(property "Reference" "J2_MIC2"
+			(at 618.49 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 618.49 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 624.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 624.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 624.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 624.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 624.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 624.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6176d5a-b4c6-4987-a82d-d6151aee03c1")
+		)
+		(pin "2"
+			(uuid "53b6c33a-f95d-4d29-8270-aba42c2dbae4")
+		)
+		(pin "3"
+			(uuid "69e6b8f7-2241-46e7-8b47-d1ea4382c003")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J2_MIC2")
 					(unit 1)
 				)
 			)
@@ -44877,6 +45658,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 633.73 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fb1f844-cdb2-4fb4-8b6b-a3f137a28305")
+		(property "Reference" "C1_MIC1"
+			(at 633.73 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 633.73 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 637.54 25.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 633.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 633.73 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CL05A106MP5NUNC"
+			(at 633.73 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C315248"
+			(at 633.73 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/297154-CL05A106MP5NUNC/C315248"
+			(at 633.73 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5717a4b-9b40-49e4-8304-8b00cf9423f3")
+		)
+		(pin "1"
+			(uuid "f2f3adbc-7308-4b0d-9da2-2e3a1ab24467")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C1_MIC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 124.46 173.355 0)
 		(unit 1)
@@ -49288,6 +50164,107 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:ZTS6117H")
+		(at 646.43 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bea81606-2c85-4137-9c7a-eda59d8964f2")
+		(property "Reference" "U1_MIC2"
+			(at 646.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZTS6117H"
+			(at 646.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MIC-SMD_4P-L2.8-W1.9-P1.84-TL_ZTS6117"
+			(at 646.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 646.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omnidirectional -38dB 400Ω 59dB SMD-4P,1.9x2.8mm  MEMS Microphones ROHS"
+			(at 646.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ZTS6117H"
+			(at 646.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2999748"
+			(at 646.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Zilltek-ZTS6117H/C2999748"
+			(at 646.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d2a25c3b-d141-40bc-ab65-d90054c25a04")
+		)
+		(pin "3"
+			(uuid "b49b16d9-539b-449b-9cbf-17a631745d75")
+		)
+		(pin "2"
+			(uuid "7c9cbf96-19eb-41b6-be22-dfb7b82ed541")
+		)
+		(pin "1"
+			(uuid "b0ccc885-2fb0-4106-9ede-7f6b33851638")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U1_MIC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 37.465 0)
 		(unit 1)
@@ -50757,6 +51734,102 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "JP1_FET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 662.94 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c74d93eb-4cea-49d1-8df3-a35fc90eec57")
+		(property "Reference" "J1_MIC2"
+			(at 663.5751 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 661.0351 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
+			(at 662.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef3b94f-dd51-492d-a9ea-523f3325b94d")
+		)
+		(pin "2"
+			(uuid "7a829e65-68c3-4252-addb-bed59d57fb40")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_MIC2")
 					(unit 1)
 				)
 			)
@@ -53161,6 +54234,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J8_DM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 624.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6e3794-2684-458c-95e6-dbe35ca710cb")
+		(property "Reference" "J2_MIC1"
+			(at 618.49 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 618.49 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 624.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 624.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 624.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 624.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 624.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 624.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405bd65b-89ce-485d-8763-a7740b7d6fe8")
+		)
+		(pin "2"
+			(uuid "91ed91a6-4a52-4457-a7b4-e886d25f1734")
+		)
+		(pin "3"
+			(uuid "721fc72f-75d2-468e-a9e8-dc99e1fd6f55")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J2_MIC1")
 					(unit 1)
 				)
 			)
