@@ -7533,6 +7533,221 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:GSPK1304S-8R0.5W"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SPK"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GSPK1304S-8R0.5W"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:BUZ-SMD_4P-L13.0-W13.0-P11.4-BL"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2847318"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GSPK1304S-8R0.5W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.76) (xy 1.27 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.32) (xy -1.27 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.32) (xy 1.27 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.76) (xy 3.56 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.32) (xy 1.27 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.56 6.35) (xy 1.27 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.56 6.35) (xy 3.56 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -1.27 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -1.27 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:PE4140B-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8752,6 +8967,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38878651-386e-46be-95f7-5b8c05edbbe4")
+	)
+	(junction
+		(at 629.92 0)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39652886-7cc7-4b9a-acc8-c6ad1da569b9")
 	)
 	(junction
 		(at 220.98 318.77)
@@ -10006,6 +10227,10 @@
 		(uuid "0a660879-f670-4225-90aa-4c8c1d0c6ae5")
 	)
 	(no_connect
+		(at 641.35 -2.54)
+		(uuid "123f377b-1bb9-435d-9821-7ef8a04f45d7")
+	)
+	(no_connect
 		(at 327.66 220.98)
 		(uuid "165bc885-2472-4044-b6cd-baae85fa7e32")
 	)
@@ -10020,6 +10245,10 @@
 	(no_connect
 		(at 57.15 28.575)
 		(uuid "bc9ec88b-3fd3-4060-8d5d-78ab08b844d3")
+	)
+	(no_connect
+		(at 643.89 -2.54)
+		(uuid "c9557ed8-ef78-47a3-84fd-a163e23b751e")
 	)
 	(no_connect
 		(at 263.525 159.385)
@@ -13565,6 +13794,16 @@
 	)
 	(wire
 		(pts
+			(xy 638.81 0) (xy 638.81 -5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a526214-3478-4fbd-9c43-6ef910ceaed0")
+	)
+	(wire
+		(pts
 			(xy 390.525 15.875) (xy 390.525 18.415)
 		)
 		(stroke
@@ -14052,6 +14291,16 @@
 			(type default)
 		)
 		(uuid "550758dc-be7a-4f79-b84c-1015a3e423dc")
+	)
+	(wire
+		(pts
+			(xy 623.57 -15.24) (xy 623.57 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5582cb7e-cdf7-4fe0-8ce4-73d5f83d462b")
 	)
 	(wire
 		(pts
@@ -15425,6 +15674,16 @@
 	)
 	(wire
 		(pts
+			(xy 629.92 -15.24) (xy 623.57 -15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730ab942-7fbd-4f16-ac7c-92ec6619191d")
+	)
+	(wire
+		(pts
 			(xy 574.04 15.24) (xy 610.235 15.24)
 		)
 		(stroke
@@ -16005,6 +16264,16 @@
 	)
 	(wire
 		(pts
+			(xy 629.92 0) (xy 638.81 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff0ec1f-b37f-4953-acc0-c6ec7fbef064")
+	)
+	(wire
+		(pts
 			(xy 510.54 64.77) (xy 510.54 69.215)
 		)
 		(stroke
@@ -16142,6 +16411,16 @@
 			(type default)
 		)
 		(uuid "84447d6f-e588-4d7b-b265-9f59c2eb31eb")
+	)
+	(wire
+		(pts
+			(xy 623.57 0) (xy 629.92 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8467ee60-fb40-4a3f-b90c-6394d21a2c75")
 	)
 	(wire
 		(pts
@@ -19375,6 +19654,16 @@
 	)
 	(wire
 		(pts
+			(xy 636.27 -7.62) (xy 638.81 -7.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f37a81-4212-4082-8dca-9d7f583de14a")
+	)
+	(wire
+		(pts
 			(xy 483.235 22.225) (xy 481.33 22.225)
 		)
 		(stroke
@@ -22086,6 +22375,17 @@
 			(justify left bottom)
 		)
 		(uuid "b275983f-2069-4eb3-a23c-ba1657365a7c")
+	)
+	(text "Speaker"
+		(exclude_from_sim no)
+		(at 627.126 -19.05 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8f02c03-2a30-4b02-a1d7-6e9160c8d3e9")
 	)
 	(text "Power sources"
 		(exclude_from_sim no)
@@ -28348,6 +28648,91 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:GSPK1304S-8R0.5W")
+		(at 642.62 -3.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a9f388c-22b1-4dc8-b4ac-d00ecda9d9b2")
+		(property "Reference" "SPK1"
+			(at 647.7 -7.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GSPK1304S-8R0.5W"
+			(at 647.7 -5.0801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:BUZ-SMD_4P-L13.0-W13.0-P11.4-BL"
+			(at 642.62 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 642.62 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 642.62 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2847318"
+			(at 642.62 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a75281df-3619-4a71-967b-5f7f74c2663f")
+		)
+		(pin "4"
+			(uuid "03406c35-9180-4675-beff-49ffe503a6b5")
+		)
+		(pin "3"
+			(uuid "ac5c433e-27f7-4896-9be2-e718497a274e")
+		)
+		(pin "2"
+			(uuid "3a62f1e5-4151-46a6-8ae7-9e22e66c62ae")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "SPK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 524.51 276.86 90)
 		(unit 1)
@@ -29415,6 +29800,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 631.19 -7.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a2bf9c-11c2-47b1-a13f-5ff0998f8bfd")
+		(property "Reference" "U6"
+			(at 624.84 -8.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 624.84 -6.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 631.19 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 631.19 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 631.19 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 631.19 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 631.19 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 631.19 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36a1bc9-fd73-4e4c-9612-544716ee1e2e")
+		)
+		(pin "2"
+			(uuid "9f350201-666c-4766-8084-e49864c3a2f9")
+		)
+		(pin "3"
+			(uuid "6df76948-df28-46b5-94e2-a452c170cd3c")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "U6")
 					(unit 1)
 				)
 			)
