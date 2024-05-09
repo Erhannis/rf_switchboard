@@ -624,10 +624,6 @@
       "Root"
     ],
     [
-      "43a1e71c-468a-4156-aadb-62cae3be19c1",
-      "filter_net"
-    ],
-    [
       "eb96e2ec-21de-41a5-b8fa-839fd278b7c9",
       "1_10_5x_butter1"
     ],
@@ -694,10 +690,6 @@
     [
       "6ed047ec-eb8e-49d6-93cb-b02b94aae216",
       "const_current_var1"
-    ],
-    [
-      "69dc05ef-e62a-40ad-950d-12c03698a083",
-      "dvc"
     ]
   ],
   "text_variables": {}

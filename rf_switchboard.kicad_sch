@@ -8442,6 +8442,12 @@
 		(uuid "094dc104-d458-40b2-9c6e-7adda641f3f2")
 	)
 	(junction
+		(at 421.64 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0973e5cf-f25a-48b8-b724-f048e9fd28b0")
+	)
+	(junction
 		(at 519.43 -0.635)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8482,6 +8488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cdffdf1-38b2-4326-9067-c48fb7173e7d")
+	)
+	(junction
+		(at 440.69 394.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cf8254e-0912-4d42-bf01-282b3a7eee17")
 	)
 	(junction
 		(at 400.05 138.43)
@@ -8628,6 +8640,12 @@
 		(uuid "255e7f61-4b30-4230-bac3-b764c6e0505a")
 	)
 	(junction
+		(at 400.05 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2646af4b-a815-4879-9780-4313be94b340")
+	)
+	(junction
 		(at 502.92 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8638,6 +8656,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27fb9a04-fdd4-41c1-8c6a-43f18840145d")
+	)
+	(junction
+		(at 421.64 462.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283eca4e-ef08-41be-9960-16e2a4e6c4c7")
 	)
 	(junction
 		(at 599.44 52.07)
@@ -8778,10 +8802,22 @@
 		(uuid "4068da84-4968-4671-8c1b-e37661ee08c1")
 	)
 	(junction
+		(at 433.07 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e17408-bad9-46e9-895e-55926d8b4a67")
+	)
+	(junction
 		(at 388.62 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4287573c-b66f-40de-bfac-c5cb456dda97")
+	)
+	(junction
+		(at 433.07 462.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "428d0f1f-1e1c-49bf-ad2f-c36b22245970")
 	)
 	(junction
 		(at 322.58 66.04)
@@ -8926,6 +8962,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "54bdf4ba-3218-4f0e-ad65-fdbc3ff0fc51")
+	)
+	(junction
+		(at 400.05 469.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ffe5d0-1491-4fe5-8de7-29223f3f14e1")
 	)
 	(junction
 		(at 414.655 83.82)
@@ -9084,6 +9126,12 @@
 		(uuid "665d1919-e415-43e0-be43-fc0b4528cf3a")
 	)
 	(junction
+		(at 427.99 394.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6707b230-be73-467a-84e7-395f1ced8264")
+	)
+	(junction
 		(at 542.925 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9126,6 +9174,18 @@
 		(uuid "6a9adbbf-35a8-41fa-9899-df78c29c6768")
 	)
 	(junction
+		(at 440.69 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aee0caf-62bb-4e0b-ab98-b5361d661859")
+	)
+	(junction
+		(at 421.64 469.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c5c45a7-649a-4b25-b2b6-ed15604e19ed")
+	)
+	(junction
 		(at 349.25 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9162,6 +9222,12 @@
 		(uuid "74776b8c-aeb5-4fba-b041-f3d71b5593ee")
 	)
 	(junction
+		(at 415.29 394.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75821a0c-d26a-4742-84a7-ab0c7f45fd78")
+	)
+	(junction
 		(at 434.975 73.025)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9186,10 +9252,22 @@
 		(uuid "78803b1b-5cc3-4f33-b15e-7e8878f81ef4")
 	)
 	(junction
+		(at 433.07 435.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b900e23-7c57-46ca-88b1-443401f6658f")
+	)
+	(junction
 		(at 325.12 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c0eb9f1-159a-4e8d-b4d2-60767e903c2e")
+	)
+	(junction
+		(at 400.05 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c7f8f1f-d533-4ad1-a50e-3107d7bf24c5")
 	)
 	(junction
 		(at 518.16 161.29)
@@ -9306,10 +9384,22 @@
 		(uuid "90396df6-5f70-4997-a36a-b061addf8d19")
 	)
 	(junction
+		(at 453.39 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93052177-c750-47ac-b873-44cf59914c7a")
+	)
+	(junction
 		(at 347.98 452.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "936bf815-0e84-47a0-a163-9a20e7ede867")
+	)
+	(junction
+		(at 453.39 443.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f33e8e-835c-4915-8b87-1827fc9d85fc")
 	)
 	(junction
 		(at 597.535 220.345)
@@ -9504,6 +9594,12 @@
 		(uuid "bda5493e-becc-4d65-ad87-6bdbdff1730a")
 	)
 	(junction
+		(at 421.64 435.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd4a19c-d5a9-4e2f-a272-30b03b586463")
+	)
+	(junction
 		(at 345.44 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9672,6 +9768,12 @@
 		(uuid "d7af48fa-c584-4aae-b61f-9bb5b4a823b0")
 	)
 	(junction
+		(at 427.99 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c84531-ce47-4432-a596-6ee0e90e0389")
+	)
+	(junction
 		(at 602.615 -0.635)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9732,6 +9834,12 @@
 		(uuid "e154783c-41d6-42e0-9847-1429f985a56f")
 	)
 	(junction
+		(at 415.29 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1717044-d78b-45f9-bef8-4b97dce8a323")
+	)
+	(junction
 		(at 597.535 186.055)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9760,6 +9868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8d07b1e-274b-4e88-a995-ab40412aa912")
+	)
+	(junction
+		(at 453.39 469.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eccb674e-99e4-4cd3-a509-26c80542f82a")
 	)
 	(junction
 		(at 534.67 314.96)
@@ -9796,6 +9910,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1cd7274-5dd2-414d-92e3-51e2ec787b15")
+	)
+	(junction
+		(at 433.07 469.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f221280e-eff1-4e93-b63f-731f32dc7f60")
 	)
 	(junction
 		(at 487.68 152.4)
@@ -10185,6 +10305,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 394.97) (xy 427.99 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e8a9eb-2e4e-49ec-be15-05bfdb54981b")
+	)
+	(wire
+		(pts
 			(xy 588.01 261.62) (xy 594.36 261.62)
 		)
 		(stroke
@@ -10282,6 +10412,16 @@
 			(type solid)
 		)
 		(uuid "0637ca76-5508-4e70-9be2-fba1dccfa631")
+	)
+	(wire
+		(pts
+			(xy 433.07 469.9) (xy 453.39 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065d6762-4dfd-4adf-a4f3-14ea5e6810b5")
 	)
 	(wire
 		(pts
@@ -10675,6 +10815,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 469.9) (xy 433.07 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2c1d23-3486-4c15-be10-d645fdd65813")
+	)
+	(wire
+		(pts
 			(xy 83.185 53.34) (xy 83.185 55.88)
 		)
 		(stroke
@@ -10702,6 +10852,16 @@
 			(type default)
 		)
 		(uuid "105a7a04-9e28-4d9a-b185-0053d2e07c33")
+	)
+	(wire
+		(pts
+			(xy 438.15 394.97) (xy 440.69 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107e12ce-68f1-458e-919d-280cb83958c8")
 	)
 	(wire
 		(pts
@@ -11405,6 +11565,16 @@
 	)
 	(wire
 		(pts
+			(xy 443.23 462.28) (xy 447.04 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f84908a-c309-4a8d-90ac-92d64ec50a79")
+	)
+	(wire
+		(pts
 			(xy 273.05 313.69) (xy 266.7 313.69)
 		)
 		(stroke
@@ -11905,6 +12075,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 443.23) (xy 453.39 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29be5a0e-b2ad-4bc6-b701-f21373e6891c")
+	)
+	(wire
+		(pts
 			(xy 124.46 344.17) (xy 124.46 354.33)
 		)
 		(stroke
@@ -12052,6 +12232,16 @@
 			(type default)
 		)
 		(uuid "2cc838a5-3fea-4645-b84a-3f623bec1c32")
+	)
+	(wire
+		(pts
+			(xy 419.1 435.61) (xy 421.64 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce0f5b0-9579-454e-8da6-754dcc6139e0")
 	)
 	(wire
 		(pts
@@ -12875,6 +13065,26 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 387.35) (xy 459.74 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6d2182-211d-4993-a458-7f18c19228ab")
+	)
+	(wire
+		(pts
+			(xy 415.29 402.59) (xy 400.05 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8c82c4-15d6-495e-9a91-2d3af83263dc")
+	)
+	(wire
+		(pts
 			(xy 48.26 238.76) (xy 53.34 238.76)
 		)
 		(stroke
@@ -12982,6 +13192,16 @@
 			(type default)
 		)
 		(uuid "3fcc2463-ed80-4d5e-bc22-51f28a928b4e")
+	)
+	(wire
+		(pts
+			(xy 433.07 435.61) (xy 435.61 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdf3047-b4bd-482a-95cf-8ee9d1e8fc4f")
 	)
 	(wire
 		(pts
@@ -13155,6 +13375,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 462.28) (xy 421.64 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452f559f-db2d-48c6-8b07-36dd90604534")
+	)
+	(wire
+		(pts
 			(xy 249.555 260.35) (xy 242.57 260.35)
 		)
 		(stroke
@@ -13245,6 +13475,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 443.23) (xy 421.64 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d33f7f-e8cf-42f5-bd78-80441b37f361")
+	)
+	(wire
+		(pts
 			(xy 114.3 417.83) (xy 114.3 420.37)
 		)
 		(stroke
@@ -13262,6 +13502,16 @@
 			(type default)
 		)
 		(uuid "48e68250-aba4-4278-bd61-d74ba181d0cf")
+	)
+	(wire
+		(pts
+			(xy 393.7 469.9) (xy 393.7 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f8bd64-cbad-45db-bc57-3dfde63d144b")
 	)
 	(wire
 		(pts
@@ -13505,6 +13755,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 469.9) (xy 421.64 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edf41b8-d0f7-4ab7-8dbb-9f0ec02d60a6")
+	)
+	(wire
+		(pts
 			(xy 391.16 171.45) (xy 402.59 171.45)
 		)
 		(stroke
@@ -13595,6 +13855,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 435.61) (xy 433.07 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51112766-c93d-4289-8ac2-7a3ac158e505")
+	)
+	(wire
+		(pts
 			(xy 487.68 96.52) (xy 502.92 96.52)
 		)
 		(stroke
@@ -13612,6 +13882,16 @@
 			(type default)
 		)
 		(uuid "51361cd1-adda-4a07-a250-4ec501042773")
+	)
+	(wire
+		(pts
+			(xy 421.64 443.23) (xy 433.07 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5147d6f8-d933-4c4d-8ec9-acbcf5959587")
 	)
 	(wire
 		(pts
@@ -13732,6 +14012,16 @@
 			(type default)
 		)
 		(uuid "53e8d005-9687-4acf-9369-35a7bcedb31c")
+	)
+	(wire
+		(pts
+			(xy 459.74 402.59) (xy 453.39 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5425daba-ef9f-48f8-8972-d9d77b566a1c")
 	)
 	(wire
 		(pts
@@ -14215,6 +14505,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 387.35) (xy 400.05 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f85c30c-1bec-4f6b-a892-b81c2e7d28b9")
+	)
+	(wire
+		(pts
 			(xy 302.26 419.1) (xy 302.26 412.75)
 		)
 		(stroke
@@ -14545,6 +14845,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 462.28) (xy 424.18 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664125b6-bec4-4ddc-86c6-9114b8e5cb0d")
+	)
+	(wire
+		(pts
 			(xy 482.6 261.62) (xy 482.6 259.08)
 		)
 		(stroke
@@ -14672,6 +14982,16 @@
 			(type default)
 		)
 		(uuid "696643a1-85e4-48e3-9334-c9ebae096d86")
+	)
+	(wire
+		(pts
+			(xy 393.7 402.59) (xy 393.7 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e656c2-46ee-43d5-8625-22dd6a7a22fd")
 	)
 	(wire
 		(pts
@@ -14885,6 +15205,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 402.59) (xy 393.7 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec02c53-e806-4a0b-ac2e-b4465e439718")
+	)
+	(wire
+		(pts
 			(xy 595.63 344.17) (xy 596.9 344.17)
 		)
 		(stroke
@@ -14982,6 +15312,16 @@
 			(type default)
 		)
 		(uuid "7078dc70-f42a-415e-8660-b8f9981210ad")
+	)
+	(wire
+		(pts
+			(xy 406.4 394.97) (xy 415.29 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708d3fdf-d378-4c12-9c25-5e789fc16a21")
 	)
 	(wire
 		(pts
@@ -15675,6 +16015,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 454.66) (xy 400.05 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8077ff12-a59f-4c38-859c-854d0ec912c4")
+	)
+	(wire
+		(pts
 			(xy 147.32 119.38) (xy 168.91 119.38)
 		)
 		(stroke
@@ -15745,6 +16095,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 427.99) (xy 400.05 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820be03e-8604-48d3-9de2-8f1e3d796b84")
+	)
+	(wire
+		(pts
 			(xy 147.32 76.2) (xy 160.02 76.2)
 		)
 		(stroke
@@ -15792,6 +16152,16 @@
 			(type default)
 		)
 		(uuid "8489d741-ffab-4e0e-8e9c-bdf44d525635")
+	)
+	(wire
+		(pts
+			(xy 400.05 443.23) (xy 393.7 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e13f82-3775-46f2-b5e5-3518c3f22bfe")
 	)
 	(wire
 		(pts
@@ -15932,6 +16302,16 @@
 			(type default)
 		)
 		(uuid "87a841ba-76f4-44d9-8f19-f0bd708dfc27")
+	)
+	(wire
+		(pts
+			(xy 453.39 427.99) (xy 459.74 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f4e030-970b-4911-ad5a-3e389a4c43ac")
 	)
 	(wire
 		(pts
@@ -16915,6 +17295,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 469.9) (xy 453.39 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4f811a-38be-4405-a7a1-752f5744de47")
+	)
+	(wire
+		(pts
 			(xy 535.94 353.06) (xy 542.29 353.06)
 		)
 		(stroke
@@ -17042,6 +17432,16 @@
 			(type default)
 		)
 		(uuid "9f7a2dc4-6daa-47a1-806c-4e4f5e4f4303")
+	)
+	(wire
+		(pts
+			(xy 443.23 435.61) (xy 447.04 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f953844-495a-4e32-89f8-b9490c23fd6a")
 	)
 	(wire
 		(pts
@@ -17385,6 +17785,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 394.97) (xy 447.04 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48ea700-c391-4f4a-9304-e6772af192f4")
+	)
+	(wire
+		(pts
 			(xy 15.875 69.85) (xy 15.875 74.295)
 		)
 		(stroke
@@ -17495,6 +17905,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 462.28) (xy 433.07 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b6ba20-d635-4eb0-90bc-a633f328414f")
+	)
+	(wire
+		(pts
 			(xy 353.06 312.42) (xy 337.82 312.42)
 		)
 		(stroke
@@ -17542,6 +17962,16 @@
 			(type default)
 		)
 		(uuid "a9015e87-2fab-4862-b7c0-ff3fa5cfd073")
+	)
+	(wire
+		(pts
+			(xy 459.74 443.23) (xy 453.39 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a927d918-9cc0-4e12-8c3b-48f1a9f4bd5a")
 	)
 	(wire
 		(pts
@@ -18255,6 +18685,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 387.35) (xy 459.74 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9105794-3cf6-44d7-9a93-960a8f8db1ea")
+	)
+	(wire
+		(pts
 			(xy 151.13 58.42) (xy 151.13 53.34)
 		)
 		(stroke
@@ -18735,6 +19175,16 @@
 	)
 	(wire
 		(pts
+			(xy 415.29 394.97) (xy 417.83 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23d4cdc-bca4-49e0-9a26-f5f917cb9135")
+	)
+	(wire
+		(pts
 			(xy 619.76 246.38) (xy 619.76 261.62)
 		)
 		(stroke
@@ -18782,6 +19232,16 @@
 			(type default)
 		)
 		(uuid "c38df987-d3fc-4a74-837f-da85fd3ce746")
+	)
+	(wire
+		(pts
+			(xy 393.7 443.23) (xy 393.7 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c90eaf-7fb5-4346-8c88-a4054eb325dd")
 	)
 	(wire
 		(pts
@@ -18922,6 +19382,16 @@
 			(type default)
 		)
 		(uuid "c708680c-6686-43a0-84db-65a88d89732e")
+	)
+	(wire
+		(pts
+			(xy 427.99 402.59) (xy 415.29 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71a9b9c-022e-4379-ad9d-0d8e4b69a6ff")
 	)
 	(wire
 		(pts
@@ -19365,6 +19835,16 @@
 	)
 	(wire
 		(pts
+			(xy 406.4 462.28) (xy 411.48 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28affe9-e014-46e9-8bbe-c9bbec0e2656")
+	)
+	(wire
+		(pts
 			(xy 114.3 173.355) (xy 114.3 175.895)
 		)
 		(stroke
@@ -19502,6 +19982,16 @@
 			(type default)
 		)
 		(uuid "d5430128-7dc7-4780-83b3-28245fdbedb6")
+	)
+	(wire
+		(pts
+			(xy 433.07 462.28) (xy 435.61 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56c1f90-d3c4-4943-baa2-5d42be2b4aaa")
 	)
 	(wire
 		(pts
@@ -19712,6 +20202,16 @@
 			(type default)
 		)
 		(uuid "da69a0c9-a637-4604-ac9a-532beba41505")
+	)
+	(wire
+		(pts
+			(xy 440.69 402.59) (xy 453.39 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da760466-9a35-48dd-bfd9-cbfffaf1ac4e")
 	)
 	(wire
 		(pts
@@ -20245,6 +20745,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 394.97) (xy 430.53 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75de93d-7686-4e04-ba0a-ed465bedf47c")
+	)
+	(wire
+		(pts
 			(xy 139.7 183.515) (xy 139.7 186.055)
 		)
 		(stroke
@@ -20342,6 +20852,16 @@
 			(type default)
 		)
 		(uuid "ea725ee9-3abe-45d7-a7ff-57b99e411baa")
+	)
+	(wire
+		(pts
+			(xy 459.74 454.66) (xy 459.74 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae22e66-06f2-4ef1-94d8-d523ce2894ae")
 	)
 	(wire
 		(pts
@@ -20562,6 +21082,16 @@
 			(type default)
 		)
 		(uuid "ef7acee8-260d-45e3-b508-10cc0af07d45")
+	)
+	(wire
+		(pts
+			(xy 406.4 435.61) (xy 411.48 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8b8ed5-cc25-461b-b4cc-343d7407ddfe")
 	)
 	(wire
 		(pts
@@ -20855,6 +21385,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 435.61) (xy 424.18 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f636b020-42fc-46be-98b1-23dcc917bf23")
+	)
+	(wire
+		(pts
 			(xy 542.29 353.06) (xy 556.26 353.06)
 		)
 		(stroke
@@ -20912,6 +21452,16 @@
 			(type solid)
 		)
 		(uuid "f7db1534-b4e8-4ad5-8ee2-98268e9bef43")
+	)
+	(wire
+		(pts
+			(xy 453.39 454.66) (xy 459.74 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eb9c34-0b2a-480c-ab25-87caf36aac7a")
 	)
 	(wire
 		(pts
@@ -20975,6 +21525,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 402.59) (xy 440.69 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bc533e-7e27-444b-b6af-f6dbba5beb67")
+	)
+	(wire
+		(pts
 			(xy 511.81 20.32) (xy 488.315 20.32)
 		)
 		(stroke
@@ -21012,6 +21572,16 @@
 			(type default)
 		)
 		(uuid "fa7d64f5-c239-4ec8-af63-33be288a5006")
+	)
+	(wire
+		(pts
+			(xy 459.74 427.99) (xy 459.74 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9ba4da-b2c6-4b68-b4f9-b18b20499244")
 	)
 	(wire
 		(pts
@@ -21112,6 +21682,16 @@
 			(type default)
 		)
 		(uuid "fca506b3-5dac-4b65-a5ac-858b65d51143")
+	)
+	(wire
+		(pts
+			(xy 400.05 469.9) (xy 393.7 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc13d61-5583-4678-95ba-22e9b75f154a")
 	)
 	(wire
 		(pts
@@ -21398,6 +21978,17 @@
 		)
 		(uuid "67a67504-08dc-41b3-bfb6-b8f9add33fa7")
 	)
+	(text "Highpass 800KHz 5o-Chebyshev"
+		(exclude_from_sim no)
+		(at 409.448 452.374 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "77c2bae9-2050-4b04-a677-4491d702c333")
+	)
 	(text "TPad Attn (40dB)"
 		(exclude_from_sim no)
 		(at 315.595 156.845 0)
@@ -21540,6 +22131,17 @@
 		)
 		(uuid "c38883d0-f654-429d-bb12-ec8c44ac0eec")
 	)
+	(text "Highpass 50MHz 5o-Chebyshev"
+		(exclude_from_sim no)
+		(at 409.448 425.704 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "c80ee8fc-f0b1-4a1a-8c3f-0172222d4465")
+	)
 	(text "Photo RX"
 		(exclude_from_sim no)
 		(at 52.832 222.504 0)
@@ -21572,6 +22174,17 @@
 			(justify left bottom)
 		)
 		(uuid "d663c466-c444-4115-b1de-3110c7718a6f")
+	)
+	(text "Lowpass 1MHz 5o-Chebyshev"
+		(exclude_from_sim no)
+		(at 409.448 385.064 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "d689cb60-0c6b-4d65-a378-d0ec5fa58a5e")
 	)
 	(text "Inductors"
 		(exclude_from_sim no)
@@ -22671,6 +23284,110 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 427.99 462.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0488c7e5-094d-4200-ba2c-47863070bd94")
+		(property "Reference" "C2_HP2"
+			(at 427.99 454.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2nF"
+			(at 427.99 457.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 431.8 461.3148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "GCM1885C1H202FA16J"
+			(at 427.99 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1870141"
+			(at 427.99 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 2nF C0G ±1% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 427.99 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/1960956-GCM1885C1H202FA16J/C1870141"
+			(at 427.99 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f52b819-9163-4564-b0fc-0c707ed1656e")
+		)
+		(pin "2"
+			(uuid "f30ce298-c16f-4b7b-842f-3ba05ed66ee2")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C2_HP2")
 					(unit 1)
 				)
 			)
@@ -23957,6 +24674,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 415.29 462.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc6f499-c1ac-4aec-b6cd-d043986e5359")
+		(property "Reference" "C1_HP2"
+			(at 415.29 454.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.6nF"
+			(at 415.29 457.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 419.1 461.3148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603B362K500NT"
+			(at 415.29 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2961267"
+			(at 415.29 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3.6nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 415.29 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3349465-0603B362K500NT/C2961267"
+			(at 415.29 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a98b82-5a9a-4a9b-88e7-aa7b1ce4304d")
+		)
+		(pin "2"
+			(uuid "b812742e-f707-4976-b862-1d1ac9d46f2c")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C1_HP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 402.59 167.64 180)
 		(unit 1)
@@ -24817,6 +25638,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J1_3S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 452.12 435.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15e829e9-2ddb-4701-b604-1e2a846a1fd7")
+		(property "Reference" "J2_HP1"
+			(at 458.47 434.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 458.47 436.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 452.12 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 452.12 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 452.12 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 452.12 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 452.12 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa228615-97cb-4f90-9d23-d94543c8d1fe")
+		)
+		(pin "2"
+			(uuid "31d0696b-1bc7-4bc7-a6c2-036e0d459b70")
+		)
+		(pin "3"
+			(uuid "9b804539-1d10-4b57-8e2d-1d0853ab2323")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J2_HP1")
 					(unit 1)
 				)
 			)
@@ -26959,6 +27880,112 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 433.07 439.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f7e822-b52f-45bd-9cb6-47b2e8bddb01")
+		(property "Reference" "L2_HP1"
+			(at 434.34 438.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uH"
+			(at 434.34 440.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 433.07 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 433.07 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 433.07 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "VHF160808HR12JT"
+			(at 433.07 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90215"
+			(at 433.07 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA 120nH ±5% 1.6Ω 0603  Inductors (SMD) ROHS"
+			(at 433.07 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/91400-VHF160808HR12JT/C90215"
+			(at 433.07 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ce7577-5bf0-4a94-859f-092801a0d0f6")
+		)
+		(pin "2"
+			(uuid "2a8cdb36-a992-4ba7-b4a4-8ac9f788b783")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L2_HP1")
 					(unit 1)
 				)
 			)
@@ -29633,6 +30660,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 415.29 435.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af36781-d3d6-4f7a-bc91-16a881611578")
+		(property "Reference" "C1_HP1"
+			(at 415.29 427.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56pF"
+			(at 415.29 430.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 419.1 434.6448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CC0603JRNPO9BN560"
+			(at 415.29 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107053"
+			(at 415.29 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 56pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 415.29 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603JRNPO9BN560/C107053"
+			(at 415.29 435.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fee5853-8acb-416b-aa44-872f809d729e")
+		)
+		(pin "2"
+			(uuid "7c8dcf0b-3eee-43c7-9d95-3de41c3d2fc5")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C1_HP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 327.66 138.43 90)
 		(unit 1)
@@ -29827,6 +30958,110 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 439.42 435.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cbbe04c-e64c-465d-af24-dea096e3eb94")
+		(property "Reference" "C3_HP1"
+			(at 439.42 427.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56nF"
+			(at 439.42 430.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 443.23 434.6448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CC0603JRNPO9BN560"
+			(at 439.42 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107053"
+			(at 439.42 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 56pF NP0 ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 439.42 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Yageo-CC0603JRNPO9BN560/C107053"
+			(at 439.42 435.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4477231b-4a6a-4652-8665-fb45deeb4dad")
+		)
+		(pin "2"
+			(uuid "2d17a5f9-94e6-453a-9de3-73a851a1dec7")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C3_HP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 524.51 289.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29915,6 +31150,112 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 421.64 466.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6f411d-234c-460a-a153-b26bbb11ef5d")
+		(property "Reference" "L1_HP2"
+			(at 422.91 464.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7.5uH"
+			(at 422.91 467.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 421.64 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "FHW0805UF7R5JST"
+			(at 421.64 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137241"
+			(at 421.64 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.5uH ±5% 0805  Power Inductors ROHS"
+			(at 421.64 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/5745953-FHW0805UF7R5JST/C5137241"
+			(at 421.64 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8c9bf45-8553-4ee3-8263-d3505a2baa00")
+		)
+		(pin "2"
+			(uuid "b22f1bd6-6d27-4ce2-84aa-cb5e551bdc33")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L1_HP2")
 					(unit 1)
 				)
 			)
@@ -31860,6 +33201,106 @@
 			(project "jtag-programmer"
 				(path "/e06305fb-998f-48af-a66f-06af1aebcaf0"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 401.32 462.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9e31ed-3ede-4c5d-a052-245d713cdd45")
+		(property "Reference" "J1_HP2"
+			(at 394.97 461.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 394.97 463.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 401.32 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 401.32 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 401.32 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 401.32 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 401.32 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "264605cb-ecfe-44c5-985c-5c4d155e40e6")
+		)
+		(pin "2"
+			(uuid "83a84f3d-5d8e-4fd2-afb3-f3bd30880d2d")
+		)
+		(pin "3"
+			(uuid "3e5a8980-a364-4f78-a664-5c703f3abb37")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_HP2")
 					(unit 1)
 				)
 			)
@@ -33887,6 +35328,112 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 433.07 466.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b99a6db-ce3c-46ef-8668-899718e0a192")
+		(property "Reference" "L2_HP2"
+			(at 434.34 464.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7.5uH"
+			(at 434.34 467.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 433.07 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 433.07 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 433.07 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "FHW0805UF7R5JST"
+			(at 433.07 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137241"
+			(at 433.07 466.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7.5uH ±5% 0805  Power Inductors ROHS"
+			(at 433.07 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/5745953-FHW0805UF7R5JST/C5137241"
+			(at 433.07 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b37da0a0-2af4-4d0e-a7bd-27a8c4918913")
+		)
+		(pin "2"
+			(uuid "a4cf2ce5-9db6-4d28-bf1c-4630672eb123")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L2_HP2")
 					(unit 1)
 				)
 			)
@@ -37031,6 +38578,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 439.42 462.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75119b61-1852-4bd5-a1fa-6279f87d2393")
+		(property "Reference" "C3_HP2"
+			(at 439.42 454.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.6nF"
+			(at 439.42 457.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 443.23 461.3148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 439.42 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603B362K500NT"
+			(at 439.42 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2961267"
+			(at 439.42 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3.6nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 439.42 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3349465-0603B362K500NT/C2961267"
+			(at 439.42 462.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0fffcd4-2052-48ec-a8b4-83d430741251")
+		)
+		(pin "2"
+			(uuid "25c52677-33b2-4b60-b51b-d8a3bb0d8572")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C3_HP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
 		(at 589.28 254 0)
 		(unit 1)
@@ -37370,6 +39021,112 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 415.29 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78277e87-9e80-45d9-ac93-6e2d3e069916")
+		(property "Reference" "C1_LP1"
+			(at 419.1 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6nF"
+			(at 419.1 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 416.2552 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603B362K500NT"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2961267"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3.6nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3349465-0603B362K500NT/C2961267"
+			(at 415.29 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaeb2b70-dc89-4312-aba4-10d1fedc141f")
+		)
+		(pin "2"
+			(uuid "3b645ddd-f1a3-4fbd-9533-c5f64631f6f4")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C1_LP1")
 					(unit 1)
 				)
 			)
@@ -37838,6 +39595,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 401.32 435.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b66010f-b5a7-444b-9d22-7831baeef23a")
+		(property "Reference" "J1_HP1"
+			(at 394.97 434.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 394.97 436.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 401.32 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 401.32 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 401.32 453.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 401.32 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 401.32 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5279ebaa-a6fb-49ba-9258-210e61a7e65d")
+		)
+		(pin "2"
+			(uuid "40f3cb8c-bceb-441c-a338-199c9f79dd17")
+		)
+		(pin "3"
+			(uuid "caef4736-c483-4c98-922e-b4b0543421fe")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_HP1")
 					(unit 1)
 				)
 			)
@@ -41521,6 +43378,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 434.34 394.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e8b712-63be-41a8-9417-2d3a0c0c4f36")
+		(property "Reference" "L2_LP1"
+			(at 434.34 389.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 434.34 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 434.34 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 434.34 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15mA 10uH ±10% 1.15Ω 0805  Inductors (SMD) ROHS"
+			(at 434.34 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "SDFL2012S100KTF"
+			(at 434.34 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1046"
+			(at 434.34 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Sunlord-SDFL2012S100KTF/C1046"
+			(at 434.34 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37da8358-b7b6-4cca-8905-400c4abdac8d")
+		)
+		(pin "2"
+			(uuid "158c64b3-76b0-4750-ac9f-4a4219fdada4")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L2_LP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 23.495 79.375 0)
 		(unit 1)
@@ -41879,6 +43831,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 401.32 394.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b57b7c-a25a-4cf8-af75-9261fcc4e118")
+		(property "Reference" "J1_LP1"
+			(at 394.97 393.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 394.97 396.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 401.32 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 401.32 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 401.32 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 401.32 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 401.32 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917c5d97-1751-4cfc-8cb4-3cffb93b9386")
+		)
+		(pin "2"
+			(uuid "3ad71c51-9fb4-42a1-82a2-9a562250ab79")
+		)
+		(pin "3"
+			(uuid "c376c449-2783-4190-80fa-100eb92bc460")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_LP1")
 					(unit 1)
 				)
 			)
@@ -43489,6 +45541,110 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 421.64 394.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab5eee8d-cba8-42c2-91a6-00476876a313")
+		(property "Reference" "L1_LP1"
+			(at 421.64 389.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 421.64 392.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 421.64 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 421.64 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "SDFL2012S100KTF"
+			(at 421.64 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1046"
+			(at 421.64 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15mA 10uH ±10% 1.15Ω 0805  Inductors (SMD) ROHS"
+			(at 421.64 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Sunlord-SDFL2012S100KTF/C1046"
+			(at 421.64 394.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4493a0-d881-4f3a-99b1-ab227da08ce1")
+		)
+		(pin "2"
+			(uuid "0d2659a3-79ca-4773-930b-678b4d9fff60")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L1_LP1")
 					(unit 1)
 				)
 			)
@@ -50046,6 +52202,106 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 452.12 394.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d68587a9-cfb8-43f9-bf31-3db73c0d3f1e")
+		(property "Reference" "J2_LP1"
+			(at 458.47 393.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 458.47 396.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 452.12 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 452.12 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 452.12 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 452.12 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 452.12 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d37651-72d1-4f2d-b604-cdb1e239cb9a")
+		)
+		(pin "2"
+			(uuid "2694a92a-60e9-47a8-bf7a-56d719c97657")
+		)
+		(pin "3"
+			(uuid "b84dc76e-621c-40bd-b5ca-57cfa66bcf05")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J2_LP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 150.495 0)
 		(mirror y)
@@ -51177,6 +53433,112 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J1_DM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 427.99 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e50b49e9-8a91-4695-9014-53c88d554ee2")
+		(property "Reference" "C2_LP1"
+			(at 431.8 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.2nF"
+			(at 431.8 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 428.9552 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0805B622K500NT"
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3037648"
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 6.2nF X7R 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3589538-0805B622K500NT/C3037648"
+			(at 427.99 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3660987e-20fe-4ee9-963f-f7d22e6dc6d6")
+		)
+		(pin "2"
+			(uuid "6f20194d-70ee-46f6-9216-9d297ed82543")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C2_LP1")
 					(unit 1)
 				)
 			)
@@ -52354,6 +54716,106 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 452.12 462.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaac9b0b-a0af-4bf6-9a9f-bc536641ce6e")
+		(property "Reference" "J2_HP2"
+			(at 458.47 461.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 458.47 463.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 452.12 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 452.12 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at 452.12 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 452.12 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 452.12 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3621251-7fc6-47c8-aa7a-8f796cb2f58d")
+		)
+		(pin "2"
+			(uuid "f0e6cf29-ec5d-49b1-af61-9de8f950ed6d")
+		)
+		(pin "3"
+			(uuid "4ec9eab6-a578-4809-9e25-140cd9e873df")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J2_HP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 114.3 173.355 0)
 		(mirror y)
@@ -53147,6 +55609,110 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 427.99 435.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef9c7a1-cbb6-423d-8667-18347d45bf35")
+		(property "Reference" "C2_HP1"
+			(at 427.99 427.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 427.99 430.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 431.8 434.6448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 427.99 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603CG330J500NT"
+			(at 427.99 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C91368"
+			(at 427.99 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 33pF C0G ±5% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 427.99 435.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/92557-0603CG330J500NT/C91368"
+			(at 427.99 435.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171f6815-6504-4bd2-ba33-b66bf8251958")
+		)
+		(pin "2"
+			(uuid "7d89a1b0-33cf-435c-b8b8-91d1493cb72b")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C2_HP1")
 					(unit 1)
 				)
 			)
@@ -54264,6 +56830,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 421.64 439.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69e175c-093d-4e1d-b90b-8dfb2308c309")
+		(property "Reference" "L1_HP1"
+			(at 422.91 438.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uH"
+			(at 422.91 440.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 421.64 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "VHF160808HR12JT"
+			(at 421.64 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90215"
+			(at 421.64 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA 120nH ±5% 1.6Ω 0603  Inductors (SMD) ROHS"
+			(at 421.64 439.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/91400-VHF160808HR12JT/C90215"
+			(at 421.64 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f0d1a0-9605-4e53-a579-39f9752fbfad")
+		)
+		(pin "2"
+			(uuid "cce0bb8b-f827-442c-9b2e-62d156bfe7b4")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "L1_HP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 415.29 34.29 90)
 		(unit 1)
@@ -54379,6 +57051,103 @@
 				)
 				(path "/f57075f4-e997-49a7-b8a3-5e864ac859f3"
 					(reference "J1_3S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 440.69 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f70c8b90-0dc4-4182-ad63-3aa43249075d")
+		(property "Reference" "C3_LP1"
+			(at 444.5 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6nF"
+			(at 444.5 400.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 441.6552 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 3.6nF X7R ±10% 0603  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 440.69 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0603B362K500NT"
+			(at 440.69 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2961267"
+			(at 440.69 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3349465-0603B362K500NT/C2961267"
+			(at 440.69 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debdbd9e-ed74-47c5-89df-a2ade3735ab1")
+		)
+		(pin "2"
+			(uuid "3a7899d4-e243-41e9-aae2-f0f87321f805")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "C3_LP1")
 					(unit 1)
 				)
 			)
@@ -55634,124 +58403,6 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 113.665 239.395)
-		(size 22.86 24.13)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "43a1e71c-468a-4156-aadb-62cae3be19c1")
-		(property "Sheetname" "filter_net"
-			(at 113.665 238.6834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "filter_net.kicad_sch"
-			(at 113.665 264.1096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VCC" input
-			(at 113.665 242.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "973987e3-1043-4ddd-a2d7-3147599459ae")
-		)
-		(pin "GND" input
-			(at 113.665 244.475 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9c69c395-14ee-4eb0-abf9-45806c551c32")
-		)
-		(pin "CS0" input
-			(at 113.665 247.015 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f4a72019-083f-4b58-a778-31e230d29e40")
-		)
-		(pin "CS2" input
-			(at 113.665 250.825 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "48ca1283-0c91-4981-a7e3-69b2144ddf6f")
-		)
-		(pin "CS1" input
-			(at 113.665 248.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "45156470-c594-4447-8054-48edbcfcf456")
-		)
-		(pin "SCLK" input
-			(at 113.665 255.905 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1096b11e-d762-448f-a698-82e76b36523b")
-		)
-		(pin "SDAT" input
-			(at 113.665 257.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b81ac312-b268-4e29-88a4-b796a081d35f")
-		)
-		(pin "~{CSE}" input
-			(at 113.665 252.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "439cd245-1bba-4cd3-b4a5-f3f7c490e336")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-					(page "2")
 				)
 			)
 		)
