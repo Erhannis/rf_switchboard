@@ -187,7 +187,8 @@
         0.4,
         0.5,
         0.6,
-        0.8
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -685,6 +686,14 @@
     [
       "940b64b2-b9a1-4342-a436-7bfb57530781",
       "photo_rx_highpass1"
+    ],
+    [
+      "61e26b34-9f77-4015-b3e8-29d7b07a573b",
+      "dc_boost_var1"
+    ],
+    [
+      "6ed047ec-eb8e-49d6-93cb-b02b94aae216",
+      "const_current_var1"
     ],
     [
       "69dc05ef-e62a-40ad-950d-12c03698a083",

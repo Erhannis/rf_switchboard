@@ -630,7 +630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10-6000MHz +20dB Gain Block, SOT-89"
+		(property "Description" "4.6dB 10MHz~6GHz 15.9dB CATV,DBS,LTE,MMDS,WLAN SOT-89  RF Amplifiers ROHS"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -649,15 +649,6 @@
 			)
 		)
 		(property "LCSC" "C3193270"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.6dB 10MHz~6GHz 15.9dB CATV,DBS,LTE,MMDS,WLAN SOT-89  RF Amplifiers ROHS"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -737,8 +728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 76.2 0)
+		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,15 +747,6 @@
 			)
 		)
 		(property "LCSC" "C315248"
-			(at 105.41 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 105.41 76.2 90)
 			(effects
 				(font
@@ -841,8 +823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 76.2 0)
+		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 135.89 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,15 +842,6 @@
 			)
 		)
 		(property "LCSC" "C315248"
-			(at 135.89 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 135.89 76.2 90)
 			(effects
 				(font
@@ -947,7 +920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "120mA 33uH ±10% 8.58Ω 0603  Inductors (SMD) ROHS"
 			(at 129.54 72.39 0)
 			(effects
 				(font
@@ -966,15 +939,6 @@
 			)
 		)
 		(property "LCSC" "C5339211"
-			(at 129.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "120mA 33uH ±10% 8.58Ω 0603  Inductors (SMD) ROHS"
 			(at 129.54 72.39 0)
 			(effects
 				(font
@@ -1051,8 +1015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 63.5 0)
+		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 133.35 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,15 +1034,6 @@
 			)
 		)
 		(property "LCSC" "C315248"
-			(at 133.35 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 133.35 63.5 90)
 			(effects
 				(font
