@@ -9606,6 +9606,12 @@
 		(uuid "cf6dd37f-a51a-41d8-8e6a-cc001a27a1ec")
 	)
 	(junction
+		(at 304.8 462.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d098a326-2878-4882-b16c-c71fc369c055")
+	)
+	(junction
 		(at 518.16 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15459,7 +15465,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 459.74) (xy 299.72 459.74)
+			(xy 304.8 459.74) (xy 299.72 459.74)
 		)
 		(stroke
 			(width 0)
@@ -18279,6 +18285,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 462.28) (xy 304.8 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9625dbf-c3cf-41f9-8cad-40482cbaf386")
+	)
+	(wire
+		(pts
 			(xy 383.54 303.53) (xy 383.54 288.29)
 		)
 		(stroke
@@ -18436,16 +18452,6 @@
 			(type default)
 		)
 		(uuid "bc17527e-ae90-4ac4-ae5e-46240b485fb6")
-	)
-	(wire
-		(pts
-			(xy 302.26 467.36) (xy 302.26 459.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc3fe12f-d570-437c-aa48-792d4b3beeaf")
 	)
 	(wire
 		(pts
@@ -50320,98 +50326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 307.34 472.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcc17c7d-4bf9-4c38-ba84-2ad18ac8f93c")
-		(property "Reference" "J1_DM2"
-			(at 314.96 471.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 312.42 471.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 307.34 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 307.34 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "PZ254V-11-04P"
-			(at 307.34 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2691448"
-			(at 307.34 472.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12119137-a937-4f98-9145-24a6ecfe50de")
-		)
-		(pin "2"
-			(uuid "97605c27-8bcb-4016-94b9-1c4b8b4823c3")
-		)
-		(pin "3"
-			(uuid "aecef736-0d4a-41f1-9989-9c8aa7bcb60c")
-		)
-		(pin "4"
-			(uuid "ffddb075-d448-462b-b642-5ff2b9c47b2a")
-		)
-		(instances
-			(project "rf_switchboard"
-				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
-					(reference "J1_DM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
 		(at 340.36 448.31 180)
 		(unit 1)
@@ -51163,6 +51077,106 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 307.34 472.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4a7888b-75b2-4e47-8d3b-fd57a1b56ea2")
+		(property "Reference" "J1_DM2"
+			(at 308.61 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 306.07 473.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A Straight Square Pins 2.5mm 3P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x3P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "12251103CNG0S115001"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C429954"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Jiln-12251103CNG0S115001/C429954"
+			(at 307.34 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc6ec77-1043-4aa0-9e86-0682a1b51cd6")
+		)
+		(pin "2"
+			(uuid "fbfd659a-b0cc-4750-820a-cabb2f233246")
+		)
+		(pin "3"
+			(uuid "18926e56-2dca-4b75-be8c-0a7b82c6f0dc")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_DM2")
 					(unit 1)
 				)
 			)
