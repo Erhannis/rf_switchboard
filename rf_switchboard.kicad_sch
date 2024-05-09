@@ -7748,6 +7748,231 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:K2-1157SP-I4SW-04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "K2-1157SP-I4SW-04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.50-LS8.6"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2909692"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "K2-1157SP-I4SW-04_0_1"
+				(circle
+					(center 0 -0.76)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.02) (xy -0.25 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.52) (xy 0 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.76)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:PE4140B-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9338,10 +9563,22 @@
 		(uuid "539a5ea7-5b4c-4ef0-9383-63498ac53446")
 	)
 	(junction
+		(at -11.43 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53cccc78-943b-41d8-b2b6-0e1f2af6e739")
+	)
+	(junction
 		(at 488.95 -9.525)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d02ae7-32b8-49ca-b543-771de0724552")
+	)
+	(junction
+		(at -20.32 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "543cf23b-be42-4fcc-830d-7e65cd326eee")
 	)
 	(junction
 		(at 76.835 99.06)
@@ -9842,6 +10079,12 @@
 		(uuid "9ee6a96e-600f-4674-bc66-5f243bce9f5f")
 	)
 	(junction
+		(at -24.13 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe51557-6c14-45ab-b325-166f5f1d9596")
+	)
+	(junction
 		(at 411.48 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10274,6 +10517,12 @@
 		(uuid "e7762e76-4120-4c6d-a2b1-75a7a6617b69")
 	)
 	(junction
+		(at -10.16 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d69b37-490f-4e4c-a1bf-145c5f22df85")
+	)
+	(junction
 		(at 487.68 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10382,6 +10631,12 @@
 		(uuid "f82d5564-5408-4ef2-aa9b-4a0e8b41f0ae")
 	)
 	(junction
+		(at 24.13 349.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f2b1cb-96cd-4940-8f72-cad28996f29b")
+	)
+	(junction
 		(at 318.135 15.875)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10410,6 +10665,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fce38862-6812-44f0-9786-fd2aa7c0e432")
+	)
+	(junction
+		(at -24.13 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffbb8a2-9dda-4bdb-9618-1dd895c761cf")
 	)
 	(no_connect
 		(at 275.59 26.67)
@@ -10470,6 +10731,16 @@
 			(type default)
 		)
 		(uuid "00b4f870-332d-4bf7-be15-b4f476ac5463")
+	)
+	(wire
+		(pts
+			(xy -24.13 46.99) (xy -20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00df72cf-7a25-4b5b-9253-c085bd95d030")
 	)
 	(wire
 		(pts
@@ -11080,6 +11351,16 @@
 			(type default)
 		)
 		(uuid "0b9de478-cb4f-4124-b573-063fa12e7ed2")
+	)
+	(wire
+		(pts
+			(xy 8.89 349.25) (xy 8.89 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bddc709-e9ca-4738-b909-04e3039f74f1")
 	)
 	(wire
 		(pts
@@ -12113,6 +12394,16 @@
 	)
 	(wire
 		(pts
+			(xy -11.43 46.99) (xy -10.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21af704a-ac41-4aa2-8e18-4e86c1c9ef52")
+	)
+	(wire
+		(pts
 			(xy 124.46 183.515) (xy 124.46 186.055)
 		)
 		(stroke
@@ -12360,6 +12651,16 @@
 			(type solid)
 		)
 		(uuid "26741d7f-1457-43e2-ad03-4bceea168855")
+	)
+	(wire
+		(pts
+			(xy 659.13 97.79) (xy 659.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267c9c0b-9186-4ad4-a5ef-0e6d958f0309")
 	)
 	(wire
 		(pts
@@ -13283,6 +13584,16 @@
 	)
 	(wire
 		(pts
+			(xy -10.16 27.94) (xy -12.7 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a07987f-80ad-462a-b44a-5027239fecc3")
+	)
+	(wire
+		(pts
 			(xy 147.32 81.28) (xy 162.56 81.28)
 		)
 		(stroke
@@ -13360,6 +13671,16 @@
 			(type default)
 		)
 		(uuid "3af24e74-adc6-40ef-9af7-506e0d66af47")
+	)
+	(wire
+		(pts
+			(xy 659.13 95.25) (xy 659.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afe1e8c-1790-4285-9782-9f3c7d0d1bb7")
 	)
 	(wire
 		(pts
@@ -13573,6 +13894,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 355.6) (xy 16.51 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebe8276-16d9-467d-bc6d-d88f2eb5afe1")
+	)
+	(wire
+		(pts
 			(xy 496.57 297.18) (xy 504.19 297.18)
 		)
 		(stroke
@@ -13600,6 +13931,16 @@
 			(type default)
 		)
 		(uuid "3f66865e-cff8-4895-adc3-1b21a2422ecf")
+	)
+	(wire
+		(pts
+			(xy 635 97.79) (xy 635 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f79e97e-9482-4c29-83ef-34098e434d88")
 	)
 	(wire
 		(pts
@@ -14113,6 +14454,16 @@
 	)
 	(wire
 		(pts
+			(xy -34.29 46.99) (xy -24.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd9c091-5151-4a93-8bc9-1e72f4f8052c")
+	)
+	(wire
+		(pts
 			(xy 50.8 259.08) (xy 50.8 251.46)
 		)
 		(stroke
@@ -14240,6 +14591,16 @@
 			(type default)
 		)
 		(uuid "4e4c6d09-5ae3-4811-8a64-64353f8e8975")
+	)
+	(wire
+		(pts
+			(xy -24.13 25.4) (xy -15.24 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebe4d21-2107-401a-a024-2428c0567225")
 	)
 	(wire
 		(pts
@@ -14523,6 +14884,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 341.63) (xy 24.13 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549c18db-989a-40de-92d9-d4d714761708")
+	)
+	(wire
+		(pts
 			(xy 469.9 10.16) (xy 469.9 -0.635)
 		)
 		(stroke
@@ -14623,6 +14994,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 349.25) (xy 24.13 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565c7b2f-e3c4-4164-b4c8-e416d6903c9e")
+	)
+	(wire
+		(pts
 			(xy 341.63 283.21) (xy 347.98 283.21)
 		)
 		(stroke
@@ -14693,6 +15074,16 @@
 	)
 	(wire
 		(pts
+			(xy -12.7 27.94) (xy -12.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580df14a-6378-4f75-b11f-1c8247d4fc84")
+	)
+	(wire
+		(pts
 			(xy 580.39 280.67) (xy 588.01 280.67)
 		)
 		(stroke
@@ -14700,6 +15091,16 @@
 			(type default)
 		)
 		(uuid "5827b99b-07fa-444c-be8f-ebfd924272f8")
+	)
+	(wire
+		(pts
+			(xy -15.24 25.4) (xy -15.24 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587842de-2a77-437a-9c03-4a681e4f47d4")
 	)
 	(wire
 		(pts
@@ -15853,6 +16254,16 @@
 	)
 	(wire
 		(pts
+			(xy 635 95.25) (xy 635 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ccfb50-c57f-4f73-9430-ca00f9cafc4e")
+	)
+	(wire
+		(pts
 			(xy 36.195 147.955) (xy 59.055 147.955)
 		)
 		(stroke
@@ -16533,6 +16944,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 35.56) (xy -24.13 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f818821-8397-47c3-8c51-d78073cb07f4")
+	)
+	(wire
+		(pts
 			(xy 58.42 345.44) (xy 58.42 353.06)
 		)
 		(stroke
@@ -16580,6 +17001,16 @@
 			(type default)
 		)
 		(uuid "80eed33f-5ece-4c05-a33c-7abcd9a217e1")
+	)
+	(wire
+		(pts
+			(xy 8.89 341.63) (xy 24.13 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8185bfd5-64e4-4913-9b67-133fa14757fd")
 	)
 	(wire
 		(pts
@@ -16670,6 +17101,16 @@
 			(type default)
 		)
 		(uuid "83884692-8857-474c-a6e6-9eabf6e6eadb")
+	)
+	(wire
+		(pts
+			(xy 661.67 95.25) (xy 659.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8396af6d-9299-4020-a282-40fb0f8a03d7")
 	)
 	(wire
 		(pts
@@ -18413,6 +18854,16 @@
 	)
 	(wire
 		(pts
+			(xy -20.32 40.64) (xy -20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a03fc0-a5ee-4af2-b405-d77a15578574")
+	)
+	(wire
+		(pts
 			(xy 83.82 266.7) (xy 83.82 251.46)
 		)
 		(stroke
@@ -19163,6 +19614,16 @@
 	)
 	(wire
 		(pts
+			(xy -10.16 35.56) (xy -10.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6de19b2-c2f7-442a-8eaa-7e10be19b9e3")
+	)
+	(wire
+		(pts
 			(xy 347.98 281.94) (xy 350.52 281.94)
 		)
 		(stroke
@@ -19230,6 +19691,16 @@
 			(type default)
 		)
 		(uuid "b83450eb-cba8-4624-b4dd-34f33157ec7e")
+	)
+	(wire
+		(pts
+			(xy 628.65 95.25) (xy 635 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84ea6c2-0ddc-429e-89fc-23d178fb9973")
 	)
 	(wire
 		(pts
@@ -19540,6 +20011,16 @@
 			(type default)
 		)
 		(uuid "bcedf040-54ee-4b04-8526-353341458177")
+	)
+	(wire
+		(pts
+			(xy -24.13 27.94) (xy -24.13 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd327682-c0c3-4f9f-a576-59a1d6a71813")
 	)
 	(wire
 		(pts
@@ -20223,6 +20704,16 @@
 	)
 	(wire
 		(pts
+			(xy -20.32 46.99) (xy -11.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbe93f1-227a-4382-a56d-a64178df4cef")
+	)
+	(wire
+		(pts
 			(xy 417.83 29.21) (xy 426.72 29.21)
 		)
 		(stroke
@@ -20903,6 +21394,16 @@
 	)
 	(wire
 		(pts
+			(xy 661.67 97.79) (xy 659.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7fb64b-91f4-4dac-acbc-dd12bd12a524")
+	)
+	(wire
+		(pts
 			(xy 314.96 146.05) (xy 332.105 146.05)
 		)
 		(stroke
@@ -20980,6 +21481,16 @@
 			(type default)
 		)
 		(uuid "dcc19ba1-4e30-4b4e-9c4b-49e2d7de9e5c")
+	)
+	(wire
+		(pts
+			(xy -10.16 40.64) (xy -10.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf0d71c-6939-44b7-b9f9-9d2a53a3372d")
 	)
 	(wire
 		(pts
@@ -21610,6 +22121,16 @@
 			(type default)
 		)
 		(uuid "ed88f4dc-1444-47a8-9d4c-00a2bd02df19")
+	)
+	(wire
+		(pts
+			(xy -34.29 40.64) (xy -34.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed938abd-07a1-470b-9c0d-a857f135a7ac")
 	)
 	(wire
 		(pts
@@ -22333,6 +22854,16 @@
 	)
 	(wire
 		(pts
+			(xy -24.13 40.64) (xy -24.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc379e6b-3c6b-4093-98ac-793f8f10bfaa")
+	)
+	(wire
+		(pts
 			(xy 502.92 161.29) (xy 518.16 161.29)
 		)
 		(stroke
@@ -22440,6 +22971,16 @@
 			(type default)
 		)
 		(uuid "fe9e290d-ad4e-43c7-92fb-60ee45730697")
+	)
+	(wire
+		(pts
+			(xy 628.65 97.79) (xy 635 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb8c88b-f3a3-4579-a97f-98b1a844c029")
 	)
 	(text_box "//RAINY Move power and RP2040 into sheets\n//RAINY Ugh, I guess consider moving all the components off the back"
 		(exclude_from_sim no)
@@ -22558,6 +23099,16 @@
 			(justify left bottom)
 		)
 		(uuid "38772977-bf22-499a-a692-1f171860e782")
+	)
+	(text "Only 5mA"
+		(exclude_from_sim no)
+		(at 10.16 363.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3afce1b8-ae24-4140-b8cd-383de66b68df")
 	)
 	(text "RP CAPS"
 		(exclude_from_sim no)
@@ -27380,6 +27931,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 20.32 359.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a67742a-d1f4-468a-9299-7179b8fef552")
+		(property "Reference" "D1_LEDS2"
+			(at 21.9075 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Purple"
+			(at 21.9075 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "XL-1608UVC-04"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7371898"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5mA 25mcd 无色透明透镜 正贴 390nm~447nm Purple 120° 75mW 2.9V~3.5V 0603  Light Emitting Diodes (LED) ROHS"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Xinglight-XL_1608UVC04/C7371898"
+			(at 20.32 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9961a42-aa38-4824-af2f-047998f90d2e")
+		)
+		(pin "1"
+			(uuid "1e3551e3-a43c-47a7-a064-d0472489d0b9")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "D1_LEDS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 637.54 259.08 90)
 		(unit 1)
@@ -29065,6 +29721,102 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 666.75 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28308f1b-9ff3-423f-a19b-b613ba871e22")
+		(property "Reference" "J1_SS3"
+			(at 667.3851 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 664.8451 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
+			(at 666.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce44448b-4f3a-46c6-84df-d4f0187a7cd4")
+		)
+		(pin "2"
+			(uuid "ac3da620-f92a-42ae-a095-32ea741f6680")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_SS3")
 					(unit 1)
 				)
 			)
@@ -33876,6 +34628,107 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:K2-1157SP-I4SW-04")
+		(at 640.08 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c80f211-b1d2-4d5d-9aab-5a4746a2224f")
+		(property "Reference" "SW1_SS2"
+			(at 640.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1157SP-I4SW-04"
+			(at 640.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.50-LS8.6"
+			(at 640.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 640.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brick nogging 250gf 12V 100,000 Times Without 50mA SMD  Push Switches ROHS"
+			(at 640.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "K2-1157SP-I4SW-01"
+			(at 640.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909692"
+			(at 640.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3187750-K2_1157SP_I4SW01/C2909692"
+			(at 640.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb321d10-6124-41df-a47d-37f8fecff94d")
+		)
+		(pin "2"
+			(uuid "7ba82587-ee4e-40c6-8cae-faa15ea8005a")
+		)
+		(pin "1"
+			(uuid "7b316089-7d0b-40cc-84b2-53955a9a74ed")
+		)
+		(pin "4"
+			(uuid "e3848d65-a8b4-4ca8-bb3d-a33b3242e33c")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "SW1_SS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
 		(at 323.85 76.2 0)
 		(unit 1)
@@ -36096,6 +36949,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at -6.35 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5742729f-8ef3-4038-869f-f36eeb618765")
+		(property "Reference" "R2_SS1"
+			(at -6.35 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at -6.35 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -6.35 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -6.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -6.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF3301TCE"
+			(at -6.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at -6.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 3.3kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at -6.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26633-0402WGF3301TCE/C25890"
+			(at -6.35 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98f3bb5e-d652-48f2-b913-186626363747")
+		)
+		(pin "1"
+			(uuid "d7127964-15ba-45f1-ae67-281c76db920e")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "R2_SS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
 		(at 561.34 62.23 270)
 		(unit 1)
@@ -36600,6 +37557,107 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:K2-1157SP-I4SW-04")
+		(at -15.24 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b12ecf8-fe32-43f9-9bd8-bafe0ac65dfc")
+		(property "Reference" "SW2_SS1"
+			(at -15.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1157SP-I4SW-04"
+			(at -15.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.50-LS8.6"
+			(at -15.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -15.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brick nogging 250gf 12V 100,000 Times Without 50mA SMD  Push Switches ROHS"
+			(at -15.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "K2-1157SP-I4SW-01"
+			(at -15.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909692"
+			(at -15.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3187750-K2_1157SP_I4SW01/C2909692"
+			(at -15.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2690d385-dbd9-40e8-b446-2467081532ca")
+		)
+		(pin "2"
+			(uuid "62892c23-cbdd-490a-bd81-12ea634cc580")
+		)
+		(pin "1"
+			(uuid "f096ec17-599e-4348-b9f2-07776ca5f5f0")
+		)
+		(pin "4"
+			(uuid "de6505b6-2089-410f-b272-8404afc2c51a")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "SW2_SS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 433.07 466.09 180)
 		(unit 1)
@@ -36898,6 +37956,73 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -31.75 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606ebc0f-200c-4925-8fbb-62f7d95c4b23")
+		(property "Reference" "#PWR017"
+			(at -38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -34.29 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at -31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf406380-e082-46cc-a4d1-1008dd7ff6be")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -37460,6 +38585,102 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 623.57 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63d2925e-6ef2-48e3-a87c-5e22a99d2307")
+		(property "Reference" "J1_SS2"
+			(at 622.9349 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 625.4749 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
+			(at 623.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81001c7e-d65c-4e8a-800e-f0428bf23da5")
+		)
+		(pin "2"
+			(uuid "d6cee9fc-67ca-444f-a93c-e0c05859ed61")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_SS2")
 					(unit 1)
 				)
 			)
@@ -42058,6 +43279,104 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BWU.FL-IPEX1")
+		(at 16.51 350.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cc870c-7da1-4bec-b2a0-a57ca33dcc79")
+		(property "Reference" "J1_LEDS2"
+			(at 16.51 340.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BWU.FL-IPEX1"
+			(at 16.51 342.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_BWIPX-1-001E"
+			(at 1.27 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner needle IPEX Board Edge 1.25mm 6GHz 260℃ 50Ω 2mm SMD  RF Connectors / Coaxial Connectors ROHS"
+			(at 16.51 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "BWU.FL-IPEX1"
+			(at -1.27 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5137195"
+			(at 16.51 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/BatWireless-BWU_FLIPEX1/C5137195"
+			(at 16.51 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a6b7863-0266-40da-839b-676f9b1a2bcd")
+		)
+		(pin "2"
+			(uuid "a69ffae4-f1ea-48c1-a2d5-df5ce2187709")
+		)
+		(pin "3"
+			(uuid "607ab460-7b45-4bd1-b893-dcc8be10d1c6")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_LEDS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 199.39 473.71 270)
 		(mirror x)
@@ -42721,6 +44040,103 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at -15.24 16.51 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "864f7f07-2f02-48b1-9c63-9da4a05566c4")
+		(property "Reference" "J1_SS1"
+			(at -16.51 15.8749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at -16.51 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Straight Square Pins 2.5mm 2P 6mm -40℃~+105℃ 3mm 2.54mm Plugin Black Brass 1x2P Plugin,P=2.54mm  Pin Headers ROHS"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "MTP125-1102S1"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C358684"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/Mintron-MTP1251102S1/C358684"
+			(at -15.24 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bedcb113-0985-4b5f-93f7-6ba302386d65")
+		)
+		(pin "2"
+			(uuid "3898ea72-84a2-4caa-a357-1b5d0b5cebb2")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "J1_SS1")
 					(unit 1)
 				)
 			)
@@ -45652,6 +47068,72 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at -11.43 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7c932f-c930-497c-af36-f981809855b1")
+		(property "Reference" "#PWR015"
+			(at -11.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at -11.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -11.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -11.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -11.43 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af729a81-fa16-4937-bae5-efea0c0622f7")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -51253,6 +52735,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at -2.54 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2613d8f-691d-4f5e-810b-a7833c250579")
+		(property "Reference" "#PWR016"
+			(at 3.81 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1.27 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -2.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e0d4606-4c78-49d9-8bdd-5c0e5a0dddd3")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 637.54 292.1 90)
 		(unit 1)
@@ -54034,6 +55583,116 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "D1_LAS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:K2-1157SP-I4SW-04")
+		(at -29.21 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db0eb766-5bb2-425e-ac7c-49e11ee38338")
+		(property "Reference" "SW1_SS1"
+			(at -29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1157SP-I4SW-04"
+			(at -29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.50-LS8.6"
+			(at -29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "K2-1157SP-I4SW-01"
+			(at -29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909692"
+			(at -29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brick nogging 250gf 12V 100,000 Times Without 50mA SMD  Push Switches ROHS"
+			(at -29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3187750-K2_1157SP_I4SW01/C2909692"
+			(at -29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "caac8d53-ff46-4d7d-96f4-c1a4f7f7558b")
+		)
+		(pin "2"
+			(uuid "1b868691-357b-4608-bcb9-3175df2cf6d9")
+		)
+		(pin "1"
+			(uuid "6e9c8d0f-1780-49ad-a17f-9d26b71f3723")
+		)
+		(pin "4"
+			(uuid "32a89c58-6889-482a-8288-c88c1da23447")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "SW1_SS1")
 					(unit 1)
 				)
 			)
@@ -57115,6 +58774,107 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:K2-1157SP-I4SW-04")
+		(at 654.05 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb5bd42-443b-4915-83c2-e73c69b7a98f")
+		(property "Reference" "SW1_SS3"
+			(at 654.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K2-1157SP-I4SW-04"
+			(at 654.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L6.2-W6.2-P4.50-LS8.6"
+			(at 654.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 654.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brick nogging 250gf 12V 100,000 Times Without 50mA SMD  Push Switches ROHS"
+			(at 654.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "K2-1157SP-I4SW-01"
+			(at 654.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909692"
+			(at 654.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/3187750-K2_1157SP_I4SW01/C2909692"
+			(at 654.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b868593b-f256-4b40-83f4-0df7e50a5f6b")
+		)
+		(pin "2"
+			(uuid "9456a8cf-6b3c-449a-92af-efd3e6dcdeec")
+		)
+		(pin "1"
+			(uuid "e4ba3278-8804-4abb-a68a-2df62fc8f7cb")
+		)
+		(pin "4"
+			(uuid "8faf7b4a-560f-4d56-94f6-f51b49ed40bc")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "SW1_SS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 44.45 90)
 		(unit 1)
@@ -57543,6 +59303,110 @@
 			(project "rf_switchboard"
 				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
 					(reference "#U$05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at -27.94 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f081af1a-27e3-4620-9c94-06f547d040c1")
+		(property "Reference" "R1_SS1"
+			(at -27.94 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at -27.94 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at -27.94 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "0402WGF3301TCE"
+			(at -27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25890"
+			(at -27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 3.3kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(at -27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://jlcpcb.com/partdetail/26633-0402WGF3301TCE/C25890"
+			(at -27.94 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96c14be4-4e1b-4fac-8995-7e238611c089")
+		)
+		(pin "1"
+			(uuid "c5aa8def-b960-4851-9ba9-21cbfdcfbc38")
+		)
+		(instances
+			(project "rf_switchboard"
+				(path "/cb1328be-544a-4c60-8dcb-9d63db56fc1e"
+					(reference "R1_SS1")
 					(unit 1)
 				)
 			)
